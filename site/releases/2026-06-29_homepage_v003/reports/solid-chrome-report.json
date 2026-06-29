@@ -1,0 +1,73 @@
+{
+  "url": "file:///Users/noah/Documents/Codex/2026-06-13/you-are-codex-operating-as-noah/home_v2_03_deploy_candidate.squarespace-publish.html",
+  "results": [
+    {
+      "viewport": {
+        "label": "desktop-1440",
+        "width": 1440,
+        "height": 1000
+      },
+      "metrics": {
+        "title": "Noah Lucas — Product Executive",
+        "hasCompanionText": false,
+        "hasProductExecutive": true,
+        "nav": {
+          "selector": ".nav",
+          "backgroundColor": "color(srgb 0.0294902 0.0368627 0.0442353)",
+          "backdropFilter": "none",
+          "boxShadow": "color(srgb 0.972549 0.968627 0.94902 / 0.2) 0px 1px 0px 0px",
+          "color": "rgb(248, 247, 242)",
+          "pseudoBackground": "color(srgb 0.0294902 0.0368627 0.0442353)",
+          "pseudoBackgroundImage": "none",
+          "pseudoBackdropFilter": "none",
+          "pseudoOpacity": "1"
+        },
+        "footer": {
+          "selector": ".footer",
+          "backgroundColor": "color(srgb 0.0294902 0.0368627 0.0442353)",
+          "backdropFilter": "none",
+          "boxShadow": "color(srgb 0.972549 0.968627 0.94902 / 0.2) 0px -1px 0px 0px",
+          "color": "rgb(248, 247, 242)",
+          "pseudoBackground": "color(srgb 0.0294902 0.0368627 0.0442353)",
+          "pseudoBackgroundImage": "none",
+          "pseudoBackdropFilter": "none",
+          "pseudoOpacity": "1"
+        }
+      }
+    },
+    {
+      "viewport": {
+        "label": "mobile-390",
+        "width": 390,
+        "height": 844
+      },
+      "metrics": {
+        "title": "Noah Lucas — Product Executive",
+        "hasCompanionText": false,
+        "hasProductExecutive": true,
+        "nav": {
+          "selector": ".nav",
+          "backgroundColor": "color(srgb 0.0294902 0.0368627 0.0442353)",
+          "backdropFilter": "none",
+          "boxShadow": "color(srgb 0.972549 0.968627 0.94902 / 0.2) 0px 1px 0px 0px",
+          "color": "rgb(248, 247, 242)",
+          "pseudoBackground": "color(srgb 0.0294902 0.0368627 0.0442353)",
+          "pseudoBackgroundImage": "none",
+          "pseudoBackdropFilter": "none",
+          "pseudoOpacity": "1"
+        },
+        "footer": {
+          "selector": ".footer",
+          "backgroundColor": "color(srgb 0.0294902 0.0368627 0.0442353)",
+          "backdropFilter": "none",
+          "boxShadow": "color(srgb 0.972549 0.968627 0.94902 / 0.2) 0px -1px 0px 0px",
+          "color": "rgb(248, 247, 242)",
+          "pseudoBackground": "color(srgb 0.0294902 0.0368627 0.0442353)",
+          "pseudoBackgroundImage": "none",
+          "pseudoBackdropFilter": "none",
+          "pseudoOpacity": "1"
+        }
+      }
+    }
+  ]
+}

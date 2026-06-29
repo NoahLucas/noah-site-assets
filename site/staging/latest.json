@@ -1,19 +1,20 @@
 {
   "schemaVersion": "site-publisher-staging-v1",
   "environment": "staging",
-  "releaseId": "2026-06-29_homepage_v002",
+  "releaseId": "2026-06-29_homepage_v003",
   "projectId": "noahlucas-homepage",
-  "title": "Noah Lucas homepage",
+  "title": "Noah Lucas homepage solid header and footer",
   "target": {
     "platform": "squarespace",
     "siteVersion": "7.1",
     "pageSlug": "/",
-    "publishMode": "guided"
+    "publishMode": "guided-code-block"
   },
   "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
-  "manifestUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-29_homepage_v002/manifest.json",
-  "reviewUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-29_homepage_v002/preview/index.html",
-  "publishedAt": "2026-06-29T19:13:46Z",
+  "manifestUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-29_homepage_v003/manifest.json",
+  "reviewUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-29_homepage_v003/preview/index.html",
+  "workerReviewUrl": "https://noah-site-staging.silly-sesame.workers.dev/site/releases/2026-06-29_homepage_v003/preview/index.html",
+  "publishedAt": "2026-06-29T22:52:00Z",
   "liveSquarespaceModified": false,
   "productionPromoted": false
 }

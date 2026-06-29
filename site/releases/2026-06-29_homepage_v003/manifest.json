@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-06-29_homepage_v003",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage solid header and footer",
+  "createdAt": "2026-06-29T22:52:00Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "guided-code-block"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "home_v2_03_deploy_candidate.html"
+  },
+  "changeSummary": [
+    "Adds opaque solid header and footer chrome to the real Noah Lucas homepage candidate.",
+    "Preserves current Product Executive content, navigation, work sections, media, and links.",
+    "Does not include Companion fixture content."
+  ],
+  "validation": {
+    "status": "pass",
+    "checks": [
+      "desktop and mobile render screenshots captured",
+      "computed nav/footer background is opaque",
+      "computed nav/footer backdrop-filter is none",
+      "no file:// URLs in publish artifact",
+      "no local assets/ paths in publish artifact",
+      "no Companion text in publish artifact"
+    ]
+  },
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 212058,
+      "sha256": "69e2f5e5fbb817fcc3cdbf6a1f6eb479abdcc98f2ebca5ffaac3de93d70792c1"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 210505,
+      "sha256": "075cfdd09b0bdbdf3df1e8d4cb4e7ca216c49f90b635285dabeaa73a8c09cbe6"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 212058,
+      "sha256": "69e2f5e5fbb817fcc3cdbf6a1f6eb479abdcc98f2ebca5ffaac3de93d70792c1"
+    },
+    "reports.solid-chrome-report.json": {
+      "path": "reports/solid-chrome-report.json",
+      "bytes": 2662,
+      "sha256": "8260c0dc727d597b2d3012fff71323ff98528b8ce7c1827e14208c60f985f779"
+    },
+    "snapshots.desktop-1440.png": {
+      "path": "snapshots/desktop-1440.png",
+      "bytes": 861235,
+      "sha256": "64acc18f2aab2941ec97bbdf4eef9998cadac1fd56c812f71b4ed5fdeb421f09"
+    },
+    "snapshots.mobile-390.png": {
+      "path": "snapshots/mobile-390.png",
+      "bytes": 218638,
+      "sha256": "9bd91c3e5fea7f15e4b22d26b1d89cf225b9b3287f0cc4ee71fe40a391e13149"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 140047,
+      "sha256": "53e88f0468dc9cfe2d8061ac302255ec327cda0b49cc860515ba3e2896326d37"
+    }
+  }
+}

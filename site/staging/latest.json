@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "site-publisher-staging-v1",
+  "environment": "staging",
+  "releaseId": "2026-06-29_homepage_v002",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "guided"
+  },
+  "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+  "manifestUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-29_homepage_v002/manifest.json",
+  "reviewUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-29_homepage_v002/preview/index.html",
+  "publishedAt": "2026-06-29T19:13:46Z",
+  "liveSquarespaceModified": false,
+  "productionPromoted": false
+}

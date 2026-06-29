@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0",
+  "releaseId": "2026-06-29_homepage_v001",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage",
+  "createdAt": "2026-06-29T17:35:05Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "guided"
+  },
+  "rootSelector": ".nl-site",
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 3447,
+      "characters": 3445,
+      "sha256": "b58bfd845b6b459f186889be7fb3ef908aefd1600bc20d17beabc4aaabe7aff3"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 949,
+      "characters": 947,
+      "sha256": "1f387f803bba97ed645100e074e7ebc954bf23746e73f151ae431e66b3944e0b"
+    },
+    "publish.custom-css.css": {
+      "path": "publish/custom-css.css",
+      "bytes": 2297,
+      "characters": 2297,
+      "sha256": "ded7a5806bb0011997762d4287c3fa76692215bf21a9990ace2e303a3ad6eb28"
+    },
+    "publish.publishing-steps.md": {
+      "path": "publish/publishing-steps.md",
+      "bytes": 681,
+      "characters": 679,
+      "sha256": "de7b88d619a2c528e125778973065e834c92a34384e1ace5cf72b95cfa413775"
+    },
+    "snapshots.desktop.png": {
+      "path": "snapshots/desktop.png",
+      "bytes": 0,
+      "characters": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "snapshots.mobile.png": {
+      "path": "snapshots/mobile.png",
+      "bytes": 0,
+      "characters": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "source.content.html": {
+      "path": "source/content.html",
+      "bytes": 949,
+      "characters": 947,
+      "sha256": "1f387f803bba97ed645100e074e7ebc954bf23746e73f151ae431e66b3944e0b"
+    },
+    "source.styles.css": {
+      "path": "source/styles.css",
+      "bytes": 2297,
+      "characters": 2297,
+      "sha256": "ded7a5806bb0011997762d4287c3fa76692215bf21a9990ace2e303a3ad6eb28"
+    }
+  },
+  "validation": {
+    "status": "pass",
+    "errorCount": 0,
+    "warningCount": 0
+  },
+  "rollback": {
+    "previousReleaseId": null
+  }
+}

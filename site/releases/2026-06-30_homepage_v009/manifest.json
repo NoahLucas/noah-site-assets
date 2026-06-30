@@ -23,9 +23,28 @@
     "Approved for production promotion after validation."
   ],
   "validation": {
-    "status": "pending",
-    "checks": [
-      "awaiting public staging browser screenshots"
+    "status": "pass",
+    "method": "Playwright via local Google Chrome fallback after in-app browser screenshot timeout",
+    "checkedAt": "2026-06-30T19:57:22.472Z",
+    "checks": {
+      "pageIdentity": true,
+      "notBlank": true,
+      "noFrameworkOverlay": true,
+      "consoleHealth": true,
+      "footerOnlyCenteredText": true,
+      "mobileFooterFits": true,
+      "thesisTextMoved": true,
+      "heroDuplicatesRemoved": true,
+      "serveWhiteAsset": true,
+      "screenshotEvidence": true,
+      "interactionProof": true
+    },
+    "browserReport": "reports/browser-frame-report.json",
+    "screenshots": [
+      "snapshots/desktop-night-top.png",
+      "snapshots/mobile-night-top.png",
+      "snapshots/desktop-day-serve-white.png",
+      "snapshots/mobile-day-serve-white.png"
     ]
   },
   "supersedes": "2026-06-30_homepage_v008",
@@ -53,6 +72,31 @@
       "path": "source/home_v2_03_deploy_candidate.html",
       "bytes": 164598,
       "sha256": "6d967f627484d045e5f0eeb120d00560b774881c947c3a1a6112649f0ec07ad9"
+    },
+    "reports.browser-frame-report.json": {
+      "path": "reports/browser-frame-report.json",
+      "bytes": 8174,
+      "sha256": "afae5256aa32a284387f23cfe4ebc4520849ae521cce3ca1365eded0ac03bdc7"
+    },
+    "snapshots.desktop-night-top.png": {
+      "path": "snapshots/desktop-night-top.png",
+      "bytes": 868287,
+      "sha256": "c17d9c80d2ad1c6b2b2c96a63bda1c43d46f0b8d157b4fe70ed6915f195089fd"
+    },
+    "snapshots.mobile-night-top.png": {
+      "path": "snapshots/mobile-night-top.png",
+      "bytes": 217516,
+      "sha256": "5c0d5ba2a1cd312423d80f7cafb10d534dd7b62675244e52792164617c80da5f"
+    },
+    "snapshots.desktop-day-serve-white.png": {
+      "path": "snapshots/desktop-day-serve-white.png",
+      "bytes": 829298,
+      "sha256": "6aa72da3cbe5aedf6dda526bc41478feee601932c9416b90aa0eb65a1dde7e92"
+    },
+    "snapshots.mobile-day-serve-white.png": {
+      "path": "snapshots/mobile-day-serve-white.png",
+      "bytes": 231812,
+      "sha256": "2190acace857d2776bd9539e27851f63c65ecf0b7d5085be681d78257256d5a7"
     }
   }
 }

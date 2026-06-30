@@ -1,0 +1,191 @@
+{
+  "releaseId": "2026-06-30_homepage_v009",
+  "generatedAt": "2026-06-30T19:57:22.472Z",
+  "tool": "Playwright via local Google Chrome fallback after in-app browser screenshot timeout",
+  "urls": {
+    "preview": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v009/preview/index.html",
+    "stagingPointer": "https://noahlucas.github.io/noah-site-assets/site/staging/latest.json"
+  },
+  "checks": {
+    "pageIdentity": true,
+    "notBlank": true,
+    "noFrameworkOverlay": true,
+    "consoleHealth": true,
+    "footerOnlyCenteredText": true,
+    "mobileFooterFits": true,
+    "thesisTextMoved": true,
+    "heroDuplicatesRemoved": true,
+    "serveWhiteAsset": true,
+    "screenshotEvidence": true,
+    "interactionProof": true
+  },
+  "logs": [],
+  "results": [
+    {
+      "label": "desktop-night-top",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v009/preview/index.html?theme=night&pane=big&qa=desktop-top",
+      "screenshotPath": "snapshots/desktop-night-top.png",
+      "common": {
+        "title": "Noah Lucas — Product Executive",
+        "href": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v009/preview/index.html?theme=night&pane=big&qa=desktop-top",
+        "theme": "night",
+        "pane": "big",
+        "notBlank": true,
+        "frameworkOverlay": false,
+        "footerText": "PRODUCT EXECUTIVE | PHYSICAL AI, AUTONOMY & MISSION-CRITICAL DATA INFRASTRUCTURE",
+        "footerMatches": true,
+        "footerChildCount": 1,
+        "footerHasOnlyMeta": true,
+        "footerCenterDeltaPx": 0,
+        "footerFitsViewport": true,
+        "thesisText": "15+ years turning frontier technical capability into products customers understand, trust, adopt, and scale — across robotics, autonomy, telemetry, geospatial intelligence, developer platforms, marketplaces, and AI-native infrastructure.",
+        "thesisMatches": true,
+        "heroHasMovedRoleLine": false,
+        "heroHasMovedThesisLine": false,
+        "themeToggleVisible": true
+      },
+      "serve": null,
+      "interaction": {
+        "action": "click theme toggle",
+        "beforeTheme": "night",
+        "afterTheme": "day",
+        "changed": true
+      },
+      "logs": []
+    },
+    {
+      "label": "mobile-night-top",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "isMobile": true
+      },
+      "url": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v009/preview/index.html?theme=night&pane=big&qa=mobile-top",
+      "screenshotPath": "snapshots/mobile-night-top.png",
+      "common": {
+        "title": "Noah Lucas — Product Executive",
+        "href": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v009/preview/index.html?theme=night&pane=big&qa=mobile-top",
+        "theme": "night",
+        "pane": "big",
+        "notBlank": true,
+        "frameworkOverlay": false,
+        "footerText": "PRODUCT EXECUTIVE | PHYSICAL AI, AUTONOMY & MISSION-CRITICAL DATA INFRASTRUCTURE",
+        "footerMatches": true,
+        "footerChildCount": 1,
+        "footerHasOnlyMeta": true,
+        "footerCenterDeltaPx": 0,
+        "footerFitsViewport": true,
+        "thesisText": "15+ years turning frontier technical capability into products customers understand, trust, adopt, and scale — across robotics, autonomy, telemetry, geospatial intelligence, developer platforms, marketplaces, and AI-native infrastructure.",
+        "thesisMatches": true,
+        "heroHasMovedRoleLine": false,
+        "heroHasMovedThesisLine": false,
+        "themeToggleVisible": true
+      },
+      "serve": null,
+      "interaction": null,
+      "logs": []
+    },
+    {
+      "label": "desktop-day-serve-white",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v009/preview/index.html?theme=day&pane=big&qa=desktop-serve#work-serve",
+      "screenshotPath": "snapshots/desktop-day-serve-white.png",
+      "common": {
+        "title": "Noah Lucas — Product Executive",
+        "href": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v009/preview/index.html?theme=day&pane=big&qa=desktop-serve#work-serve",
+        "theme": "day",
+        "pane": "big",
+        "notBlank": true,
+        "frameworkOverlay": false,
+        "footerText": "PRODUCT EXECUTIVE | PHYSICAL AI, AUTONOMY & MISSION-CRITICAL DATA INFRASTRUCTURE",
+        "footerMatches": true,
+        "footerChildCount": 1,
+        "footerHasOnlyMeta": true,
+        "footerCenterDeltaPx": 0,
+        "footerFitsViewport": true,
+        "thesisText": "15+ years turning frontier technical capability into products customers understand, trust, adopt, and scale — across robotics, autonomy, telemetry, geospatial intelligence, developer platforms, marketplaces, and AI-native infrastructure.",
+        "thesisMatches": true,
+        "heroHasMovedRoleLine": false,
+        "heroHasMovedThesisLine": false,
+        "themeToggleVisible": true
+      },
+      "serve": {
+        "cardVisible": true,
+        "activeMediaTag": "IMG",
+        "activeMediaSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/serve-robotics-white-v008.webp",
+        "usesWhiteServeAsset": true,
+        "activeMediaComplete": true,
+        "activeMediaNaturalWidth": 540,
+        "activeMediaNaturalHeight": 540,
+        "activeMediaWidth": 360,
+        "activeMediaHeight": 327,
+        "carouselBackground": "rgb(255, 255, 255)",
+        "mediaBackground": "rgb(255, 255, 255)",
+        "objectFit": "contain",
+        "filter": "none"
+      },
+      "interaction": null,
+      "logs": []
+    },
+    {
+      "label": "mobile-day-serve-white",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "isMobile": true
+      },
+      "url": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v009/preview/index.html?theme=day&pane=big&qa=mobile-serve#work-serve",
+      "screenshotPath": "snapshots/mobile-day-serve-white.png",
+      "common": {
+        "title": "Noah Lucas — Product Executive",
+        "href": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v009/preview/index.html?theme=day&pane=big&qa=mobile-serve#work-serve",
+        "theme": "day",
+        "pane": "big",
+        "notBlank": true,
+        "frameworkOverlay": false,
+        "footerText": "PRODUCT EXECUTIVE | PHYSICAL AI, AUTONOMY & MISSION-CRITICAL DATA INFRASTRUCTURE",
+        "footerMatches": true,
+        "footerChildCount": 1,
+        "footerHasOnlyMeta": true,
+        "footerCenterDeltaPx": 0,
+        "footerFitsViewport": true,
+        "thesisText": "15+ years turning frontier technical capability into products customers understand, trust, adopt, and scale — across robotics, autonomy, telemetry, geospatial intelligence, developer platforms, marketplaces, and AI-native infrastructure.",
+        "thesisMatches": true,
+        "heroHasMovedRoleLine": false,
+        "heroHasMovedThesisLine": false,
+        "themeToggleVisible": true
+      },
+      "serve": {
+        "cardVisible": true,
+        "activeMediaTag": "IMG",
+        "activeMediaSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/serve-robotics-white-v008.webp",
+        "usesWhiteServeAsset": true,
+        "activeMediaComplete": true,
+        "activeMediaNaturalWidth": 540,
+        "activeMediaNaturalHeight": 540,
+        "activeMediaWidth": 272,
+        "activeMediaHeight": 153,
+        "carouselBackground": "rgb(255, 255, 255)",
+        "mediaBackground": "rgb(255, 255, 255)",
+        "objectFit": "contain",
+        "filter": "none"
+      },
+      "interaction": null,
+      "logs": []
+    }
+  ],
+  "screenshots": [
+    "snapshots/desktop-night-top.png",
+    "snapshots/mobile-night-top.png",
+    "snapshots/desktop-day-serve-white.png",
+    "snapshots/mobile-day-serve-white.png"
+  ],
+  "localPathLeakCheck": "pass: report stores release-relative screenshot paths only"
+}

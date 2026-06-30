@@ -20,7 +20,7 @@
     "Restores cinematic fade on first page load.",
     "Restores visible black fade on day-to-night theme transitions.",
     "Uses hosted mappings for large visual assets so publish artifacts stay small.",
-    "Staged for PNG review; production pointer is unchanged."
+    "Approved and promoted through the external-assets production pointer."
   ],
   "validation": {
     "status": "pass",
@@ -38,9 +38,9 @@
   },
   "supersedes": "2026-06-30_homepage_v013",
   "supersedesReason": "Adds a high-specificity regular-glass border-width override after rendered CSS audit.",
-  "approvedForProduction": false,
+  "approvedForProduction": true,
   "liveSquarespaceModified": false,
-  "productionPromoted": false,
+  "productionPromoted": true,
   "artifacts": {
     "preview.index.html": {
       "path": "preview/index.html",
@@ -87,5 +87,15 @@
       "bytes": 2176,
       "sha256": "ddd84e4e39947f81b1241ac3e31e56e364a88438e3a57ecb4dd38c3826bf52a4"
     }
+  },
+  "productionPromotedAt": "2026-06-30T21:17:17.407Z",
+  "productionPointer": "site/latest.json",
+  "productionValidation": {
+    "status": "pending",
+    "checkedAt": null,
+    "publicUrl": "https://noahlucas.com/",
+    "checks": [
+      "awaiting public production verification after pointer publish"
+    ]
   }
 }

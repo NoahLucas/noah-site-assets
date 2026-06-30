@@ -1,18 +1,27 @@
 {
   "schemaVersion": "site-publisher-latest-v1",
-  "releaseId": "2026-06-30_homepage_v009",
-  "releasePath": "releases/2026-06-30_homepage_v009/",
-  "manifest": "releases/2026-06-30_homepage_v009/manifest.json",
+  "releaseId": "2026-06-30_homepage_v014",
+  "releasePath": "releases/2026-06-30_homepage_v014/",
+  "manifest": "releases/2026-06-30_homepage_v014/manifest.json",
   "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
-  "promotedAt": "2026-06-30T19:59:23.126Z",
+  "promotedAt": "2026-06-30T21:17:17.407Z",
   "previous": {
     "schemaVersion": "site-publisher-latest-v1",
-    "releaseId": "2026-06-30_homepage_v005",
-    "releasePath": "releases/2026-06-30_homepage_v005/",
-    "manifest": "releases/2026-06-30_homepage_v005/manifest.json",
+    "releaseId": "2026-06-30_homepage_v009",
+    "releasePath": "releases/2026-06-30_homepage_v009/",
+    "manifest": "releases/2026-06-30_homepage_v009/manifest.json",
     "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
-    "promotedAt": "2026-06-30T17:11:42.721Z",
-    "previous": null,
+    "promotedAt": "2026-06-30T19:59:23.126Z",
+    "previous": {
+      "schemaVersion": "site-publisher-latest-v1",
+      "releaseId": "2026-06-30_homepage_v005",
+      "releasePath": "releases/2026-06-30_homepage_v005/",
+      "manifest": "releases/2026-06-30_homepage_v005/manifest.json",
+      "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+      "promotedAt": "2026-06-30T17:11:42.721Z",
+      "previous": null,
+      "liveSquarespaceModified": false
+    },
     "liveSquarespaceModified": false
   },
   "liveSquarespaceModified": false

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-06-30_homepage_v014",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage border cleanup, cinematic fade, and delayed video staging",
+  "createdAt": "2026-06-30T20:50:44.789Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "home_v2_03_deploy_candidate.html"
+  },
+  "changeSummary": [
+    "Keeps a single outer one-pixel frame while removing inner card side/bottom rims, including high-specificity regular-glass cards.",
+    "Delays carousel video playback until 10 seconds after page load.",
+    "Restores cinematic fade on first page load.",
+    "Restores visible black fade on day-to-night theme transitions.",
+    "Uses hosted mappings for large visual assets so publish artifacts stay small.",
+    "Staged for PNG review; production pointer is unchanged."
+  ],
+  "validation": {
+    "status": "pending",
+    "checks": [
+      "awaiting staging browser screenshots and behavior checks"
+    ]
+  },
+  "supersedes": "2026-06-30_homepage_v013",
+  "supersedesReason": "Adds a high-specificity regular-glass border-width override after rendered CSS audit.",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 244508,
+      "sha256": "9e0d2c4b23c7da8d6809e7e53c008ff7dd28c9d9c7d2a65bfedc9e0b060ff057"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 242955,
+      "sha256": "0743730e8d65ee33bbf708b6fb93a88717dcc4d0e35a02a5ab44f502922ebe8d"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 244508,
+      "sha256": "9e0d2c4b23c7da8d6809e7e53c008ff7dd28c9d9c7d2a65bfedc9e0b060ff057"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 172497,
+      "sha256": "9e1113021bcf9a70d53d2e5a044e3b4fa7258757e10ee8fe9bf652ffb6eb4762"
+    }
+  }
+}

@@ -1,14 +1,14 @@
 {
   "schemaVersion": "site-publisher-staging-v1",
   "environment": "staging",
-  "releaseId": "2026-06-30_homepage_v013",
+  "releaseId": "2026-06-30_homepage_v014",
   "projectId": "noahlucas-homepage",
   "title": "Noah Lucas homepage border cleanup, cinematic fade, and delayed video staging",
-  "releasePath": "releases/2026-06-30_homepage_v013/",
-  "manifest": "releases/2026-06-30_homepage_v013/manifest.json",
-  "preview": "releases/2026-06-30_homepage_v013/preview/index.html",
+  "releasePath": "releases/2026-06-30_homepage_v014/",
+  "manifest": "releases/2026-06-30_homepage_v014/manifest.json",
+  "preview": "releases/2026-06-30_homepage_v014/preview/index.html",
   "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
-  "updatedAt": "2026-06-30T20:42:59.591Z",
+  "updatedAt": "2026-06-30T20:50:44.789Z",
   "productionPromoted": false,
   "liveSquarespaceModified": false
 }

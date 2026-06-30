@@ -86,16 +86,55 @@
       "path": "reports/browser-frame-report.json",
       "bytes": 2176,
       "sha256": "ddd84e4e39947f81b1241ac3e31e56e364a88438e3a57ecb4dd38c3826bf52a4"
+    },
+    "reports.production-verification.json": {
+      "path": "reports/production-verification.json",
+      "bytes": 1930,
+      "sha256": "e8e50c07afa5328ed1f7be0cfa70977ba8e53727274bf332d0fa507b6932c937"
+    },
+    "snapshots/production-desktop-sift-border-video-delay-v014.png": {
+      "path": "snapshots/production-desktop-sift-border-video-delay-v014.png",
+      "bytes": 632156,
+      "sha256": "c4003ac2472ffe0131a2bded76c2c4eb1d5712f6dd416587eae8051af6e488c7"
+    },
+    "snapshots/production-theme-transition-fade-v014.png": {
+      "path": "snapshots/production-theme-transition-fade-v014.png",
+      "bytes": 117683,
+      "sha256": "d9250b234f326063be73be6b5027de7732e4832466ba184ac4c8f1cc19808b0f"
+    },
+    "snapshots/production-mobile-top-v014.png": {
+      "path": "snapshots/production-mobile-top-v014.png",
+      "bytes": 219965,
+      "sha256": "c25f1168e951dfccd9440dd762a4b6e2a1078101d09a17b568525f649432840c"
     }
   },
   "productionPromotedAt": "2026-06-30T21:17:17.407Z",
   "productionPointer": "site/latest.json",
   "productionValidation": {
-    "status": "pending",
-    "checkedAt": null,
+    "status": "pass",
+    "method": "In-app browser for desktop checks plus bundled Playwright/local Chrome fallback for final production mobile and screenshot receipt",
+    "checkedAt": "2026-06-30T21:29:29.306Z",
     "publicUrl": "https://noahlucas.com/",
-    "checks": [
-      "awaiting public production verification after pointer publish"
+    "checks": {
+      "pageIdentity": true,
+      "releaseMarker": true,
+      "bootstrapMarker": true,
+      "notBlank": true,
+      "footerLine": true,
+      "videoPreDelayPaused": true,
+      "videoPostDelayPlaying": true,
+      "borderCleanup": true,
+      "themeFade": true,
+      "screenshots": true,
+      "actionableConsoleIssues": true,
+      "allPassed": true
+    },
+    "ignoredHostWarnings": 12,
+    "report": "reports/production-verification.json",
+    "screenshots": [
+      "snapshots/production-desktop-sift-border-video-delay-v014.png",
+      "snapshots/production-theme-transition-fade-v014.png",
+      "snapshots/production-mobile-top-v014.png"
     ]
   }
 }

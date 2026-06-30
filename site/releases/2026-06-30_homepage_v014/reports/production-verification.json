@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "site-publisher-production-verification-v1",
+  "releaseId": "2026-06-30_homepage_v014",
+  "checkedAt": "2026-06-30T21:29:29.306Z",
+  "publicUrl": "https://noahlucas.com/",
+  "method": "In-app browser for desktop checks plus bundled Playwright/local Chrome fallback for final production mobile and screenshot receipt",
+  "checks": {
+    "pageIdentity": true,
+    "releaseMarker": true,
+    "bootstrapMarker": true,
+    "notBlank": true,
+    "footerLine": true,
+    "videoPreDelayPaused": true,
+    "videoPostDelayPlaying": true,
+    "borderCleanup": true,
+    "themeFade": true,
+    "screenshots": true,
+    "actionableConsoleIssues": true,
+    "allPassed": true
+  },
+  "desktopMetrics": {
+    "title": "Noah Lucas — Product Executive",
+    "url": "https://noahlucas.com/?qa=prod-v014-pw-1782854811128",
+    "hasV014Text": true,
+    "hasExternalAssets": true,
+    "hasNoahLucas": true,
+    "hasFooterLine": true,
+    "activeVideoCurrentTime": 1.6,
+    "activeVideoPaused": true,
+    "cardBorderTop": "1px",
+    "cardBorderRight": "0px",
+    "cardBorderBottom": "0px",
+    "cardBorderLeft": "0px",
+    "mediaBorderLeft": "0px",
+    "mediaBoxShadow": "none",
+    "videoCount": 6
+  },
+  "afterDelay": {
+    "activeVideoCurrentTime": 3.73,
+    "activeVideoPaused": false
+  },
+  "fade": {
+    "before": "day",
+    "theme": "night",
+    "fadeOpacity": "0.9533",
+    "fadeBackground": "rgb(12, 12, 12)"
+  },
+  "mobileMetrics": {
+    "title": "Noah Lucas — Product Executive",
+    "hasNoahLucas": true
+  },
+  "console": {
+    "totalWarnError": 12,
+    "ignoredHostWarnings": 12,
+    "ignoredHostWarningPattern": "Squarespace YUI module load warnings",
+    "actionable": []
+  },
+  "screenshots": [
+    "snapshots/production-desktop-sift-border-video-delay-v014.png",
+    "snapshots/production-theme-transition-fade-v014.png",
+    "snapshots/production-mobile-top-v014.png"
+  ],
+  "liveSquarespaceModified": false
+}

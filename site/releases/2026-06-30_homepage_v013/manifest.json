@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-06-30_homepage_v013",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage border cleanup, cinematic fade, and delayed video staging",
+  "createdAt": "2026-06-30T20:42:59.591Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "home_v2_03_deploy_candidate.html"
+  },
+  "changeSummary": [
+    "Keeps a single outer one-pixel frame while removing inner card side/bottom rims.",
+    "Delays carousel video playback until 10 seconds after page load.",
+    "Restores cinematic fade on first page load.",
+    "Restores visible cinematic fade on day/night theme transitions.",
+    "Uses hosted mappings for large visual assets so publish artifacts stay small.",
+    "Staged for PNG review; production pointer is unchanged."
+  ],
+  "validation": {
+    "status": "pending",
+    "checks": [
+      "awaiting staging browser screenshots and behavior checks"
+    ]
+  },
+  "supersedes": "2026-06-30_homepage_v012",
+  "supersedesReason": "Adds final border invariant hardening after browser verification showed an inner computed side border.",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 243843,
+      "sha256": "25eafaf1335627e5f76762cd62137ffc85bd8306b3b97184a9c974f531ba75d9"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 242290,
+      "sha256": "363dd159b45f48911813e2eb602d233628d9005021b7e54ae3efa66dea5a8cf6"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 243843,
+      "sha256": "25eafaf1335627e5f76762cd62137ffc85bd8306b3b97184a9c974f531ba75d9"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 171832,
+      "sha256": "60e39f4c5cfeea88b6899a294f00fb09f36d33def58070cb2a97e9fd82184b81"
+    }
+  }
+}

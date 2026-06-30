@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-06-30_homepage_v011",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage delayed video and cinematic fade staging",
+  "createdAt": "2026-06-30T20:29:47.122Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "home_v2_03_deploy_candidate.html"
+  },
+  "changeSummary": [
+    "Keeps the v010 single-pixel border cleanup.",
+    "Delays carousel video playback until 10 seconds after page load.",
+    "Restores a cinematic fade overlay for first page load.",
+    "Adds the same cinematic fade overlay to day/night theme transitions.",
+    "Uses hosted mappings for large visual assets so publish artifacts stay small.",
+    "Staged for PNG review; production pointer is unchanged."
+  ],
+  "validation": {
+    "status": "pending",
+    "checks": [
+      "awaiting staging browser screenshots and behavior checks"
+    ]
+  },
+  "supersedes": "2026-06-30_homepage_v010",
+  "supersedesReason": "Adds requested delayed videos and cinematic fade behavior while preserving border cleanup.",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 242271,
+      "sha256": "f0e062e1cc47195125e962be7b9cb737e379fe672264ba86d82522386834cee9"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 240718,
+      "sha256": "ccfb325b8274a0802b61094ba318eb4dc9c495c4fba59eb4bebe3b4afdafb74d"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 242271,
+      "sha256": "f0e062e1cc47195125e962be7b9cb737e379fe672264ba86d82522386834cee9"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 170260,
+      "sha256": "c704e664621606a934b7edee1d5a97a80666063fef800b3cfc6bb76292c9960a"
+    }
+  }
+}

@@ -1,9 +1,9 @@
 {
   "schemaVersion": "site-publisher-staging-v1",
   "environment": "staging",
-  "releaseId": "2026-06-29_homepage_v003",
+  "releaseId": "2026-06-30_homepage_v004",
   "projectId": "noahlucas-homepage",
-  "title": "Noah Lucas homepage solid header and footer",
+  "title": "Noah Lucas homepage browser-frame chrome and alignment pass",
   "target": {
     "platform": "squarespace",
     "siteVersion": "7.1",
@@ -11,10 +11,10 @@
     "publishMode": "guided-code-block"
   },
   "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
-  "manifestUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-29_homepage_v003/manifest.json",
-  "reviewUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-29_homepage_v003/preview/index.html",
-  "workerReviewUrl": "https://noah-site-staging.silly-sesame.workers.dev/site/releases/2026-06-29_homepage_v003/preview/index.html",
-  "publishedAt": "2026-06-29T22:52:00Z",
+  "manifestUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v004/manifest.json",
+  "reviewUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v004/preview/index.html",
+  "workerReviewUrl": "https://noah-site-staging.silly-sesame.workers.dev/site/releases/2026-06-30_homepage_v004/preview/index.html",
+  "publishedAt": "2026-06-30T15:27:09.221Z",
   "liveSquarespaceModified": false,
   "productionPromoted": false
 }

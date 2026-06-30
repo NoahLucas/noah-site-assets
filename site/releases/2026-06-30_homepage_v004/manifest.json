@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-06-30_homepage_v004",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage browser-frame chrome and alignment pass",
+  "createdAt": "2026-06-30T15:27:09.221Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "guided-code-block"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "home_v2_03_deploy_candidate.html"
+  },
+  "changeSummary": [
+    "Rounds the header and footer chrome with stronger browser-frame corners.",
+    "Changes the scroll fade in night theme to black while preserving the light theme fade to white.",
+    "Expands hero text to the full available pane width.",
+    "Left-aligns Product Thesis, Operating Principles, Research, Writing, and Investments.",
+    "Does not modify production Squarespace."
+  ],
+  "validation": {
+    "status": "pass",
+    "checks": [
+      "desktop night top screenshot captured",
+      "desktop night lower-section screenshot captured",
+      "desktop day top screenshot captured",
+      "mobile night top screenshot captured",
+      "mobile night lower-section screenshot captured",
+      "dark scroll fade computed as black",
+      "lower sections computed left-aligned",
+      "header/footer chrome radii computed as 28px inner frame",
+      "no file:// URLs in publish artifact",
+      "no local assets/ paths in publish artifact",
+      "no Companion text in publish artifact"
+    ]
+  },
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 223601,
+      "sha256": "fb06cb7fd8b8c3600d5abab32bbb86774f018f65ea7f9f5cfe8e428365c5eec9"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 222048,
+      "sha256": "2204f6c9f45d3073aa7e56594b5c9d02c16343bc3588aa3e28cb07872367a633"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 223601,
+      "sha256": "fb06cb7fd8b8c3600d5abab32bbb86774f018f65ea7f9f5cfe8e428365c5eec9"
+    },
+    "reports.browser-frame-report.json": {
+      "path": "reports/browser-frame-report.json",
+      "bytes": 8365,
+      "sha256": "e0c1614853a9631f2d6fa832ac1b49d477b070101ff31e010c1d7fe0a528c14c"
+    },
+    "snapshots.desktop-night-top.png": {
+      "path": "snapshots/desktop-night-top.png",
+      "bytes": 901905,
+      "sha256": "ffc1fe1bdbad61afe5b1666881fcdb690bb836e53fb84059b281b68f6396c5f2"
+    },
+    "snapshots.desktop-night-lower.png": {
+      "path": "snapshots/desktop-night-lower.png",
+      "bytes": 862545,
+      "sha256": "0ddf0f3082b3886a508f938c23639b3504a94f59c72e45775afb510db32dc4fd"
+    },
+    "snapshots.desktop-day-top.png": {
+      "path": "snapshots/desktop-day-top.png",
+      "bytes": 1088203,
+      "sha256": "6ae19eef0b19a444d4d964134a632a9cb5da2d4d06d16d3dfdfaaee21657cbeb"
+    },
+    "snapshots.mobile-night-top.png": {
+      "path": "snapshots/mobile-night-top.png",
+      "bytes": 237560,
+      "sha256": "c9bb09c44a8d47549a1bdb584fbd2d5b45e965ac690d003ae017a0591543cd13"
+    },
+    "snapshots.mobile-night-lower.png": {
+      "path": "snapshots/mobile-night-lower.png",
+      "bytes": 245032,
+      "sha256": "4bc79774ad20940ba123f00872038cffbfd706efae1958d127fc264592d5f860"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 151590,
+      "sha256": "8bd07d397e92f619b177e77762000ab3a667d17897267ecc78d7796433c3daf4"
+    }
+  }
+}

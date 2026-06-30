@@ -1,0 +1,285 @@
+{
+  "url": "file:///Users/noah/Documents/Codex/2026-06-13/you-are-codex-operating-as-noah/home_v2_03_deploy_candidate.squarespace-publish.html",
+  "results": [
+    {
+      "shot": {
+        "label": "desktop-night-top",
+        "width": 1440,
+        "height": 1000,
+        "theme": "night",
+        "y": 0
+      },
+      "path": "/Users/noah/Documents/Codex/2026-06-13/you-are-codex-operating-as-noah/qa_screenshots/browser-frame-20260630/desktop-night-top.png",
+      "metrics": {
+        "title": "Noah Lucas — Product Executive",
+        "theme": "night",
+        "pane": "big",
+        "hasProductExecutive": true,
+        "hasCompanionText": false,
+        "sceneFadeColor": "#000000",
+        "sceneScrollOpacity": "1.000",
+        "bodyBackground": "rgb(0, 0, 0)",
+        "heroWidth": 1156,
+        "viewportWidth": 1440,
+        "navRadius": "0px 0px 28px 28px",
+        "footerRadius": "28px 28px 0px 0px",
+        "lower": [
+          {
+            "selector": "#summary",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 394
+          },
+          {
+            "selector": "#operating-principles",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 394
+          },
+          {
+            "selector": "#research",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 394
+          },
+          {
+            "selector": "#writing",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 394
+          },
+          {
+            "selector": "#investments",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 394
+          }
+        ]
+      }
+    },
+    {
+      "shot": {
+        "label": "desktop-night-lower",
+        "width": 1440,
+        "height": 1000,
+        "theme": "night",
+        "selector": "#summary"
+      },
+      "path": "/Users/noah/Documents/Codex/2026-06-13/you-are-codex-operating-as-noah/qa_screenshots/browser-frame-20260630/desktop-night-lower.png",
+      "metrics": {
+        "title": "Noah Lucas — Product Executive",
+        "theme": "night",
+        "pane": "big",
+        "hasProductExecutive": true,
+        "hasCompanionText": false,
+        "sceneFadeColor": "#000000",
+        "sceneScrollOpacity": "0.380",
+        "bodyBackground": "rgb(0, 0, 0)",
+        "heroWidth": 1156,
+        "viewportWidth": 1440,
+        "navRadius": "0px 0px 28px 28px",
+        "footerRadius": "28px 28px 0px 0px",
+        "lower": [
+          {
+            "selector": "#summary",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 394
+          },
+          {
+            "selector": "#operating-principles",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 394
+          },
+          {
+            "selector": "#research",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 394
+          },
+          {
+            "selector": "#writing",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 394
+          },
+          {
+            "selector": "#investments",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 394
+          }
+        ]
+      }
+    },
+    {
+      "shot": {
+        "label": "desktop-day-top",
+        "width": 1440,
+        "height": 1000,
+        "theme": "day",
+        "y": 0
+      },
+      "path": "/Users/noah/Documents/Codex/2026-06-13/you-are-codex-operating-as-noah/qa_screenshots/browser-frame-20260630/desktop-day-top.png",
+      "metrics": {
+        "title": "Noah Lucas — Product Executive",
+        "theme": "day",
+        "pane": "big",
+        "hasProductExecutive": true,
+        "hasCompanionText": false,
+        "sceneFadeColor": "#ffffff",
+        "sceneScrollOpacity": "1.000",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "heroWidth": 1156,
+        "viewportWidth": 1440,
+        "navRadius": "0px 0px 28px 28px",
+        "footerRadius": "28px 28px 0px 0px",
+        "lower": [
+          {
+            "selector": "#summary",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 394
+          },
+          {
+            "selector": "#operating-principles",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 394
+          },
+          {
+            "selector": "#research",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 394
+          },
+          {
+            "selector": "#writing",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 394
+          },
+          {
+            "selector": "#investments",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 394
+          }
+        ]
+      }
+    },
+    {
+      "shot": {
+        "label": "mobile-night-top",
+        "width": 390,
+        "height": 844,
+        "theme": "night",
+        "y": 0
+      },
+      "path": "/Users/noah/Documents/Codex/2026-06-13/you-are-codex-operating-as-noah/qa_screenshots/browser-frame-20260630/mobile-night-top.png",
+      "metrics": {
+        "title": "Noah Lucas — Product Executive",
+        "theme": "night",
+        "pane": "big",
+        "hasProductExecutive": true,
+        "hasCompanionText": false,
+        "sceneFadeColor": "#000000",
+        "sceneScrollOpacity": "1.000",
+        "bodyBackground": "rgb(0, 0, 0)",
+        "heroWidth": 324,
+        "viewportWidth": 390,
+        "navRadius": "0px 0px 28px 28px",
+        "footerRadius": "28px 28px 0px 0px",
+        "lower": [
+          {
+            "selector": "#summary",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 33
+          },
+          {
+            "selector": "#operating-principles",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 33
+          },
+          {
+            "selector": "#research",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 33
+          },
+          {
+            "selector": "#writing",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 33
+          },
+          {
+            "selector": "#investments",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 33
+          }
+        ]
+      }
+    },
+    {
+      "shot": {
+        "label": "mobile-night-lower",
+        "width": 390,
+        "height": 844,
+        "theme": "night",
+        "selector": "#summary"
+      },
+      "path": "/Users/noah/Documents/Codex/2026-06-13/you-are-codex-operating-as-noah/qa_screenshots/browser-frame-20260630/mobile-night-lower.png",
+      "metrics": {
+        "title": "Noah Lucas — Product Executive",
+        "theme": "night",
+        "pane": "big",
+        "hasProductExecutive": true,
+        "hasCompanionText": false,
+        "sceneFadeColor": "#000000",
+        "sceneScrollOpacity": "0.380",
+        "bodyBackground": "rgb(0, 0, 0)",
+        "heroWidth": 324,
+        "viewportWidth": 390,
+        "navRadius": "0px 0px 28px 28px",
+        "footerRadius": "28px 28px 0px 0px",
+        "lower": [
+          {
+            "selector": "#summary",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 33
+          },
+          {
+            "selector": "#operating-principles",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 33
+          },
+          {
+            "selector": "#research",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 33
+          },
+          {
+            "selector": "#writing",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 33
+          },
+          {
+            "selector": "#investments",
+            "labelDisplay": "block",
+            "bodyTextAlign": "left",
+            "bodyLeft": 33
+          }
+        ]
+      }
+    }
+  ]
+}

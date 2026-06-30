@@ -24,7 +24,7 @@
   "validation": {
     "status": "pending",
     "checks": [
-      "awaiting public staging browser screenshots"
+      "awaiting public staging browser screenshots after final cascade placement"
     ]
   },
   "supersedes": "2026-06-30_homepage_v009",
@@ -35,23 +35,24 @@
   "artifacts": {
     "preview.index.html": {
       "path": "preview/index.html",
-      "bytes": 238855,
-      "sha256": "b651cd00559fe494a57b3865750d1c4b9dd9b4cf50d5c103f25bf24b1215f700"
+      "bytes": 238856,
+      "sha256": "56039c80d4f41761655d6724fe8d645259e3e1f50a7709a82d142fcfc83aebf5"
     },
     "publish.code-block.html": {
       "path": "publish/code-block.html",
-      "bytes": 237433,
-      "sha256": "f20282bfd503af2a6152e20d125a4c4654dad3a5e6a62337646538fbf742b785"
+      "bytes": 237434,
+      "sha256": "d191bb775332d930c114598813da1acff59dd51ce3178fbbec3f04be475f1003"
     },
     "publish.full-page.html": {
       "path": "publish/full-page.html",
-      "bytes": 238855,
-      "sha256": "b651cd00559fe494a57b3865750d1c4b9dd9b4cf50d5c103f25bf24b1215f700"
+      "bytes": 238856,
+      "sha256": "56039c80d4f41761655d6724fe8d645259e3e1f50a7709a82d142fcfc83aebf5"
     },
     "source.home_v2_03_deploy_candidate.html": {
       "path": "source/home_v2_03_deploy_candidate.html",
       "bytes": 166973,
       "sha256": "f05efbb3fecd427900eec22103736e0eb55444e29036f1d9a684654a8a7da4cb"
     }
-  }
+  },
+  "updatedAt": "2026-06-30T20:23:31.719Z"
 }

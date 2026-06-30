@@ -23,10 +23,18 @@
     "Staged for PNG review; production pointer is unchanged."
   ],
   "validation": {
-    "status": "pending",
+    "status": "pass",
+    "checkedAt": "2026-06-30T20:54:06.113Z",
     "checks": [
-      "awaiting staging browser screenshots and behavior checks"
-    ]
+      "public staging page identity matched",
+      "desktop and mobile pages rendered nonblank",
+      "no console warnings or errors reported by browser QA",
+      "Sift video remained paused before the 10 second gate and played after the gate",
+      "work-card side and bottom borders computed to 0px; top separator stayed 1px",
+      "theme transition fade sampled black during day-to-night transition",
+      "production pointer was not changed"
+    ],
+    "report": "reports/browser-frame-report.json"
   },
   "supersedes": "2026-06-30_homepage_v013",
   "supersedesReason": "Adds a high-specificity regular-glass border-width override after rendered CSS audit.",
@@ -53,6 +61,31 @@
       "path": "source/home_v2_03_deploy_candidate.html",
       "bytes": 172497,
       "sha256": "9e1113021bcf9a70d53d2e5a044e3b4fa7258757e10ee8fe9bf652ffb6eb4762"
+    },
+    "snapshots/staging-desktop-sift-border-video-delay-v014.png": {
+      "path": "snapshots/staging-desktop-sift-border-video-delay-v014.png",
+      "bytes": 87891,
+      "sha256": "887912b829bc384184304a4d60e633e34a237abfe3e1aa08d9be3a807b6c13d1"
+    },
+    "snapshots/staging-theme-transition-fade-v014.png": {
+      "path": "snapshots/staging-theme-transition-fade-v014.png",
+      "bytes": 79982,
+      "sha256": "a160137b7605137c961d7b114943f6657dd05c3dc3bb735bfc1fb927bb723098"
+    },
+    "snapshots/staging-desktop-night-top-v014.png": {
+      "path": "snapshots/staging-desktop-night-top-v014.png",
+      "bytes": 79982,
+      "sha256": "a160137b7605137c961d7b114943f6657dd05c3dc3bb735bfc1fb927bb723098"
+    },
+    "snapshots/staging-mobile-top-v014.png": {
+      "path": "snapshots/staging-mobile-top-v014.png",
+      "bytes": 37419,
+      "sha256": "b8fcc38d6fc9ad65d8c2d7b2fe3b92c95eb16f8082c7825b47d50d9f5cdea6f0"
+    },
+    "reports/browser-frame-report.json": {
+      "path": "reports/browser-frame-report.json",
+      "bytes": 2176,
+      "sha256": "ddd84e4e39947f81b1241ac3e31e56e364a88438e3a57ecb4dd38c3826bf52a4"
     }
   }
 }

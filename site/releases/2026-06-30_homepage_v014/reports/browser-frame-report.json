@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "site-publisher-browser-qa-v1",
+  "releaseId": "2026-06-30_homepage_v014",
+  "checkedAt": "2026-06-30T20:54:06.113Z",
+  "environment": "public-staging-github-pages",
+  "previewUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v014/preview/index.html",
+  "browser": "Codex in-app browser",
+  "viewports": [
+    {
+      "label": "desktop",
+      "width": 1418,
+      "height": 900
+    },
+    {
+      "label": "mobile",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "checks": {
+    "pageIdentity": {
+      "status": "pass",
+      "title": "Noah Lucas — Product Executive"
+    },
+    "notBlank": {
+      "status": "pass",
+      "desktop": true,
+      "mobile": true
+    },
+    "frameworkOverlay": {
+      "status": "pass",
+      "observed": false
+    },
+    "consoleHealth": {
+      "status": "pass",
+      "issues": []
+    },
+    "videoDelay": {
+      "status": "pass",
+      "card": "work-sift",
+      "beforeDelay": {
+        "currentTime": 1.6,
+        "paused": true
+      },
+      "afterDelay": {
+        "currentTime": 5.25,
+        "paused": false
+      },
+      "videoCount": 6
+    },
+    "borderCleanup": {
+      "status": "pass",
+      "card": "work-sift",
+      "cardBorderTop": "1px",
+      "cardBorderRight": "0px",
+      "cardBorderBottom": "0px",
+      "cardBorderLeft": "0px",
+      "mediaBorderLeft": "0px",
+      "mediaBoxShadow": "none"
+    },
+    "themeFade": {
+      "status": "pass",
+      "transition": "day-to-night",
+      "fadeBackground": "rgb(0, 0, 0)",
+      "sampledOpacity": "0.103258"
+    },
+    "productionSafety": {
+      "status": "pass",
+      "productionPromoted": false,
+      "liveSquarespaceModified": false
+    }
+  },
+  "screenshots": [
+    "snapshots/staging-desktop-sift-border-video-delay-v014.png",
+    "snapshots/staging-theme-transition-fade-v014.png",
+    "snapshots/staging-desktop-night-top-v014.png",
+    "snapshots/staging-mobile-top-v014.png"
+  ],
+  "remainingManualChecks": [
+    "Review the PNGs for final visual preference before production promotion.",
+    "Production noahlucas.com is unchanged until the production pointer is explicitly promoted."
+  ]
+}

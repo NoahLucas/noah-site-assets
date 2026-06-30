@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-06-30_homepage_v005",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage no-bars chrome and alignment pass",
+  "createdAt": "2026-06-30T15:56:16.086Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "guided-code-block"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "home_v2_03_deploy_candidate.html"
+  },
+  "changeSummary": [
+    "Removes the horizontal bars that extended past the header and footer chrome.",
+    "Keeps the night-theme scroll fade black and the day-theme fade white.",
+    "Keeps the hero text using the full available pane width.",
+    "Left-aligns Product Thesis, Operating Principles, Research, Writing, and Investments across desktop and mobile.",
+    "Does not modify production Squarespace."
+  ],
+  "validation": {
+    "status": "pass",
+    "checks": [
+      "desktop night top screenshot captured",
+      "desktop night lower-section screenshot captured",
+      "desktop day top screenshot captured",
+      "mobile night top screenshot captured",
+      "mobile night lower-section screenshot captured",
+      "dark scroll fade computed as black",
+      "day scroll fade computed as white",
+      "lower sections computed left-aligned on desktop and mobile",
+      "header/footer extra pseudo-element bars removed",
+      "no file:// URLs in publish artifact",
+      "no local /Users paths in publish artifact",
+      "no Companion text in publish artifact"
+    ]
+  },
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 229242,
+      "sha256": "b804bc996fc3ed9e9390991527f6e8963d831d4e51205684e77de9999b9023fa"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 227689,
+      "sha256": "2c085396a832183a36f7014d68b25ad3e772b9c990355e5503b1b27f6b19263d"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 229242,
+      "sha256": "b804bc996fc3ed9e9390991527f6e8963d831d4e51205684e77de9999b9023fa"
+    },
+    "reports.browser-frame-report.json": {
+      "path": "reports/browser-frame-report.json",
+      "bytes": 8225,
+      "sha256": "2a0762e3a587242f733c8a73e9b4b02ef1644a0b0187a55d91c77dcaad87ed5b"
+    },
+    "snapshots.desktop-night-top.png": {
+      "path": "snapshots/desktop-night-top.png",
+      "bytes": 932775,
+      "sha256": "038dc4e7f7892d7e712b037bbc60434f14984ec1796b3be09a15995f14b7acdd"
+    },
+    "snapshots.desktop-night-lower.png": {
+      "path": "snapshots/desktop-night-lower.png",
+      "bytes": 835029,
+      "sha256": "4247b83e01f5f29361201587fa9f1e306609edfce2b14e66f6472f0b1101ea24"
+    },
+    "snapshots.desktop-day-top.png": {
+      "path": "snapshots/desktop-day-top.png",
+      "bytes": 1099716,
+      "sha256": "97da7817cc0ff23656496eb926d94725b158e8215e765b8f69016537aec8011e"
+    },
+    "snapshots.mobile-night-top.png": {
+      "path": "snapshots/mobile-night-top.png",
+      "bytes": 250991,
+      "sha256": "8d4d120f47b34e074f85f78226942e04e814522121f31e8308a55977f26c989a"
+    },
+    "snapshots.mobile-night-lower.png": {
+      "path": "snapshots/mobile-night-lower.png",
+      "bytes": 242713,
+      "sha256": "2cff6c6bc9660b6fba23641f91c505246feefb1a14e0e4228cb0f3e2e6c52cfc"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 157231,
+      "sha256": "50735d27038f53ce175d55c7d51c916369053fec3d4be47616c1cf8962c673f6"
+    }
+  }
+}

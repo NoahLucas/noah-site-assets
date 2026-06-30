@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-06-30_homepage_v010",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage single-pixel border cleanup",
+  "createdAt": "2026-06-30T20:20:04.699Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "home_v2_03_deploy_candidate.html"
+  },
+  "changeSummary": [
+    "Collapses stacked glass rims into a single 1px outer pane border.",
+    "Removes child section and work-card left/right borders so the pane edge does not double up.",
+    "Keeps section and work-card separation to a single 1px top rule.",
+    "Disables residual pseudo-element and media edge shadows that visually read as extra borders.",
+    "Staged for PNG review; production pointer is unchanged."
+  ],
+  "validation": {
+    "status": "pending",
+    "checks": [
+      "awaiting public staging browser screenshots"
+    ]
+  },
+  "supersedes": "2026-06-30_homepage_v009",
+  "supersedesReason": "v009 rendered multiple adjacent border/rim lines on pane/card edges.",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 238855,
+      "sha256": "b651cd00559fe494a57b3865750d1c4b9dd9b4cf50d5c103f25bf24b1215f700"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 237433,
+      "sha256": "f20282bfd503af2a6152e20d125a4c4654dad3a5e6a62337646538fbf742b785"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 238855,
+      "sha256": "b651cd00559fe494a57b3865750d1c4b9dd9b4cf50d5c103f25bf24b1215f700"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 166973,
+      "sha256": "f05efbb3fecd427900eec22103736e0eb55444e29036f1d9a684654a8a7da4cb"
+    }
+  }
+}

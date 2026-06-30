@@ -1,20 +1,14 @@
 {
   "schemaVersion": "site-publisher-staging-v1",
   "environment": "staging",
-  "releaseId": "2026-06-30_homepage_v009",
+  "releaseId": "2026-06-30_homepage_v010",
   "projectId": "noahlucas-homepage",
-  "title": "Noah Lucas homepage footer thesis and white Serve media",
-  "target": {
-    "platform": "squarespace",
-    "siteVersion": "7.1",
-    "pageSlug": "/",
-    "publishMode": "external-assets-pointer"
-  },
+  "title": "Noah Lucas homepage single-pixel border cleanup",
+  "releasePath": "releases/2026-06-30_homepage_v010/",
+  "manifest": "releases/2026-06-30_homepage_v010/manifest.json",
+  "preview": "releases/2026-06-30_homepage_v010/preview/index.html",
   "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
-  "manifestUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v009/manifest.json",
-  "reviewUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v009/preview/index.html",
-  "workerReviewUrl": "https://noah-site-staging.silly-sesame.workers.dev/site/releases/2026-06-30_homepage_v009/preview/index.html",
-  "publishedAt": "2026-06-30T19:47:08.921Z",
-  "liveSquarespaceModified": false,
-  "productionPromoted": false
+  "updatedAt": "2026-06-30T20:20:04.699Z",
+  "productionPromoted": false,
+  "liveSquarespaceModified": false
 }

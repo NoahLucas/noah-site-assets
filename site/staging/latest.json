@@ -1,7 +1,7 @@
 {
   "schemaVersion": "site-publisher-staging-v1",
   "environment": "staging",
-  "releaseId": "2026-06-30_homepage_v008",
+  "releaseId": "2026-06-30_homepage_v009",
   "projectId": "noahlucas-homepage",
   "title": "Noah Lucas homepage footer thesis and white Serve media",
   "target": {
@@ -11,10 +11,10 @@
     "publishMode": "external-assets-pointer"
   },
   "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
-  "manifestUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v008/manifest.json",
-  "reviewUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v008/preview/index.html",
-  "workerReviewUrl": "https://noah-site-staging.silly-sesame.workers.dev/site/releases/2026-06-30_homepage_v008/preview/index.html",
-  "publishedAt": "2026-06-30T19:43:41.477Z",
+  "manifestUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v009/manifest.json",
+  "reviewUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v009/preview/index.html",
+  "workerReviewUrl": "https://noah-site-staging.silly-sesame.workers.dev/site/releases/2026-06-30_homepage_v009/preview/index.html",
+  "publishedAt": "2026-06-30T19:47:08.921Z",
   "liveSquarespaceModified": false,
   "productionPromoted": false
 }

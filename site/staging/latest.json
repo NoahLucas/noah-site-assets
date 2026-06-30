@@ -1,7 +1,7 @@
 {
   "schemaVersion": "site-publisher-staging-v1",
   "environment": "staging",
-  "releaseId": "2026-06-30_homepage_v006",
+  "releaseId": "2026-06-30_homepage_v007",
   "projectId": "noahlucas-homepage",
   "title": "Noah Lucas homepage compact controls and impact overlays",
   "target": {
@@ -11,10 +11,10 @@
     "publishMode": "external-assets-pointer"
   },
   "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
-  "manifestUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v006/manifest.json",
-  "reviewUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v006/preview/index.html",
-  "workerReviewUrl": "https://noah-site-staging.silly-sesame.workers.dev/site/releases/2026-06-30_homepage_v006/preview/index.html",
-  "publishedAt": "2026-06-30T19:23:45.169Z",
+  "manifestUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v007/manifest.json",
+  "reviewUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v007/preview/index.html",
+  "workerReviewUrl": "https://noah-site-staging.silly-sesame.workers.dev/site/releases/2026-06-30_homepage_v007/preview/index.html",
+  "publishedAt": "2026-06-30T19:28:36.388Z",
   "liveSquarespaceModified": false,
   "productionPromoted": false
 }

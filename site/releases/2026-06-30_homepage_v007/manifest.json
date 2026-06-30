@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-06-30_homepage_v007",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage compact controls and impact overlays",
+  "createdAt": "2026-06-30T19:28:36.388Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "home_v2_03_deploy_candidate.html"
+  },
+  "changeSummary": [
+    "Makes carousel tabs small and discreet.",
+    "Moves employer logo icons above Product Thesis.",
+    "Removes gradient treatment from section and work-card surfaces.",
+    "Uses clean one-pixel liquid-glass borders on updated surfaces.",
+    "Constrains the Serve Robotics GIF to a smaller one-to-one presentation on white media background.",
+    "Replaces hover impact tooltips with explicit Impact buttons that open media overlays.",
+    "Does not modify production Squarespace."
+  ],
+  "validation": {
+    "status": "pending",
+    "checks": [
+      "awaiting public staging browser screenshots"
+    ]
+  },
+  "supersedes": "2026-06-30_homepage_v006",
+  "supersedesReason": "v006 public QA showed work-card surfaces still inheriting a higher-specificity gradient and side-border override.",
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 236087,
+      "sha256": "a7a9b53e284ec2e05d2a51a05c435b9edddd05aba7ff3af74fde0464a906caff"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 234665,
+      "sha256": "c6504f86b52e9d94fddb389f3d3f6867af54b99069af8b6c83e2728328e994fc"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 236087,
+      "sha256": "a7a9b53e284ec2e05d2a51a05c435b9edddd05aba7ff3af74fde0464a906caff"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 164206,
+      "sha256": "5d7edc823007fd61326ea73f91605370f2ccc9194353db6bd69638a466eec33c"
+    }
+  }
+}

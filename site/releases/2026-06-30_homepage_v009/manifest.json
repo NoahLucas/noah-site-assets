@@ -97,8 +97,54 @@
       "path": "snapshots/mobile-day-serve-white.png",
       "bytes": 231812,
       "sha256": "2190acace857d2776bd9539e27851f63c65ecf0b7d5085be681d78257256d5a7"
+    },
+    "reports.production-verification.json": {
+      "path": "reports/production-verification.json",
+      "bytes": 11408,
+      "sha256": "26563968991b08ddef302e6b4f052b464b23c6f6af32dfda675f2d8000f6a959"
+    },
+    "snapshots.production-desktop-night-top.png": {
+      "path": "snapshots/production-desktop-night-top.png",
+      "bytes": 865378,
+      "sha256": "f0edf61804b2ff8cb17e67489dc46cf18170eb4986378ac66b1faec7abf484a1"
+    },
+    "snapshots.production-mobile-night-top.png": {
+      "path": "snapshots/production-mobile-night-top.png",
+      "bytes": 219558,
+      "sha256": "78512dfd83162f4677d44eadfe865f1402904d5f5a9ca7ed39de2366519c83fd"
+    },
+    "snapshots.production-desktop-day-serve-white.png": {
+      "path": "snapshots/production-desktop-day-serve-white.png",
+      "bytes": 1028411,
+      "sha256": "fd2fb6a5478e1e4d3b965e835385f5e7d7b57d18235fcb0e162d5a468ae262df"
     }
   },
   "productionPromotedAt": "2026-06-30T19:59:23.126Z",
-  "productionPointer": "site/latest.json"
+  "productionPointer": "site/latest.json",
+  "productionValidation": {
+    "status": "pass",
+    "method": "Playwright via local Google Chrome",
+    "checkedAt": "2026-06-30T20:01:50.429Z",
+    "publicUrl": "https://noahlucas.com/",
+    "checks": {
+      "releaseMarker": true,
+      "bootstrapMarker": true,
+      "notBlank": true,
+      "footer": true,
+      "mobileFooterFits": true,
+      "thesis": true,
+      "heroDuplicatesRemoved": true,
+      "serveWhiteAsset": true,
+      "consoleHealth": true,
+      "screenshots": true
+    },
+    "ignoredHostWarnings": 18,
+    "actionableLogs": 0,
+    "report": "reports/production-verification.json",
+    "screenshots": [
+      "snapshots/production-desktop-night-top.png",
+      "snapshots/production-mobile-night-top.png",
+      "snapshots/production-desktop-day-serve-white.png"
+    ]
+  }
 }

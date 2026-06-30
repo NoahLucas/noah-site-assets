@@ -1,0 +1,371 @@
+{
+  "releaseId": "2026-06-30_homepage_v009",
+  "generatedAt": "2026-06-30T20:01:50.429Z",
+  "url": "https://noahlucas.com/",
+  "method": "Playwright via local Google Chrome",
+  "checks": {
+    "releaseMarker": true,
+    "bootstrapMarker": true,
+    "notBlank": true,
+    "footer": true,
+    "mobileFooterFits": true,
+    "thesis": true,
+    "heroDuplicatesRemoved": true,
+    "serveWhiteAsset": true,
+    "consoleHealth": true,
+    "screenshots": true
+  },
+  "logs": [
+    {
+      "page": "production-desktop-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-visitor_site_error_reporter"
+    },
+    {
+      "page": "production-desktop-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-cldr_resource_pack"
+    },
+    {
+      "page": "production-desktop-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors_stable"
+    },
+    {
+      "page": "production-desktop-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors"
+    },
+    {
+      "page": "production-desktop-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-user_account_core"
+    },
+    {
+      "page": "production-desktop-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-performance"
+    },
+    {
+      "page": "production-mobile-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-visitor_site_error_reporter"
+    },
+    {
+      "page": "production-mobile-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-cldr_resource_pack"
+    },
+    {
+      "page": "production-mobile-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors_stable"
+    },
+    {
+      "page": "production-mobile-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors"
+    },
+    {
+      "page": "production-mobile-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-user_account_core"
+    },
+    {
+      "page": "production-mobile-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-performance"
+    },
+    {
+      "page": "production-desktop-day-serve-white",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-visitor_site_error_reporter"
+    },
+    {
+      "page": "production-desktop-day-serve-white",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-cldr_resource_pack"
+    },
+    {
+      "page": "production-desktop-day-serve-white",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors_stable"
+    },
+    {
+      "page": "production-desktop-day-serve-white",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors"
+    },
+    {
+      "page": "production-desktop-day-serve-white",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-user_account_core"
+    },
+    {
+      "page": "production-desktop-day-serve-white",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-performance"
+    }
+  ],
+  "results": [
+    {
+      "label": "production-desktop-night-top",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "https://noahlucas.com/?theme=night&pane=big&qa=prod-desktop-1782849705046",
+      "screenshotPath": "snapshots/production-desktop-night-top.png",
+      "common": {
+        "href": "https://noahlucas.com/?theme=night&pane=big&qa=prod-desktop-1782849705046",
+        "title": "Noah Lucas — Product Executive",
+        "releaseId": "2026-06-30_homepage_v009",
+        "bootstrap": "v1",
+        "releaseMatches": true,
+        "notBlank": true,
+        "footerText": "PRODUCT EXECUTIVE | PHYSICAL AI, AUTONOMY & MISSION-CRITICAL DATA INFRASTRUCTURE",
+        "footerMatches": true,
+        "footerChildCount": 1,
+        "footerFitsViewport": true,
+        "thesisMatches": true,
+        "heroHasMovedRoleLine": false,
+        "heroHasMovedThesisLine": false,
+        "theme": "night",
+        "pane": "big"
+      },
+      "serve": null,
+      "logs": [
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-visitor_site_error_reporter"
+        },
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-cldr_resource_pack"
+        },
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-common_vendors_stable"
+        },
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-common_vendors"
+        },
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-user_account_core"
+        },
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-performance"
+        }
+      ]
+    },
+    {
+      "label": "production-mobile-night-top",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "isMobile": true
+      },
+      "url": "https://noahlucas.com/?theme=night&pane=big&qa=prod-mobile-1782849705046",
+      "screenshotPath": "snapshots/production-mobile-night-top.png",
+      "common": {
+        "href": "https://noahlucas.com/?theme=night&pane=big&qa=prod-mobile-1782849705046",
+        "title": "Noah Lucas — Product Executive",
+        "releaseId": "2026-06-30_homepage_v009",
+        "bootstrap": "v1",
+        "releaseMatches": true,
+        "notBlank": true,
+        "footerText": "PRODUCT EXECUTIVE | PHYSICAL AI, AUTONOMY & MISSION-CRITICAL DATA INFRASTRUCTURE",
+        "footerMatches": true,
+        "footerChildCount": 1,
+        "footerFitsViewport": true,
+        "thesisMatches": true,
+        "heroHasMovedRoleLine": false,
+        "heroHasMovedThesisLine": false,
+        "theme": "night",
+        "pane": "big"
+      },
+      "serve": null,
+      "logs": [
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-visitor_site_error_reporter"
+        },
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-cldr_resource_pack"
+        },
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-common_vendors_stable"
+        },
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-common_vendors"
+        },
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-user_account_core"
+        },
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-performance"
+        }
+      ]
+    },
+    {
+      "label": "production-desktop-day-serve-white",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "url": "https://noahlucas.com/?theme=day&pane=big&qa=prod-serve-1782849705046#work-serve",
+      "screenshotPath": "snapshots/production-desktop-day-serve-white.png",
+      "common": {
+        "href": "https://noahlucas.com/?theme=day&pane=big&qa=prod-serve-1782849705046#work-serve",
+        "title": "Noah Lucas — Product Executive",
+        "releaseId": "2026-06-30_homepage_v009",
+        "bootstrap": "v1",
+        "releaseMatches": true,
+        "notBlank": true,
+        "footerText": "PRODUCT EXECUTIVE | PHYSICAL AI, AUTONOMY & MISSION-CRITICAL DATA INFRASTRUCTURE",
+        "footerMatches": true,
+        "footerChildCount": 1,
+        "footerFitsViewport": true,
+        "thesisMatches": true,
+        "heroHasMovedRoleLine": false,
+        "heroHasMovedThesisLine": false,
+        "theme": "day",
+        "pane": "big"
+      },
+      "serve": {
+        "activeMediaSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/serve-robotics-white-v008.webp",
+        "usesWhiteServeAsset": true,
+        "activeMediaComplete": true,
+        "carouselBackground": "rgb(255, 255, 255)",
+        "objectFit": "contain"
+      },
+      "logs": [
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-visitor_site_error_reporter"
+        },
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-cldr_resource_pack"
+        },
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-common_vendors_stable"
+        },
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-common_vendors"
+        },
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-user_account_core"
+        },
+        {
+          "type": "warning",
+          "text": "yui: NOT loaded: squarespace-performance"
+        }
+      ]
+    }
+  ],
+  "ignoredHostWarnings": [
+    {
+      "page": "production-desktop-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-visitor_site_error_reporter"
+    },
+    {
+      "page": "production-desktop-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-cldr_resource_pack"
+    },
+    {
+      "page": "production-desktop-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors_stable"
+    },
+    {
+      "page": "production-desktop-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors"
+    },
+    {
+      "page": "production-desktop-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-user_account_core"
+    },
+    {
+      "page": "production-desktop-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-performance"
+    },
+    {
+      "page": "production-mobile-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-visitor_site_error_reporter"
+    },
+    {
+      "page": "production-mobile-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-cldr_resource_pack"
+    },
+    {
+      "page": "production-mobile-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors_stable"
+    },
+    {
+      "page": "production-mobile-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors"
+    },
+    {
+      "page": "production-mobile-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-user_account_core"
+    },
+    {
+      "page": "production-mobile-night-top",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-performance"
+    },
+    {
+      "page": "production-desktop-day-serve-white",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-visitor_site_error_reporter"
+    },
+    {
+      "page": "production-desktop-day-serve-white",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-cldr_resource_pack"
+    },
+    {
+      "page": "production-desktop-day-serve-white",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors_stable"
+    },
+    {
+      "page": "production-desktop-day-serve-white",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors"
+    },
+    {
+      "page": "production-desktop-day-serve-white",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-user_account_core"
+    },
+    {
+      "page": "production-desktop-day-serve-white",
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-performance"
+    }
+  ],
+  "actionableLogs": []
+}

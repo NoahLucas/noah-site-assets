@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-06-30_homepage_v006",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage compact controls and impact overlays",
+  "createdAt": "2026-06-30T19:23:45.169Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "home_v2_03_deploy_candidate.html"
+  },
+  "changeSummary": [
+    "Makes carousel tabs small and discreet.",
+    "Moves employer logo icons above Product Thesis.",
+    "Removes gradient treatment from section and work-card surfaces.",
+    "Uses clean one-pixel liquid-glass borders on updated surfaces.",
+    "Constrains the Serve Robotics GIF to a smaller one-to-one presentation on white media background.",
+    "Replaces hover impact tooltips with explicit Impact buttons that open media overlays.",
+    "Does not modify production Squarespace."
+  ],
+  "validation": {
+    "status": "pending",
+    "checks": [
+      "awaiting public staging browser screenshots"
+    ]
+  },
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 235490,
+      "sha256": "98251b8619ff691b3627001f5b1c2c83efcfba46788d3b7c9b719ee3ab6a2e46"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 234068,
+      "sha256": "59982a7f8689a916238c7b8f4a030c1f7c4b63cfcebc111c22f80e7d19da0a8a"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 235490,
+      "sha256": "98251b8619ff691b3627001f5b1c2c83efcfba46788d3b7c9b719ee3ab6a2e46"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 163609,
+      "sha256": "29c1d241ce68120ee24648281c683ef730ac842d22ae4e44f78ee92c4f6f7175"
+    }
+  }
+}

@@ -1,20 +1,20 @@
 {
   "schemaVersion": "site-publisher-staging-v1",
   "environment": "staging",
-  "releaseId": "2026-06-30_homepage_v005",
+  "releaseId": "2026-06-30_homepage_v006",
   "projectId": "noahlucas-homepage",
-  "title": "Noah Lucas homepage no-bars chrome and alignment pass",
+  "title": "Noah Lucas homepage compact controls and impact overlays",
   "target": {
     "platform": "squarespace",
     "siteVersion": "7.1",
     "pageSlug": "/",
-    "publishMode": "guided-code-block"
+    "publishMode": "external-assets-pointer"
   },
   "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
-  "manifestUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v005/manifest.json",
-  "reviewUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v005/preview/index.html",
-  "workerReviewUrl": "https://noah-site-staging.silly-sesame.workers.dev/site/releases/2026-06-30_homepage_v005/preview/index.html",
-  "publishedAt": "2026-06-30T15:56:16.086Z",
+  "manifestUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v006/manifest.json",
+  "reviewUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v006/preview/index.html",
+  "workerReviewUrl": "https://noah-site-staging.silly-sesame.workers.dev/site/releases/2026-06-30_homepage_v006/preview/index.html",
+  "publishedAt": "2026-06-30T19:23:45.169Z",
   "liveSquarespaceModified": false,
   "productionPromoted": false
 }

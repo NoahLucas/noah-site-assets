@@ -24,9 +24,22 @@
     "Does not modify production Squarespace."
   ],
   "validation": {
-    "status": "pending",
+    "status": "pass",
     "checks": [
-      "awaiting public staging browser screenshots"
+      "page_identity: pass - Noah Lucas — Product Executive",
+      "console_health: pass - No relevant warn/error logs captured during desktop/mobile pass.",
+      "employer_icons_above_product_thesis: pass - #experience top is above #summary top.",
+      "carousel_tabs_discreet: pass - Carousel dot button computed 12px by 12px.",
+      "no_work_card_case_study_ctas: pass - 0 Case Study labels inside .work-card-actions.",
+      "impact_buttons_present: pass - 7 data-impact-trigger buttons present.",
+      "hover_tooltips_removed: pass - 0 data-resume-tooltip attributes present.",
+      "gradients_removed_from_updated_surfaces: pass - Computed background-image is none for summary section and first work card.",
+      "one_pixel_clean_borders: pass - Feed and first work card computed top/right border widths are 1px.",
+      "serve_gif_contained: pass - Serve active GIF computed object-fit contain, 360x326.8 inside 861.3x430 white media field.",
+      "impact_overlay_desktop: pass - Serve Impact click opens overlay, aria-hidden=false, aria-expanded=true.",
+      "impact_overlay_mobile: pass - Serve Impact click opens overlay on 390x844 viewport.",
+      "no_local_path_leaks: pass - Publish and preview artifacts contain no file:// or /Users/noah references.",
+      "production_untouched: pass - Only staging/latest.json was updated; site/latest.json remains on the previous production pointer."
     ]
   },
   "supersedes": "2026-06-30_homepage_v006",
@@ -48,6 +61,41 @@
       "path": "publish/full-page.html",
       "bytes": 236087,
       "sha256": "a7a9b53e284ec2e05d2a51a05c435b9edddd05aba7ff3af74fde0464a906caff"
+    },
+    "reports.browser-frame-report.json": {
+      "path": "reports/browser-frame-report.json",
+      "bytes": 2687,
+      "sha256": "5343a4119c934b820bff59dd2bd4f933f9ed001a253e1bb6507fd7b482d53be6"
+    },
+    "snapshots.desktop-night-top.png": {
+      "path": "snapshots/desktop-night-top.png",
+      "bytes": 94900,
+      "sha256": "8afaedfc156e02c9e48114faa6428d77dd955642a78111f76279f0834459314e"
+    },
+    "snapshots.desktop-night-serve-fit.png": {
+      "path": "snapshots/desktop-night-serve-fit.png",
+      "bytes": 101859,
+      "sha256": "a95e3680fdd181b741483ba6b94bcb52ca3cb023a6a47605dbf1c0ef7627d467"
+    },
+    "snapshots.desktop-night-serve-impact.png": {
+      "path": "snapshots/desktop-night-serve-impact.png",
+      "bytes": 121550,
+      "sha256": "a2376fd4a8cc31f899934ee45efc1e2ed80b3e62b1671240917fffa4ed7ddfb6"
+    },
+    "snapshots.desktop-day-serve-fit.png": {
+      "path": "snapshots/desktop-day-serve-fit.png",
+      "bytes": 108345,
+      "sha256": "78b076d2cb3210b33ecbaeae1e696db7fc5100ca423c17098ac35e741ce2faa9"
+    },
+    "snapshots.mobile-night-top.png": {
+      "path": "snapshots/mobile-night-top.png",
+      "bytes": 46680,
+      "sha256": "b89fa0b457bf2a0c5d5bd8efe3160771577740077be3435f415f89395aac0358"
+    },
+    "snapshots.mobile-night-serve-impact.png": {
+      "path": "snapshots/mobile-night-serve-impact.png",
+      "bytes": 44048,
+      "sha256": "470be4eede9f80cd80efedaaa83f41e35cb7f3822fe905b2fbab043a22800ade"
     },
     "source.home_v2_03_deploy_candidate.html": {
       "path": "source/home_v2_03_deploy_candidate.html",

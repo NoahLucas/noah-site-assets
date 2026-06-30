@@ -1,0 +1,75 @@
+{
+  "generatedAt": "2026-06-30T19:31:32.615Z",
+  "browserPath": "in-app Browser plugin against public GitHub Pages staging preview",
+  "reviewUrl": "https://noahlucas.github.io/noah-site-assets/site/releases/2026-06-30_homepage_v007/preview/index.html",
+  "checks": {
+    "page_identity": {
+      "pass": true,
+      "detail": "Noah Lucas — Product Executive"
+    },
+    "console_health": {
+      "pass": true,
+      "detail": "No relevant warn/error logs captured during desktop/mobile pass."
+    },
+    "employer_icons_above_product_thesis": {
+      "pass": true,
+      "detail": "#experience top is above #summary top."
+    },
+    "carousel_tabs_discreet": {
+      "pass": true,
+      "detail": "Carousel dot button computed 12px by 12px."
+    },
+    "no_work_card_case_study_ctas": {
+      "pass": true,
+      "detail": "0 Case Study labels inside .work-card-actions."
+    },
+    "impact_buttons_present": {
+      "pass": true,
+      "detail": "7 data-impact-trigger buttons present."
+    },
+    "hover_tooltips_removed": {
+      "pass": true,
+      "detail": "0 data-resume-tooltip attributes present."
+    },
+    "gradients_removed_from_updated_surfaces": {
+      "pass": true,
+      "detail": "Computed background-image is none for summary section and first work card."
+    },
+    "one_pixel_clean_borders": {
+      "pass": true,
+      "detail": "Feed and first work card computed top/right border widths are 1px."
+    },
+    "serve_gif_contained": {
+      "pass": true,
+      "detail": "Serve active GIF computed object-fit contain, 360x326.8 inside 861.3x430 white media field."
+    },
+    "impact_overlay_desktop": {
+      "pass": true,
+      "detail": "Serve Impact click opens overlay, aria-hidden=false, aria-expanded=true."
+    },
+    "impact_overlay_mobile": {
+      "pass": true,
+      "detail": "Serve Impact click opens overlay on 390x844 viewport."
+    },
+    "no_local_path_leaks": {
+      "pass": true,
+      "detail": "Publish and preview artifacts contain no file:// or /Users/noah references."
+    },
+    "production_untouched": {
+      "pass": true,
+      "detail": "Only staging/latest.json was updated; site/latest.json remains on the previous production pointer."
+    }
+  },
+  "screenshots": [
+    "snapshots/desktop-night-top.png",
+    "snapshots/desktop-night-serve-fit.png",
+    "snapshots/desktop-night-serve-impact.png",
+    "snapshots/desktop-day-serve-fit.png",
+    "snapshots/mobile-night-top.png",
+    "snapshots/mobile-night-serve-impact.png"
+  ],
+  "supersedes": {
+    "releaseId": "2026-06-30_homepage_v006",
+    "reason": "v006 public QA showed work-card surfaces still inheriting a higher-specificity gradient and side-border override."
+  }
+}

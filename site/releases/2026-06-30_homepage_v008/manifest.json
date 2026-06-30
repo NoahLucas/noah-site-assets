@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-06-30_homepage_v008",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage footer thesis and white Serve media",
+  "createdAt": "2026-06-30T19:43:41.477Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "home_v2_03_deploy_candidate.html"
+  },
+  "changeSummary": [
+    "Moves the product-category line into a single centered footer line with no other footer text.",
+    "Moves the 15+ years proof line into Product Thesis copy.",
+    "Removes the moved product-category and proof lines from the hero header.",
+    "Uses an optimized white-matte hosted Serve Robotics animation asset.",
+    "Approved for production promotion after validation."
+  ],
+  "validation": {
+    "status": "pending",
+    "checks": [
+      "awaiting public staging browser screenshots"
+    ]
+  },
+  "supersedes": "2026-06-30_homepage_v007",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 236243,
+      "sha256": "4e93069b4a080c45375ac473fad88dd902655f034f7a55bec97fc5c52704cdde"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 234821,
+      "sha256": "630470337476e12a71589ac06246992c855e99168059107b07266a0153094abf"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 236243,
+      "sha256": "4e93069b4a080c45375ac473fad88dd902655f034f7a55bec97fc5c52704cdde"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 164362,
+      "sha256": "85fda08d061b4e15348f33eb80657ee4411ba5c4171eda02684c9c11342c83d3"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+<div id="nl-site-publisher-root" data-site-publisher-bootstrap="v1" data-latest-url="https://noahlucas.github.io/noah-site-assets/site/latest.json">
+  <div style="min-height:100vh;display:grid;place-items:center;background:#050607;color:#f7f4ef;font:600 12px/1.4 system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:.18em;text-transform:uppercase;">Loading Noah Lucas</div>
+</div>
+<script data-site-publisher-bootstrap="v1">
+(() => {
+  const root = document.getElementById('nl-site-publisher-root');
+  if (!root) return;
+  const latestUrl = root.dataset.latestUrl;
+  const timeoutMs = 12000;
+  const withTimeout = (url) => {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    return fetch(url, { cache: 'no-store', signal: controller.signal })
+      .finally(() => clearTimeout(timer));
+  };
+  const resolveUrl = (base, relativePath) => new URL(relativePath, base.endsWith('/') ? base : `${base}/`).toString();
+  const activateScripts = (scope) => {
+    for (const oldScript of Array.from(scope.querySelectorAll('script'))) {
+      const nextScript = document.createElement('script');
+      for (const attr of Array.from(oldScript.attributes)) nextScript.setAttribute(attr.name, attr.value);
+      nextScript.text = oldScript.textContent || '';
+      oldScript.replaceWith(nextScript);
+    }
+  };
+  const showError = (message) => {
+    root.innerHTML = '<main style="min-height:100vh;display:grid;place-items:center;background:#050607;color:#f7f4ef;padding:32px;text-align:center;font:500 15px/1.5 system-ui,-apple-system,BlinkMacSystemFont,\'Segoe UI\',sans-serif;"><div><strong style="display:block;letter-spacing:.16em;text-transform:uppercase;font-size:12px;margin-bottom:12px;">Site loading error</strong><span></span></div></main>';
+    const span = root.querySelector('span');
+    if (span) span.textContent = message;
+  };
+  withTimeout(latestUrl)
+    .then((response) => {
+      if (!response.ok) throw new Error(`latest.json ${response.status}`);
+      return response.json();
+    })
+    .then((latest) => {
+      if (!latest || latest.schemaVersion !== 'site-publisher-latest-v1') throw new Error('invalid latest.json');
+      if (!latest.releaseId || !latest.releasePath || !latest.assetBaseUrl) throw new Error('incomplete latest.json');
+      const codeUrl = resolveUrl(latest.assetBaseUrl, `${latest.releasePath}publish/code-block.html`);
+      root.dataset.releaseId = latest.releaseId;
+      root.dataset.codeUrl = codeUrl;
+      return withTimeout(codeUrl);
+    })
+    .then((response) => {
+      if (!response.ok) throw new Error(`code block ${response.status}`);
+      return response.text();
+    })
+    .then((html) => {
+      root.innerHTML = html;
+      activateScripts(root);
+      document.documentElement.dataset.sitePublisherBootstrap = 'v1';
+      document.documentElement.dataset.sitePublisherReleaseId = root.dataset.releaseId || '';
+    })
+    .catch((error) => {
+      console.error('[site-publisher-bootstrap]', error);
+      showError('The website release could not load. Refresh the page or restore the previous Squarespace Code Block release.');
+    });
+})();
+</script>

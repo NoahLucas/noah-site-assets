@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "site-publisher-latest-v1",
+  "releaseId": "2026-06-30_homepage_v005",
+  "releasePath": "releases/2026-06-30_homepage_v005/",
+  "manifest": "releases/2026-06-30_homepage_v005/manifest.json",
+  "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+  "promotedAt": "2026-06-30T17:11:42.721Z",
+  "previous": null,
+  "liveSquarespaceModified": false
+}

@@ -51,7 +51,7 @@
   "supersedesReason": "v008 staging QA showed the long footer line clipped on mobile.",
   "approvedForProduction": true,
   "liveSquarespaceModified": false,
-  "productionPromoted": false,
+  "productionPromoted": true,
   "artifacts": {
     "preview.index.html": {
       "path": "preview/index.html",
@@ -98,5 +98,7 @@
       "bytes": 231812,
       "sha256": "2190acace857d2776bd9539e27851f63c65ecf0b7d5085be681d78257256d5a7"
     }
-  }
+  },
+  "productionPromotedAt": "2026-06-30T19:59:23.126Z",
+  "productionPointer": "site/latest.json"
 }

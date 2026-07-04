@@ -1,0 +1,99 @@
+{
+  "releaseId": "2026-07-04_homepage_v015",
+  "checkedAt": "2026-07-04T04:30:12.534Z",
+  "method": "Headless Google Chrome DevTools Protocol against noahlucas.com and GitHub Pages pointer",
+  "latest": {
+    "schemaVersion": "site-publisher-latest-v1",
+    "releaseId": "2026-07-04_homepage_v015",
+    "releasePath": "releases/2026-07-04_homepage_v015/",
+    "manifest": "releases/2026-07-04_homepage_v015/manifest.json",
+    "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+    "promotedAt": "2026-07-04T04:19:31.855Z",
+    "previous": {
+      "schemaVersion": "site-publisher-latest-v1",
+      "releaseId": "2026-06-30_homepage_v014",
+      "releasePath": "releases/2026-06-30_homepage_v014/",
+      "manifest": "releases/2026-06-30_homepage_v014/manifest.json",
+      "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+      "promotedAt": "2026-06-30T21:17:17.407Z",
+      "previous": {
+        "schemaVersion": "site-publisher-latest-v1",
+        "releaseId": "2026-06-30_homepage_v009",
+        "releasePath": "releases/2026-06-30_homepage_v009/",
+        "manifest": "releases/2026-06-30_homepage_v009/manifest.json",
+        "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+        "promotedAt": "2026-06-30T19:59:23.126Z",
+        "previous": {
+          "schemaVersion": "site-publisher-latest-v1",
+          "releaseId": "2026-06-30_homepage_v005",
+          "releasePath": "releases/2026-06-30_homepage_v005/",
+          "manifest": "releases/2026-06-30_homepage_v005/manifest.json",
+          "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+          "promotedAt": "2026-06-30T17:11:42.721Z",
+          "previous": null,
+          "liveSquarespaceModified": false
+        },
+        "liveSquarespaceModified": false
+      },
+      "liveSquarespaceModified": false
+    },
+    "liveSquarespaceModified": false
+  },
+  "checks": {
+    "pointerReleaseV015": true,
+    "dayReleaseV015": true,
+    "nightReleaseV015": true,
+    "dayUsesDayPhoto": true,
+    "nightUsesEveningPhoto": true,
+    "heroFiltersRemoved": true,
+    "serveWhiteAssetRemoved": true,
+    "serveOverlayRemoved": true,
+    "capitalIqPhotoSwapped": true,
+    "capitalIqCityscapeCentered": true,
+    "capitalIqFilterRemoved": true,
+    "actionableConsoleErrors": 0,
+    "allPassed": true
+  },
+  "day": {
+    "metrics": {
+      "url": "https://noahlucas.com/?theme=day&verify=1783139388928",
+      "title": "Noah Lucas — Product Executive",
+      "release": "2026-07-04_homepage_v015",
+      "theme": "day",
+      "heroSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r03511-fixed-bg-5120.jpeg",
+      "heroNaturalWidth": 756,
+      "heroFilter": "none",
+      "serveSrc": "https://images.squarespace-cdn.com/content/v1/689009976de9606dcbc26ec2/2939c081-99da-4d0f-a281-0d4a8b6da58e/Serve_robot_05%2B1.jpg?format=2500w",
+      "serveFilter": "none",
+      "serveAfterOpacity": "0",
+      "capitalSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_cinematic/work-capitaliq-skyline-v015.jpeg",
+      "capitalNaturalWidth": 0,
+      "capitalNaturalHeight": 0,
+      "capitalObjectPosition": "50% 86%",
+      "capitalFilter": "none",
+      "heading": "Noah Lucas"
+    },
+    "actionableErrors": []
+  },
+  "night": {
+    "metrics": {
+      "url": "https://noahlucas.com/?theme=night&verify=1783139388928",
+      "title": "Noah Lucas — Product Executive",
+      "release": "2026-07-04_homepage_v015",
+      "theme": "night",
+      "heroSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r03511-yosemite-evening-clean-5120.jpeg",
+      "heroNaturalWidth": 756,
+      "heroFilter": "none",
+      "serveSrc": "https://images.squarespace-cdn.com/content/v1/689009976de9606dcbc26ec2/2939c081-99da-4d0f-a281-0d4a8b6da58e/Serve_robot_05%2B1.jpg?format=2500w",
+      "serveFilter": "none",
+      "serveAfterOpacity": "0",
+      "capitalSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_cinematic/work-capitaliq-skyline-v015.jpeg",
+      "capitalNaturalWidth": 0,
+      "capitalNaturalHeight": 0,
+      "capitalObjectPosition": "50% 86%",
+      "capitalFilter": "none",
+      "heading": "Noah Lucas"
+    },
+    "actionableErrors": []
+  }
+}

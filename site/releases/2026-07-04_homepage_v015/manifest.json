@@ -123,14 +123,28 @@
       "path": "assets/v2_03_cinematic/work-capitaliq-skyline-v015.jpeg",
       "bytes": 1090518,
       "sha256": "16a1573468ff870917e7d0b170fdebb9727cff2eab51a84572f22e3ab330db7a"
+    },
+    "reports.public-browser-report.json": {
+      "path": "reports/public-browser-report.json",
+      "bytes": 4287,
+      "sha256": "558b90ea3246fbd5836ece185c57076f82d2c67b86f8240eb6dbcb521238aec1"
     }
   },
   "productionPromotedAt": "2026-07-04T04:19:31.855Z",
   "productionPointer": "site/latest.json",
   "productionValidation": {
-    "status": "pending-public-verification",
-    "method": "Public verification runs after the asset repo is pushed and GitHub Pages serves the updated pointer.",
-    "checkedAt": "2026-07-04T04:25:03.151Z",
-    "report": "reports/browser-frame-report.json"
+    "status": "pass",
+    "method": "Headless Google Chrome DevTools Protocol against noahlucas.com and GitHub Pages pointer",
+    "checkedAt": "2026-07-04T04:30:12.534Z",
+    "report": "reports/public-browser-report.json",
+    "checks": [
+      "GitHub Pages latest pointer served v015",
+      "noahlucas.com day URL rendered v015 with daytime Yosemite photo",
+      "noahlucas.com night URL rendered v015 with evening Yosemite photo",
+      "hero and work media computed filter:none on the public page",
+      "Serve media used the real delivery robot photo with no overlay",
+      "Capital IQ used the supplied skyline photo with object-position 50% 86%",
+      "no actionable browser console errors"
+    ]
   }
 }

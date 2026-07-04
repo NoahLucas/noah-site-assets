@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-04_homepage_v016",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v016 moonlit hero, optical glass, and Serve animation",
+  "createdAt": "2026-07-04T05:26:07.113Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "home_v2_03_deploy_candidate.html"
+  },
+  "changeSummary": [
+    "Uses the original Sony moonlit Yosemite photo for the hero image instead of the generated faded evening derivative.",
+    "Removes full-page wash layers and keeps hero media unfiltered so the photograph renders directly.",
+    "Sets the theme fade base to white for day and black for night.",
+    "Uses one optical gray text token in both themes, with luminous day glass and dark night glass creating the perceived contrast shift.",
+    "Makes the day treatment transparent liquid glass rather than a flat white surface.",
+    "Restores the Serve Robotics animated robot as a transparent animated WebP without the white media layer.",
+    "Keeps the Capital IQ skyline media and centered cityscape crop from v015.",
+    "Keeps the release behind the external-assets pointer contract; live Squarespace editor is not modified."
+  ],
+  "validation": {
+    "status": "pass",
+    "checkedAt": "2026-07-04T05:24:47.327Z",
+    "method": "Headless Google Chrome DevTools Protocol against local v016 preview temp file",
+    "checks": [
+      "hero image does not reference the generated yosemite-evening-clean derivative",
+      "hero image computed filter:none and opacity:1 in day and night themes",
+      "day fade is #ffffff and night fade is #000000",
+      "same rgb(118, 118, 118) optical gray is applied to primary text in both themes",
+      "body pseudo wash layers are disabled",
+      "Serve media uses serve-robotics-transparent-v016.webp and loads after scroll",
+      "Serve media container remains transparent with no white layer",
+      "desktop day/night and Serve screenshots rendered nonblank"
+    ],
+    "report": "reports/browser-frame-report.json"
+  },
+  "supersedes": "2026-07-04_homepage_v015",
+  "supersedesReason": "Fixes the faded dark-mode hero, removes the Serve white layer, and tunes the day/night optical glass system.",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": true,
+  "productionPromotedAt": "2026-07-04T05:26:07.113Z",
+  "productionPointer": "site/latest.json",
+  "productionValidation": {
+    "status": "pending",
+    "reason": "Awaiting GitHub Pages propagation after the v016 pointer is pushed."
+  },
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 253812,
+      "sha256": "a175f14b1d9cde313aea65a65a0d7710ff4061cfe5bdb64bb6b86ca55e649cf7"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 251582,
+      "sha256": "f58f764e7d67097d4316a739a851c229f1bd4539aa20c9c040403a64973cbe48"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 253812,
+      "sha256": "a175f14b1d9cde313aea65a65a0d7710ff4061cfe5bdb64bb6b86ca55e649cf7"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 182514,
+      "sha256": "3cfc68162889528d58372771fe4ea5b14adf0c8891f13a12a88586d8ca5d041a"
+    },
+    "reports.browser-frame-report.json": {
+      "path": "reports/browser-frame-report.json",
+      "bytes": 3067,
+      "sha256": "4a1074cd00fbd502a570b2f073b1c93d78b4c5109a4eafeae194b9b06fb29147"
+    },
+    "reports.capitaliq-crop-report.json": {
+      "path": "reports/capitaliq-crop-report.json",
+      "bytes": 605,
+      "sha256": "71611b99f8f21079d31878dd4d795ce8afd5b507c5a7aa002f091ced062e4414"
+    },
+    "snapshots.desktop-day-optical-v016.png": {
+      "path": "snapshots/desktop-day-optical-v016.png",
+      "bytes": 1265225,
+      "sha256": "80b75aabf7ea6c522531204e8f1e7099dd2e8e977258c01ae5f8d1f37bde81a2"
+    },
+    "snapshots.desktop-night-optical-v016.png": {
+      "path": "snapshots/desktop-night-optical-v016.png",
+      "bytes": 1220670,
+      "sha256": "174a38a2f76b2d264287e2227d7cc368c0dc4eae12e3c26322c0db2b82156f16"
+    },
+    "snapshots.serve-night-v016.png": {
+      "path": "snapshots/serve-night-v016.png",
+      "bytes": 1304367,
+      "sha256": "397d53f5e193510376f17338733e5c9105baab323eb34b13d3c692fb6699fb38"
+    },
+    "snapshots.serve-transparent-frame-v016.png": {
+      "path": "snapshots/serve-transparent-frame-v016.png",
+      "bytes": 43890,
+      "sha256": "e7f647ed97b6aecc78aaf0c7f164b714dae53199e746b137aad142562ad14ef9"
+    },
+    "snapshots.serve-transparent-floodfill-v016.png": {
+      "path": "snapshots/serve-transparent-floodfill-v016.png",
+      "bytes": 41371,
+      "sha256": "b7ae6b693bda4a82599cfae965815b2cc63fef111349cda3e92d6ae7918e5135"
+    },
+    "snapshots.serve-transparent-dark-composite-v016.png": {
+      "path": "snapshots/serve-transparent-dark-composite-v016.png",
+      "bytes": 37340,
+      "sha256": "c892f3148330bed1b6d942732e2b88f717abfa366bf628e1a4f4b6e61e34c793"
+    },
+    "asset.moonlit-yosemite": {
+      "path": "assets/v2_03_backgrounds/a7r03511-fixed-bg-5120.jpeg",
+      "bytes": 4428931,
+      "sha256": "c16272627011a6fcd063f13c3351bf99a96316bc1368747b58cb5fad2460e5aa"
+    },
+    "asset.serve-transparent-animation": {
+      "path": "assets/serve-robotics-transparent-v016.webp",
+      "bytes": 516512,
+      "sha256": "ea187407c6baae2247aac09e72dc6731f08d2d8e7166a4b2a2902b8430ed0cd6"
+    },
+    "asset.capitaliq-skyline": {
+      "path": "assets/v2_03_cinematic/work-capitaliq-skyline-v015.jpeg",
+      "bytes": 1090518,
+      "sha256": "16a1573468ff870917e7d0b170fdebb9727cff2eab51a84572f22e3ab330db7a"
+    }
+  }
+}

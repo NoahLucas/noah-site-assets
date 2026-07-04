@@ -1,15 +1,15 @@
 {
   "schemaVersion": "site-publisher-staging-v1",
   "environment": "staging",
-  "releaseId": "2026-07-04_homepage_v015",
+  "releaseId": "2026-07-04_homepage_v016",
   "projectId": "noahlucas-homepage",
-  "title": "Noah Lucas homepage day/night image and media cleanup",
-  "releasePath": "releases/2026-07-04_homepage_v015/",
-  "manifest": "releases/2026-07-04_homepage_v015/manifest.json",
-  "preview": "releases/2026-07-04_homepage_v015/preview/index.html",
+  "title": "Noah Lucas homepage v016 moonlit hero, optical glass, and Serve animation",
+  "releasePath": "releases/2026-07-04_homepage_v016/",
+  "manifest": "releases/2026-07-04_homepage_v016/manifest.json",
+  "preview": "releases/2026-07-04_homepage_v016/preview/index.html",
   "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
-  "updatedAt": "2026-07-04T04:13:48.548Z",
+  "updatedAt": "2026-07-04T05:26:07.113Z",
   "productionPromoted": true,
   "liveSquarespaceModified": false,
-  "productionPromotedAt": "2026-07-04T04:19:31.855Z"
+  "productionPromotedAt": "2026-07-04T05:26:07.113Z"
 }

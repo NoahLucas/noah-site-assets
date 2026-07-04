@@ -48,8 +48,21 @@
   "productionPromotedAt": "2026-07-04T05:26:07.113Z",
   "productionPointer": "site/latest.json",
   "productionValidation": {
-    "status": "pending",
-    "reason": "Awaiting GitHub Pages propagation after the v016 pointer is pushed."
+    "status": "pass",
+    "method": "Headless Google Chrome DevTools Protocol against noahlucas.com and GitHub Pages latest pointer",
+    "checkedAt": "2026-07-04T05:31:53.882Z",
+    "report": "reports/public-browser-report.json",
+    "checks": [
+      "GitHub Pages latest pointer served v016",
+      "noahlucas.com rendered the v016 release in day and night themes",
+      "public hero image used a7r03511-fixed-bg-5120.jpeg with computed filter:none and opacity:1",
+      "public day fade was #ffffff and night fade was #000000",
+      "public primary text used the same rgb(118, 118, 118) optical gray in both themes",
+      "public page had no generated yosemite-evening-clean reference",
+      "public Serve media used serve-robotics-transparent-v016.webp and loaded after scroll",
+      "public Serve media container was transparent with no white layer",
+      "public body pseudo wash layers were disabled"
+    ]
   },
   "artifacts": {
     "preview.index.html": {
@@ -126,6 +139,26 @@
       "path": "assets/v2_03_cinematic/work-capitaliq-skyline-v015.jpeg",
       "bytes": 1090518,
       "sha256": "16a1573468ff870917e7d0b170fdebb9727cff2eab51a84572f22e3ab330db7a"
+    },
+    "reports.public-browser-report.json": {
+      "path": "reports/public-browser-report.json",
+      "bytes": 56608,
+      "sha256": "c5545c4d934e79f6bdfa9b3327387da32af95d3bda077e6e92ad9bd2722d2dd0"
+    },
+    "snapshots.public-desktop-day-optical-v016.png": {
+      "path": "snapshots/public-desktop-day-optical-v016.png",
+      "bytes": 1348609,
+      "sha256": "b628efd2cbb6cb265db9b6c7ca8feb269469febe035353154a1c05c62a38368b"
+    },
+    "snapshots.public-desktop-night-optical-v016.png": {
+      "path": "snapshots/public-desktop-night-optical-v016.png",
+      "bytes": 1324527,
+      "sha256": "2663876da41668a27314fba603a384e036a5961e65fa91538a72b3db4e4d3952"
+    },
+    "snapshots.public-serve-night-v016.png": {
+      "path": "snapshots/public-serve-night-v016.png",
+      "bytes": 1288894,
+      "sha256": "1f60857a19c19a0bdda2e8f6cb467b32220e0c704e13a4a84f76ce58a8c2db22"
     }
   }
 }

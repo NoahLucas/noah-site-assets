@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-04_homepage_v015",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage day/night image and media cleanup",
+  "createdAt": "2026-07-04T04:13:48.548Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "home_v2_03_deploy_candidate.html"
+  },
+  "changeSummary": [
+    "Uses the original Yosemite daytime photo in day mode and a matching evening Yosemite photo in night mode.",
+    "Removes filters from hero and work-card media so images render directly without brightness, contrast, saturation, or tint adjustments.",
+    "Removes the Serve Robotics white standalone robot media layer and restores the real delivery robot photo as the active media.",
+    "Replaces the S&P Capital IQ media with the supplied Central Park skyline photo.",
+    "Centers the NYC skyline inside the Capital IQ media crop.",
+    "Keeps the release behind the external-assets pointer contract; live Squarespace editor is not modified.",
+    "Promoted through the external-assets production pointer after local Chrome QA passed."
+  ],
+  "validation": {
+    "status": "pass",
+    "checkedAt": "2026-07-04T04:25:03.151Z",
+    "checks": [
+      "day theme used the daytime Yosemite photo",
+      "night theme used the matching evening Yosemite photo",
+      "hero and work media computed filter:none",
+      "Serve media used the real delivery robot photo and had no overlay pseudo-layer",
+      "Capital IQ media used the supplied skyline photo",
+      "Capital IQ media centers the NYC cityscape in the card crop",
+      "desktop and mobile screenshots rendered nonblank",
+      "no actionable browser console errors"
+    ],
+    "report": "reports/browser-frame-report.json"
+  },
+  "supersedes": "2026-06-30_homepage_v014",
+  "supersedesReason": "Fixes day/night image pairing, removes image filters and white media overlays, and updates Capital IQ media.",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": true,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 247126,
+      "sha256": "e620e5ae4bdbc2840445b3775b2ff7dbc6cf43a38e0d88ab6af7583206dee720"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 244869,
+      "sha256": "3b378170815c66f3e0f3b3b76ae8d7f6123ceaf32377e5263df901ee56ec4ebd"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 247126,
+      "sha256": "e620e5ae4bdbc2840445b3775b2ff7dbc6cf43a38e0d88ab6af7583206dee720"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 175829,
+      "sha256": "91219a66a70d7f530c44b3da8ed4dd73e8a5426ea3344d6252a71cc52a302dd1"
+    },
+    "reports.browser-frame-report.json": {
+      "path": "reports/browser-frame-report.json",
+      "bytes": 5366,
+      "sha256": "ddb972d74169714e7909102fdb30a899ea2e63bd64811b3ad7a937b0d31b4172"
+    },
+    "reports.capitaliq-crop-report.json": {
+      "path": "reports/capitaliq-crop-report.json",
+      "bytes": 605,
+      "sha256": "71611b99f8f21079d31878dd4d795ce8afd5b507c5a7aa002f091ced062e4414"
+    },
+    "snapshots.desktop-day-top-v015.png": {
+      "path": "snapshots/desktop-day-top-v015.png",
+      "bytes": 1645751,
+      "sha256": "8d1145782e375c2aa23525e725f9e74180810dd104bbb96c315bb995ec9ae510"
+    },
+    "snapshots.desktop-night-top-v015.png": {
+      "path": "snapshots/desktop-night-top-v015.png",
+      "bytes": 1168486,
+      "sha256": "b63a28f0d3bf741ac49fbd8af1372995f876c98bb5b814a55c4386d4a351ce7d"
+    },
+    "snapshots.mobile-day-top-v015.png": {
+      "path": "snapshots/mobile-day-top-v015.png",
+      "bytes": 1164718,
+      "sha256": "0edde38f1e2d282154fe2d20e82832dfd20f076a4be6cf2b6ec39a1f29b84213"
+    },
+    "snapshots.mobile-night-top-v015.png": {
+      "path": "snapshots/mobile-night-top-v015.png",
+      "bytes": 954122,
+      "sha256": "0c91929a38eeacc95172a8b957a31966092c6154c409a95e60f9c74fd74851b7"
+    },
+    "snapshots.serve-media-v015.png": {
+      "path": "snapshots/serve-media-v015.png",
+      "bytes": 1079291,
+      "sha256": "3f937b5181dba61de7e0fd9dee63d51c3820c1de49d7ace63a1ec97fad9f5971"
+    },
+    "snapshots.capitaliq-media-v015.png": {
+      "path": "snapshots/capitaliq-media-v015.png",
+      "bytes": 1225066,
+      "sha256": "bc9f66541cea0a477acb52891c5949ee9d8e95da4a6cc3f1fdbcaa01d470ab7c"
+    },
+    "snapshots.capitaliq-cityscape-centered-v015.png": {
+      "path": "snapshots/capitaliq-cityscape-centered-v015.png",
+      "bytes": 1225062,
+      "sha256": "0d34d45fd10d2ef0f72b7e79476532517af94543720870608baff4f162a103be"
+    },
+    "asset.day-yosemite": {
+      "path": "assets/v2_03_backgrounds/a7r03511-fixed-bg-5120.jpeg",
+      "bytes": 4428931,
+      "sha256": "c16272627011a6fcd063f13c3351bf99a96316bc1368747b58cb5fad2460e5aa"
+    },
+    "asset.evening-yosemite": {
+      "path": "assets/v2_03_backgrounds/a7r03511-yosemite-evening-clean-5120.jpeg",
+      "bytes": 1649271,
+      "sha256": "db5dc467576162d1d50afd47595309b6233500532452a48f496452977aa3460f"
+    },
+    "asset.capitaliq-skyline": {
+      "path": "assets/v2_03_cinematic/work-capitaliq-skyline-v015.jpeg",
+      "bytes": 1090518,
+      "sha256": "16a1573468ff870917e7d0b170fdebb9727cff2eab51a84572f22e3ab330db7a"
+    }
+  },
+  "productionPromotedAt": "2026-07-04T04:19:31.855Z",
+  "productionPointer": "site/latest.json",
+  "productionValidation": {
+    "status": "pending-public-verification",
+    "method": "Public verification runs after the asset repo is pushed and GitHub Pages serves the updated pointer.",
+    "checkedAt": "2026-07-04T04:25:03.151Z",
+    "report": "reports/browser-frame-report.json"
+  }
+}

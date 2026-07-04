@@ -1,0 +1,140 @@
+{
+  "releaseId": "2026-07-04_homepage_v015",
+  "checkedAt": "2026-07-04T04:25:03.151Z",
+  "method": "Installed Google Chrome via Playwright against local HTTP preview with hosted asset requests routed to local files",
+  "checks": {
+    "dayUsesDayPhoto": true,
+    "nightUsesEveningPhoto": true,
+    "heroFiltersRemoved": true,
+    "mediaFiltersRemoved": true,
+    "serveWhiteAssetRemoved": true,
+    "serveOverlayRemoved": true,
+    "capitalIqPhotoSwapped": true,
+    "capitalIqCityscapeCentered": true,
+    "screenshotsNonblank": true,
+    "actionableConsoleErrors": 0,
+    "allPassed": true
+  },
+  "results": [
+    {
+      "name": "desktop-day-top-v015",
+      "theme": "day",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "hash": "",
+      "screenshot": "snapshots/desktop-day-top-v015.png",
+      "screenshotBytes": 1645751,
+      "metrics": {
+        "theme": "day",
+        "heroSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r03511-fixed-bg-5120.jpeg",
+        "heroComplete": true,
+        "heroNaturalWidth": 1440,
+        "heroFilter": "none",
+        "firstMediaFilter": "none",
+        "serveActiveSrc": "https://images.squarespace-cdn.com/content/v1/689009976de9606dcbc26ec2/2939c081-99da-4d0f-a281-0d4a8b6da58e/Serve_robot_05%2B1.jpg?format=2500w",
+        "serveActiveFilter": "none",
+        "serveAfterOpacity": "0",
+        "capitalSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_cinematic/work-capitaliq-skyline-v015.jpeg",
+        "capitalNaturalWidth": 0,
+        "capitalNaturalHeight": 0,
+        "capitalObjectPosition": "50% 86%",
+        "capitalFilter": "none",
+        "identityName": "Noah Lucas"
+      },
+      "actionableErrors": [],
+      "passed": true
+    },
+    {
+      "name": "desktop-night-top-v015",
+      "theme": "night",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "hash": "",
+      "screenshot": "snapshots/desktop-night-top-v015.png",
+      "screenshotBytes": 1168486,
+      "metrics": {
+        "theme": "night",
+        "heroSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r03511-yosemite-evening-clean-5120.jpeg",
+        "heroComplete": true,
+        "heroNaturalWidth": 1440,
+        "heroFilter": "none",
+        "firstMediaFilter": "none",
+        "serveActiveSrc": "https://images.squarespace-cdn.com/content/v1/689009976de9606dcbc26ec2/2939c081-99da-4d0f-a281-0d4a8b6da58e/Serve_robot_05%2B1.jpg?format=2500w",
+        "serveActiveFilter": "none",
+        "serveAfterOpacity": "0",
+        "capitalSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_cinematic/work-capitaliq-skyline-v015.jpeg",
+        "capitalNaturalWidth": 0,
+        "capitalNaturalHeight": 0,
+        "capitalObjectPosition": "50% 86%",
+        "capitalFilter": "none",
+        "identityName": "Noah Lucas"
+      },
+      "actionableErrors": [],
+      "passed": true
+    },
+    {
+      "name": "serve-media-v015",
+      "theme": "day",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "hash": "#work-serve",
+      "screenshot": "snapshots/serve-media-v015.png",
+      "screenshotBytes": 1079291,
+      "metrics": {
+        "theme": "day",
+        "heroSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r03511-fixed-bg-5120.jpeg",
+        "heroComplete": true,
+        "heroNaturalWidth": 1440,
+        "heroFilter": "none",
+        "firstMediaFilter": "none",
+        "serveActiveSrc": "https://images.squarespace-cdn.com/content/v1/689009976de9606dcbc26ec2/2939c081-99da-4d0f-a281-0d4a8b6da58e/Serve_robot_05%2B1.jpg?format=2500w",
+        "serveActiveFilter": "none",
+        "serveAfterOpacity": "0",
+        "capitalSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_cinematic/work-capitaliq-skyline-v015.jpeg",
+        "capitalNaturalWidth": 1586,
+        "capitalNaturalHeight": 1982,
+        "capitalObjectPosition": "50% 86%",
+        "capitalFilter": "none",
+        "identityName": "Noah Lucas"
+      },
+      "actionableErrors": [],
+      "passed": true
+    },
+    {
+      "name": "capitaliq-media-v015",
+      "theme": "day",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "hash": "#work-capitaliq",
+      "screenshot": "snapshots/capitaliq-media-v015.png",
+      "screenshotBytes": 1225066,
+      "metrics": {
+        "theme": "day",
+        "heroSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r03511-fixed-bg-5120.jpeg",
+        "heroComplete": true,
+        "heroNaturalWidth": 1440,
+        "heroFilter": "none",
+        "firstMediaFilter": "none",
+        "serveActiveSrc": "https://images.squarespace-cdn.com/content/v1/689009976de9606dcbc26ec2/2939c081-99da-4d0f-a281-0d4a8b6da58e/Serve_robot_05%2B1.jpg?format=2500w",
+        "serveActiveFilter": "none",
+        "serveAfterOpacity": "0",
+        "capitalSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_cinematic/work-capitaliq-skyline-v015.jpeg",
+        "capitalNaturalWidth": 1586,
+        "capitalNaturalHeight": 1982,
+        "capitalObjectPosition": "50% 86%",
+        "capitalFilter": "none",
+        "identityName": "Noah Lucas"
+      },
+      "actionableErrors": [],
+      "passed": true
+    }
+  ]
+}

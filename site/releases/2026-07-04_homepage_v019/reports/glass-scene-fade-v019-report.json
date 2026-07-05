@@ -1,0 +1,216 @@
+{
+  "releaseId": "2026-07-04_homepage_v019",
+  "generatedAt": "2026-07-05T21:55:21.747Z",
+  "flowUnderTest": "v019 homepage preview -> switch theme/glass and scroll into lower sections -> image fades to white/black endpoint and selected glass state applies.",
+  "localUrl": "http://127.0.0.1:50637/preview/index.html?theme=day&glass=clear",
+  "assertions": {
+    "defaultGlassClear": true,
+    "selectorUpdatesAllHglSurfaces": true,
+    "selectedGlassAffectsPaneSurface": true,
+    "dayFadeEndpointWhite": true,
+    "nightFadeEndpointBlack": true,
+    "noBodyOverlayPseudoElement": true,
+    "heroImageUntinted": true
+  },
+  "states": [
+    {
+      "label": "day-top-clear-default",
+      "scrollY": 0,
+      "theme": "day",
+      "glass": "clear",
+      "selectValue": "clear",
+      "uniqueHglModes": [
+        "clear"
+      ],
+      "sceneScrollOpacityVar": "1.000",
+      "sceneFadeColorVar": "#ffffff",
+      "currentGlassFillVar": "rgba(255, 255, 255, .055)",
+      "currentGlassBlurVar": "10px",
+      "htmlBackground": "rgb(255, 255, 255)",
+      "bodyBackground": "rgb(255, 255, 255)",
+      "bodyAfterDisplay": "none",
+      "bodyAfterOpacity": "0",
+      "bodyAfterBackgroundImage": "none",
+      "stageOpacity": "1",
+      "stageBackground": "rgb(255, 255, 255)",
+      "stageTransition": "opacity 1.4s cubic-bezier(0.16, 0.84, 0.24, 1)",
+      "heroOpacity": "1",
+      "heroFilter": "none",
+      "heroBlend": "normal",
+      "heroMask": "none",
+      "feedBackground": "linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0) 48%) repeat scroll 0% 0% / auto padding-box border-box, rgba(255, 255, 255, 0.055) none repeat scroll 0% 0% / auto padding-box border-box",
+      "feedBackgroundImage": "linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0) 48%), none",
+      "feedBackdropFilter": "blur(10px) saturate(1.04) contrast(1)",
+      "feedBorderColor": "rgba(255, 255, 255, 0.4)"
+    },
+    {
+      "label": "day-top-thick-selected",
+      "scrollY": 0,
+      "theme": "day",
+      "glass": "thick",
+      "selectValue": "thick",
+      "uniqueHglModes": [
+        "thick"
+      ],
+      "sceneScrollOpacityVar": "1.000",
+      "sceneFadeColorVar": "#ffffff",
+      "currentGlassFillVar": "rgba(255, 255, 255, .68)",
+      "currentGlassBlurVar": "30px",
+      "htmlBackground": "rgb(255, 255, 255)",
+      "bodyBackground": "rgb(255, 255, 255)",
+      "bodyAfterDisplay": "none",
+      "bodyAfterOpacity": "0",
+      "bodyAfterBackgroundImage": "none",
+      "stageOpacity": "1",
+      "stageBackground": "rgb(255, 255, 255)",
+      "stageTransition": "opacity 1.4s cubic-bezier(0.16, 0.84, 0.24, 1)",
+      "heroOpacity": "1",
+      "heroFilter": "none",
+      "heroBlend": "normal",
+      "heroMask": "none",
+      "feedBackground": "linear-gradient(135deg, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0) 48%) repeat scroll 0% 0% / auto padding-box border-box, rgba(255, 255, 255, 0.68) none repeat scroll 0% 0% / auto padding-box border-box",
+      "feedBackgroundImage": "linear-gradient(135deg, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0) 48%), none",
+      "feedBackdropFilter": "blur(30px) saturate(1.28) contrast(1)",
+      "feedBorderColor": "rgba(255, 255, 255, 0.74)"
+    },
+    {
+      "label": "day-top-clear-selected",
+      "scrollY": 0,
+      "theme": "day",
+      "glass": "clear",
+      "selectValue": "clear",
+      "uniqueHglModes": [
+        "clear"
+      ],
+      "sceneScrollOpacityVar": "1.000",
+      "sceneFadeColorVar": "#ffffff",
+      "currentGlassFillVar": "rgba(255, 255, 255, .055)",
+      "currentGlassBlurVar": "10px",
+      "htmlBackground": "rgb(255, 255, 255)",
+      "bodyBackground": "rgb(255, 255, 255)",
+      "bodyAfterDisplay": "none",
+      "bodyAfterOpacity": "0",
+      "bodyAfterBackgroundImage": "none",
+      "stageOpacity": "1",
+      "stageBackground": "rgb(255, 255, 255)",
+      "stageTransition": "opacity 1.4s cubic-bezier(0.16, 0.84, 0.24, 1)",
+      "heroOpacity": "1",
+      "heroFilter": "none",
+      "heroBlend": "normal",
+      "heroMask": "none",
+      "feedBackground": "linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0) 48%) repeat scroll 0% 0% / auto padding-box border-box, rgba(255, 255, 255, 0.055) none repeat scroll 0% 0% / auto padding-box border-box",
+      "feedBackgroundImage": "linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0) 48%), none",
+      "feedBackdropFilter": "blur(10px) saturate(1.04) contrast(1)",
+      "feedBorderColor": "rgba(255, 255, 255, 0.4)"
+    },
+    {
+      "label": "day-lower-clear-fade-endpoint",
+      "scrollY": 900,
+      "theme": "day",
+      "glass": "clear",
+      "selectValue": "clear",
+      "uniqueHglModes": [
+        "clear"
+      ],
+      "sceneScrollOpacityVar": "0.000",
+      "sceneFadeColorVar": "#ffffff",
+      "currentGlassFillVar": "rgba(255, 255, 255, .055)",
+      "currentGlassBlurVar": "10px",
+      "htmlBackground": "rgb(255, 255, 255)",
+      "bodyBackground": "rgb(255, 255, 255)",
+      "bodyAfterDisplay": "none",
+      "bodyAfterOpacity": "0",
+      "bodyAfterBackgroundImage": "none",
+      "stageOpacity": "0",
+      "stageBackground": "rgb(255, 255, 255)",
+      "stageTransition": "opacity 1.4s cubic-bezier(0.16, 0.84, 0.24, 1)",
+      "heroOpacity": "1",
+      "heroFilter": "none",
+      "heroBlend": "normal",
+      "heroMask": "none",
+      "feedBackground": "linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0) 48%) repeat scroll 0% 0% / auto padding-box border-box, rgba(255, 255, 255, 0.055) none repeat scroll 0% 0% / auto padding-box border-box",
+      "feedBackgroundImage": "linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0) 48%), none",
+      "feedBackdropFilter": "blur(10px) saturate(1.04) contrast(1)",
+      "feedBorderColor": "rgba(255, 255, 255, 0.4)"
+    },
+    {
+      "label": "night-lower-clear-fade-endpoint",
+      "scrollY": 900,
+      "theme": "night",
+      "glass": "clear",
+      "selectValue": "clear",
+      "uniqueHglModes": [
+        "clear"
+      ],
+      "sceneScrollOpacityVar": "0.000",
+      "sceneFadeColorVar": "#000000",
+      "currentGlassFillVar": "rgba(0, 0, 0, .14)",
+      "currentGlassBlurVar": "10px",
+      "htmlBackground": "rgb(0, 0, 0)",
+      "bodyBackground": "rgb(0, 0, 0)",
+      "bodyAfterDisplay": "none",
+      "bodyAfterOpacity": "0",
+      "bodyAfterBackgroundImage": "none",
+      "stageOpacity": "0",
+      "stageBackground": "rgb(0, 0, 0)",
+      "stageTransition": "opacity 1.4s cubic-bezier(0.16, 0.84, 0.24, 1)",
+      "heroOpacity": "1",
+      "heroFilter": "none",
+      "heroBlend": "normal",
+      "heroMask": "none",
+      "feedBackground": "linear-gradient(135deg, rgba(255, 255, 255, 0.043), rgba(255, 255, 255, 0) 48%) repeat scroll 0% 0% / auto padding-box border-box, rgba(0, 0, 0, 0.14) none repeat scroll 0% 0% / auto padding-box border-box",
+      "feedBackgroundImage": "linear-gradient(135deg, rgba(255, 255, 255, 0.043), rgba(255, 255, 255, 0) 48%), none",
+      "feedBackdropFilter": "blur(10px) saturate(1.02) contrast(1)",
+      "feedBorderColor": "rgba(255, 255, 255, 0.14)"
+    }
+  ],
+  "consoleMessages": [],
+  "pageErrors": [],
+  "failedRequestCount": 10,
+  "failedRequestsSample": [
+    {
+      "url": "https://sift-pullzone.b-cdn.net/SIFT_HERO_FILM_optimized-2.mp4",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://sift-pullzone.b-cdn.net/SIFT_HERO_FILM_optimized-2.mp4",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://sift-pullzone.b-cdn.net/SIFT_HERO_FILM_optimized-2.mp4",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://cdn.sanity.io/files/61nocsj5/production/bfb5d80553705edd55c1296fba2d969b46b1c87b.mp4",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://cdn.sanity.io/files/61nocsj5/production/dcb4bec09642e7b1919543a1a810ed72d2139cf5.mp4",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://cdn.sanity.io/files/61nocsj5/production/82529603f1a7722748b0e6dd09ddbf577a14d2d1.mp4",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://sift-pullzone.b-cdn.net/SIFT_HERO_FILM_optimized-2.mp4",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://sift-pullzone.b-cdn.net/SIFT_HERO_FILM_optimized-2.mp4",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://sift-pullzone.b-cdn.net/SIFT_HERO_FILM_optimized-2.mp4",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://sift-pullzone.b-cdn.net/SIFT_HERO_FILM_optimized-2.mp4",
+      "failure": "net::ERR_ABORTED"
+    }
+  ],
+  "screenshots": [
+    "snapshots/glass-scene-fade-v019-day-lower.png",
+    "snapshots/glass-scene-fade-v019-night-lower.png"
+  ]
+}

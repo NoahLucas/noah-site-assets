@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-04_homepage_v019",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v019 clear liquid glass and theme fade endpoints",
+  "createdAt": "2026-07-05T21:56:23.122Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "v018 release corrected per Noah feedback"
+  },
+  "changeSummary": [
+    "Adds a Liquid glass handling selector with Clear, Ultrathin, Thin, Regular, and Thick modes.",
+    "Defaults the page to Clear and syncs the selected mode across every data-hgl-mode surface.",
+    "Changes the scroll scene treatment so the image layer fades to opacity zero over the theme endpoint: white in light mode and black in dark mode.",
+    "Disables the body pseudo-element overlay for scene fading so the background image is not tinted or covered by an overlay.",
+    "Keeps the v018 Serve Robotics static image and white media panel behavior intact."
+  ],
+  "validation": {
+    "status": "pass",
+    "checkedAt": "2026-07-05T21:55:21.747Z",
+    "method": "Playwright via system Google Chrome against local preview URL",
+    "flowUnderTest": "v019 homepage preview -> switch theme/glass and scroll into lower sections -> image fades to white/black endpoint and selected glass state applies.",
+    "checks": [
+      "Default glass is Clear and the selector shows Clear at load.",
+      "Changing the selector to Thick updates html[data-glass], every data-hgl-mode surface, and the computed pane blur/fill.",
+      "Returning to Clear restores every data-hgl-mode surface and the computed clear pane blur/fill.",
+      "At lower scroll, the scene stage opacity is 0.000 and the light endpoint computes to rgb(255, 255, 255).",
+      "At lower scroll after switching to dark theme, the scene stage opacity is 0.000 and the dark endpoint computes to rgb(0, 0, 0).",
+      "body::after is disabled, and the hero image renders with filter none, normal blend mode, and no mask.",
+      "No console messages or page errors were recorded; remote video request aborts are non-blocking in the local headless teardown."
+    ],
+    "report": "reports/glass-scene-fade-v019-report.json",
+    "screenshots": [
+      "snapshots/glass-scene-fade-v019-day-lower.png",
+      "snapshots/glass-scene-fade-v019-night-lower.png"
+    ]
+  },
+  "supersedes": "2026-07-04_homepage_v018",
+  "supersedesReason": "v019 fixes glass-mode inconsistency and scroll-scene theme endpoints while preserving the v018 Serve media correction.",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": true,
+  "productionPromotedAt": "2026-07-05T21:56:23.122Z",
+  "productionPointer": "site/latest.json",
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 269266,
+      "sha256": "c4297a2ae2e36ac03fd6852626efe2ca0edf36ade579e312b82a5898cb0ce344"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 262787,
+      "sha256": "e5886c8e35a16e87f1136f2437b7620e5213073e59def9feeaca76837ae68aa0"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 269266,
+      "sha256": "c4297a2ae2e36ac03fd6852626efe2ca0edf36ade579e312b82a5898cb0ce344"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 193716,
+      "sha256": "f08f3dfdca05f5ea0c4b6f6d0fa73030d3a981ead65ffb2986fd550173aaaf7c"
+    },
+    "reports.glass-scene-fade-v019-report.json": {
+      "path": "reports/glass-scene-fade-v019-report.json",
+      "bytes": 8779,
+      "sha256": "29deaeb75c42647df864a4b9ac8cafc437a9d7a4da1fdd3ad51400fd46c96832"
+    },
+    "snapshots.glass-scene-fade-v019-day-lower.png": {
+      "path": "snapshots/glass-scene-fade-v019-day-lower.png",
+      "bytes": 281187,
+      "sha256": "17305071747219bcfb7c4467d77885240105fec2e6be981659a0132a826ba18b"
+    },
+    "snapshots.glass-scene-fade-v019-night-lower.png": {
+      "path": "snapshots/glass-scene-fade-v019-night-lower.png",
+      "bytes": 120605,
+      "sha256": "c88fbf27c5eb7a5de8dda0f0398f9e6841313ed3d59f16153e881a38a00a63ee"
+    }
+  }
+}

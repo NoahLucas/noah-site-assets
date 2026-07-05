@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-07-05T03:24:20.989Z",
+  "method": "Browser preview via localhost http://127.0.0.1:8878/preview/index.html",
+  "serve": {
+    "imageCount": 1,
+    "videoCount": 0,
+    "carouselDots": 0,
+    "backgroundColor": "rgb(255, 255, 255)",
+    "image": "https://images.squarespace-cdn.com/content/v1/689009976de9606dcbc26ec2/2939c081-99da-4d0f-a281-0d4a8b6da58e/Serve_robot_05%2B1.jpg?format=2500w"
+  },
+  "screenshot": "snapshots/serve-static-photo-white-v018.png"
+}

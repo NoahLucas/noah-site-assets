@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-07-05T03:17:56.979Z",
+  "method": "Browser preview via localhost http://127.0.0.1:8877/preview/index.html",
+  "serve": {
+    "imageCount": 1,
+    "videoCount": 0,
+    "carouselDots": 0,
+    "backgroundColor": "rgb(255, 255, 255)",
+    "image": "https://noahlucas.github.io/noah-site-assets/site/assets/serve-robotics-white-v008.webp"
+  },
+  "screenshot": "snapshots/serve-static-white-v017.png"
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-04_homepage_v017",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v017 static Serve image on white panel",
+  "createdAt": "2026-07-05T03:16:24.188Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "v016 release patched from noah-site-assets"
+  },
+  "changeSummary": [
+    "Removes the Serve Robotics transparent animated WebP/GIF-style media from the live homepage release.",
+    "Removes the Serve Robotics media carousel second slide and dots so the section uses one static image.",
+    "Sets the full Serve Robotics media panel background to white in day and night modes.",
+    "Keeps the external-assets pointer contract; live Squarespace editor is not modified."
+  ],
+  "validation": {
+    "status": "pass",
+    "checkedAt": "2026-07-05T03:17:56.979Z",
+    "method": "Browser preview via localhost http://127.0.0.1:8877/preview/index.html",
+    "checks": [
+      "Serve Robotics media contains one image and zero video elements",
+      "Serve Robotics media contains zero carousel dots",
+      "Serve Robotics media image uses serve-robotics-white-v008.webp",
+      "Serve Robotics media panel computed background is rgb(255, 255, 255)",
+      "serve-robotics-transparent-v016.webp is absent from the publish code block",
+      "Serve_robot_05%2B1.jpg second Serve slide is absent from the publish code block"
+    ],
+    "report": "reports/serve-static-white-v017-report.json"
+  },
+  "supersedes": "2026-07-04_homepage_v016",
+  "supersedesReason": "Noah requested removing the GIF/animated Serve media and making the whole section white until the animation issue is resolved.",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": true,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 254215,
+      "sha256": "78eb5e13f13485be91ba284a3bfe9d6ed73401f09c3633fe18809e12ee02f575"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 251985,
+      "sha256": "571a3c063dfa7af4feb57324e22d977d1063b36b1ab1b1e0923db349a4b15fd8"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 254215,
+      "sha256": "78eb5e13f13485be91ba284a3bfe9d6ed73401f09c3633fe18809e12ee02f575"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 182917,
+      "sha256": "29adf78e794df083e1135ce9ce0d6317689c0361d88d0501a556252b7583c1dc"
+    },
+    "reports.serve-static-white-v017-report.json": {
+      "path": "reports/serve-static-white-v017-report.json",
+      "bytes": 420,
+      "sha256": "d09352aa32d031f58c6aaa07dae5a6712bb87d31e4a791386b9abe3e6c6f37cc"
+    },
+    "snapshots.serve-static-white-v017.png": {
+      "path": "snapshots/serve-static-white-v017.png",
+      "bytes": 87893,
+      "sha256": "c186d388652fac14d5f3e27c52b2993e064dd87a3e2717957d9ac49b3b51c1fd"
+    }
+  },
+  "productionValidation": null,
+  "productionPromotedAt": "2026-07-05T03:18:10.299Z",
+  "productionPointer": "site/latest.json"
+}

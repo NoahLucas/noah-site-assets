@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-07-04T04:22:54.216Z",
+  "screenshot": "snapshots/capitaliq-cityscape-centered-v015.png",
+  "metrics": {
+    "src": "https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_cinematic/work-capitaliq-skyline-v015.jpeg",
+    "naturalWidth": 1586,
+    "naturalHeight": 1982,
+    "objectPosition": "50% 86%",
+    "objectFit": "cover",
+    "filter": "none",
+    "mediaRect": {
+      "top": 89,
+      "left": 504,
+      "width": 863,
+      "height": 430
+    },
+    "imgRect": {
+      "top": 89,
+      "left": 504,
+      "width": 863,
+      "height": 430
+    }
+  },
+  "passed": true
+}

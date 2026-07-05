@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-04_homepage_v018",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v018 static Serve photo on white panel",
+  "createdAt": "2026-07-05T03:23:25.994Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "v017 release corrected per Noah feedback"
+  },
+  "changeSummary": [
+    "Corrects v017 by keeping the static Serve_robot_05 image instead of the white WebP asset.",
+    "Keeps the GIF/animated transparent Serve asset removed.",
+    "Keeps the Serve media carousel second slide and dots removed so the section uses one static image.",
+    "Keeps the full Serve Robotics media panel background white in day and night modes.",
+    "Keeps the external-assets pointer contract; live Squarespace editor is not modified."
+  ],
+  "validation": {
+    "status": "pass",
+    "checkedAt": "2026-07-05T03:24:20.989Z",
+    "method": "Browser preview via localhost http://127.0.0.1:8878/preview/index.html",
+    "checks": [
+      "Serve Robotics media contains one image and zero video elements",
+      "Serve Robotics media contains zero carousel dots",
+      "Serve Robotics media image uses Serve_robot_05 static image",
+      "Serve Robotics media panel computed background is rgb(255, 255, 255)",
+      "serve-robotics-transparent-v016.webp is absent from the publish code block",
+      "serve-robotics-white-v008.webp is absent from the publish code block"
+    ],
+    "report": "reports/serve-static-photo-white-v018-report.json"
+  },
+  "supersedes": "2026-07-04_homepage_v017",
+  "supersedesReason": "v017 removed the wrong static media; v018 keeps the intended Serve_robot_05 image while removing the animated GIF/WebP.",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": true,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 254271,
+      "sha256": "b0962557e0eab084a142a15e0a343af4a07d4b0c2df9e59a01c1514720cbdc87"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 252041,
+      "sha256": "0bbc366695e2c362e9e4f5ba6c3904055e98580673fc8d4abcc18b1d50a42f5f"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 254271,
+      "sha256": "b0962557e0eab084a142a15e0a343af4a07d4b0c2df9e59a01c1514720cbdc87"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 182973,
+      "sha256": "588b9bbcf67d3eecf135fa244b5543791ef31c756d0bcdf16442fe020e844053"
+    },
+    "reports.serve-static-photo-white-v018-report.json": {
+      "path": "reports/serve-static-photo-white-v018-report.json",
+      "bytes": 482,
+      "sha256": "30adb4cd0eea10ad2492eac493f6ad8feccdebb40f2c8f0c948fdfb353aaff3b"
+    },
+    "snapshots.serve-static-photo-white-v018.png": {
+      "path": "snapshots/serve-static-photo-white-v018.png",
+      "bytes": 105320,
+      "sha256": "7810e517b6b7551148cdbe1b9edbe1adf9cb00bf7fd3e5ea09fcba805a72c7d6"
+    }
+  },
+  "productionPromotedAt": "2026-07-05T03:24:31.995Z",
+  "productionPointer": "site/latest.json"
+}

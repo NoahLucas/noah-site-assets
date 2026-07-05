@@ -1,0 +1,1573 @@
+{
+  "checkedAt": "2026-07-04T05:31:53.882Z",
+  "method": "Headless Google Chrome DevTools Protocol against noahlucas.com and GitHub Pages latest pointer",
+  "url": "https://noahlucas.com/",
+  "checks": {
+    "publicPointerV016": true,
+    "publicPageRendered": true,
+    "publicPageHasV016": true,
+    "noGeneratedEveningAsset": true,
+    "heroUnfiltered": true,
+    "hardFadeColors": true,
+    "sameOpticalGray": true,
+    "serveTransparentAsset": true,
+    "serveLoadedAfterScroll": true,
+    "serveMediaTransparent": true,
+    "bodyWashDisabled": true
+  },
+  "results": [
+    {
+      "theme": "day",
+      "bodyText": "NOAH LUCAS\nEXPERIENCE\nRESEARCH\nWRITING\nNoah Lucas\n\nI build product systems for complex machines and complex organization",
+      "htmlHasV016": true,
+      "htmlHasGeneratedEvening": false,
+      "sceneFade": "#ffffff",
+      "bodyBg": "rgb(255, 255, 255)",
+      "fadeBg": "rgb(255, 255, 255)",
+      "bodyAfterOpacity": "0",
+      "heroSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r03511-fixed-bg-5120.jpeg",
+      "heroComplete": true,
+      "heroNaturalWidth": 1512,
+      "heroFilter": "none",
+      "heroOpacity": "1",
+      "productColor": "rgb(118, 118, 118)",
+      "identityNameColor": "rgb(118, 118, 118)",
+      "identityLineColor": "rgb(118, 118, 118)",
+      "identityDomainColor": "rgb(118, 118, 118)",
+      "ctaColor": "rgb(118, 118, 118)",
+      "workTitleColor": "rgb(118, 118, 118)",
+      "workBodyColor": "rgb(118, 118, 118)",
+      "serveSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/serve-robotics-transparent-v016.webp",
+      "serveComplete": false,
+      "serveNaturalWidth": 0,
+      "serveMediaBg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "theme": "night",
+      "bodyText": "NOAH LUCAS\nEXPERIENCE\nRESEARCH\nWRITING\nNoah Lucas\n\nI build product systems for complex machines and complex organization",
+      "htmlHasV016": true,
+      "htmlHasGeneratedEvening": false,
+      "sceneFade": "#000000",
+      "bodyBg": "rgb(0, 0, 0)",
+      "fadeBg": "rgb(0, 0, 0)",
+      "bodyAfterOpacity": "0",
+      "heroSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r03511-fixed-bg-5120.jpeg",
+      "heroComplete": true,
+      "heroNaturalWidth": 1512,
+      "heroFilter": "none",
+      "heroOpacity": "1",
+      "productColor": "rgb(118, 118, 118)",
+      "identityNameColor": "rgb(118, 118, 118)",
+      "identityLineColor": "rgb(118, 118, 118)",
+      "identityDomainColor": "rgb(118, 118, 118)",
+      "ctaColor": "rgb(118, 118, 118)",
+      "workTitleColor": "rgb(118, 118, 118)",
+      "workBodyColor": "rgb(118, 118, 118)",
+      "serveSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/serve-robotics-transparent-v016.webp",
+      "serveComplete": false,
+      "serveNaturalWidth": 0,
+      "serveMediaBg": "rgba(0, 0, 0, 0)"
+    }
+  ],
+  "serveScrolled": {
+    "theme": "night",
+    "bodyText": "NOAH LUCAS\nEXPERIENCE\nRESEARCH\nWRITING\nNoah Lucas\n\nI build product systems for complex machines and complex organization",
+    "htmlHasV016": true,
+    "htmlHasGeneratedEvening": false,
+    "sceneFade": "#000000",
+    "bodyBg": "rgb(0, 0, 0)",
+    "fadeBg": "rgb(0, 0, 0)",
+    "bodyAfterOpacity": "0",
+    "heroSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r03511-fixed-bg-5120.jpeg",
+    "heroComplete": true,
+    "heroNaturalWidth": 1512,
+    "heroFilter": "none",
+    "heroOpacity": "1",
+    "productColor": "rgb(118, 118, 118)",
+    "identityNameColor": "rgb(118, 118, 118)",
+    "identityLineColor": "rgb(118, 118, 118)",
+    "identityDomainColor": "rgb(118, 118, 118)",
+    "ctaColor": "rgb(118, 118, 118)",
+    "workTitleColor": "rgb(118, 118, 118)",
+    "workBodyColor": "rgb(118, 118, 118)",
+    "serveSrc": "https://noahlucas.github.io/noah-site-assets/site/assets/serve-robotics-transparent-v016.webp",
+    "serveComplete": true,
+    "serveNaturalWidth": 360,
+    "serveMediaBg": "rgba(0, 0, 0, 0)"
+  },
+  "consoleEvents": [
+    {
+      "type": "log",
+      "args": [
+        {
+          "type": "string",
+          "value": "Squarify Dark Mode Toggle was not able to find any toggle element. Make sure you have a link in your Navbar with the URL \"squarify-dark-mode-toggle\""
+        }
+      ],
+      "executionContextId": 2,
+      "timestamp": 1783143083042.43,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "a",
+            "scriptId": "33",
+            "url": "https://cdn.squarify.xyz/dark-mode-toggle/index.js",
+            "lineNumber": 0,
+            "columnNumber": 890
+          },
+          {
+            "functionName": "b",
+            "scriptId": "33",
+            "url": "https://cdn.squarify.xyz/dark-mode-toggle/index.js",
+            "lineNumber": 0,
+            "columnNumber": 24072
+          },
+          {
+            "functionName": "",
+            "scriptId": "34",
+            "url": "https://noahlucas.com/?theme=day&pane=big&qa=v016-1783143082336",
+            "lineNumber": 1659,
+            "columnNumber": 17
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-visitor_site_error_reporter"
+        }
+      ],
+      "executionContextId": 2,
+      "timestamp": 1783143083293.095,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-cldr_resource_pack"
+        }
+      ],
+      "executionContextId": 2,
+      "timestamp": 1783143083293.372,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-common_vendors_stable"
+        }
+      ],
+      "executionContextId": 2,
+      "timestamp": 1783143083293.446,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-common_vendors"
+        }
+      ],
+      "executionContextId": 2,
+      "timestamp": 1783143083293.507,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-user_account_core"
+        }
+      ],
+      "executionContextId": 2,
+      "timestamp": 1783143083297.014,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-performance"
+        }
+      ],
+      "executionContextId": 2,
+      "timestamp": 1783143083297.072,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "log",
+      "args": [
+        {
+          "type": "string",
+          "value": "[Visitor Sentry] Initialized and sending events"
+        }
+      ],
+      "executionContextId": 2,
+      "timestamp": 1783143083689.499,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "",
+            "scriptId": "54",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/2155-fd348447341bf7e8-min.en-US.js",
+            "lineNumber": 484,
+            "columnNumber": 3141
+          },
+          {
+            "functionName": "",
+            "scriptId": "20",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/visitor-site-error-reporter-3310f016815b9a4f-min.en-US.js",
+            "lineNumber": 0,
+            "columnNumber": 2433
+          }
+        ]
+      }
+    },
+    {
+      "type": "log",
+      "args": [
+        {
+          "type": "string",
+          "value": "Squarify Dark Mode Toggle was not able to find any toggle element. Make sure you have a link in your Navbar with the URL \"squarify-dark-mode-toggle\""
+        }
+      ],
+      "executionContextId": 3,
+      "timestamp": 1783143091616.85,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "a",
+            "scriptId": "33",
+            "url": "https://cdn.squarify.xyz/dark-mode-toggle/index.js",
+            "lineNumber": 0,
+            "columnNumber": 890
+          },
+          {
+            "functionName": "b",
+            "scriptId": "33",
+            "url": "https://cdn.squarify.xyz/dark-mode-toggle/index.js",
+            "lineNumber": 0,
+            "columnNumber": 24072
+          },
+          {
+            "functionName": "",
+            "scriptId": "73",
+            "url": "https://noahlucas.com/?theme=night&pane=big&qa=v016-1783143091215",
+            "lineNumber": 1659,
+            "columnNumber": 17
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-visitor_site_error_reporter"
+        }
+      ],
+      "executionContextId": 3,
+      "timestamp": 1783143091671.831,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-cldr_resource_pack"
+        }
+      ],
+      "executionContextId": 3,
+      "timestamp": 1783143091671.941,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-common_vendors_stable"
+        }
+      ],
+      "executionContextId": 3,
+      "timestamp": 1783143091671.97,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-common_vendors"
+        }
+      ],
+      "executionContextId": 3,
+      "timestamp": 1783143091671.996,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-user_account_core"
+        }
+      ],
+      "executionContextId": 3,
+      "timestamp": 1783143091672.795,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-performance"
+        }
+      ],
+      "executionContextId": 3,
+      "timestamp": 1783143091672.82,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "log",
+      "args": [
+        {
+          "type": "string",
+          "value": "[Visitor Sentry] Initialized and sending events"
+        }
+      ],
+      "executionContextId": 3,
+      "timestamp": 1783143091772.156,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "",
+            "scriptId": "54",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/2155-fd348447341bf7e8-min.en-US.js",
+            "lineNumber": 484,
+            "columnNumber": 3141
+          },
+          {
+            "functionName": "",
+            "scriptId": "20",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/visitor-site-error-reporter-3310f016815b9a4f-min.en-US.js",
+            "lineNumber": 0,
+            "columnNumber": 2433
+          }
+        ]
+      }
+    },
+    {
+      "type": "log",
+      "args": [
+        {
+          "type": "string",
+          "value": "Squarify Dark Mode Toggle was not able to find any toggle element. Make sure you have a link in your Navbar with the URL \"squarify-dark-mode-toggle\""
+        }
+      ],
+      "executionContextId": 4,
+      "timestamp": 1783143100402.304,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "a",
+            "scriptId": "33",
+            "url": "https://cdn.squarify.xyz/dark-mode-toggle/index.js",
+            "lineNumber": 0,
+            "columnNumber": 890
+          },
+          {
+            "functionName": "b",
+            "scriptId": "33",
+            "url": "https://cdn.squarify.xyz/dark-mode-toggle/index.js",
+            "lineNumber": 0,
+            "columnNumber": 24072
+          },
+          {
+            "functionName": "",
+            "scriptId": "91",
+            "url": "https://noahlucas.com/?theme=night&pane=big&qa=v016-1783143100172",
+            "lineNumber": 1659,
+            "columnNumber": 17
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-visitor_site_error_reporter"
+        }
+      ],
+      "executionContextId": 4,
+      "timestamp": 1783143100429.828,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-cldr_resource_pack"
+        }
+      ],
+      "executionContextId": 4,
+      "timestamp": 1783143100429.925,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-common_vendors_stable"
+        }
+      ],
+      "executionContextId": 4,
+      "timestamp": 1783143100429.953,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-common_vendors"
+        }
+      ],
+      "executionContextId": 4,
+      "timestamp": 1783143100429.973,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-user_account_core"
+        }
+      ],
+      "executionContextId": 4,
+      "timestamp": 1783143100430.647,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "warning",
+      "args": [
+        {
+          "type": "string",
+          "value": "yui: NOT loaded: squarespace-performance"
+        }
+      ],
+      "executionContextId": 4,
+      "timestamp": 1783143100430.668,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "i.log",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25311
+          },
+          {
+            "functionName": "i.message",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 7,
+            "columnNumber": 25482
+          },
+          {
+            "functionName": "_attach",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 5898
+          },
+          {
+            "functionName": "_use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 9997
+          },
+          {
+            "functionName": "use",
+            "scriptId": "27",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+            "lineNumber": 6,
+            "columnNumber": 7641
+          },
+          {
+            "functionName": "ce.Squarespace.afterBodyLoad",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 41091
+          },
+          {
+            "functionName": "Ln",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64714
+          },
+          {
+            "functionName": "",
+            "scriptId": "30",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/common-e23159373c39e66c-min.en-US.js",
+            "lineNumber": 1,
+            "columnNumber": 64970
+          }
+        ]
+      }
+    },
+    {
+      "type": "log",
+      "args": [
+        {
+          "type": "string",
+          "value": "[Visitor Sentry] Initialized and sending events"
+        }
+      ],
+      "executionContextId": 4,
+      "timestamp": 1783143100493.959,
+      "stackTrace": {
+        "callFrames": [
+          {
+            "functionName": "",
+            "scriptId": "54",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/2155-fd348447341bf7e8-min.en-US.js",
+            "lineNumber": 484,
+            "columnNumber": 3141
+          },
+          {
+            "functionName": "",
+            "scriptId": "20",
+            "url": "https://assets.squarespace.com/universal/scripts-compressed/visitor-site-error-reporter-3310f016815b9a4f-min.en-US.js",
+            "lineNumber": 0,
+            "columnNumber": 2433
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-07-06T04:35:25.325Z",
+  "url": "http://127.0.0.1:8880/site/releases/2026-07-04_homepage_v022/preview/index.html?theme=day&glass=clear&content-proof=mobile-v022-final2",
+  "method": "Playwright using local Google Chrome against local v022 preview mobile viewport.",
+  "flowUnderTest": "v022 homepage mobile preview -> verify requested copy/CTA state, selector hit target, and no nav overlap.",
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "deviceScaleFactor": 2
+  },
+  "state": {
+    "title": "Noah Lucas — Product Executive",
+    "heroButtonTexts": [
+      "Get in Touch",
+      "LinkedIn"
+    ],
+    "contactButtonTexts": [
+      "Get in Touch",
+      "LinkedIn"
+    ],
+    "principles": [
+      "Telemetry must become operator trust.",
+      "Robotics and autonomy are proven in field conditions, not demos.",
+      "Mapping, simulation, and edge data matter when they change mission decisions.",
+      "Marketplaces scale through reliability, incentives, and daily operations.",
+      "Developer platforms win when integrations become repeatable.",
+      "Financial data products are only useful when they are reviewable and trusted."
+    ],
+    "heroLineExists": false,
+    "thesisCtaExists": false,
+    "investmentCtaExists": false,
+    "horizontalOverflow": false,
+    "viewportWidth": 390,
+    "documentWidth": 390,
+    "buttonRects": [
+      {
+        "text": "Get in Touch",
+        "left": 94.015625,
+        "right": 204.796875,
+        "top": 525.484375,
+        "bottom": 557.484375,
+        "width": 110.78125,
+        "height": 32
+      },
+      {
+        "text": "LinkedIn",
+        "left": 212.796875,
+        "right": 295.984375,
+        "top": 525.484375,
+        "bottom": 557.484375,
+        "width": 83.1875,
+        "height": 32
+      }
+    ],
+    "buttonsInsideViewport": true,
+    "navLinksDisplay": "none",
+    "brandRect": {
+      "left": 14,
+      "right": 88.484375,
+      "top": 0,
+      "bottom": 32,
+      "width": 74.484375,
+      "height": 32
+    },
+    "linksRect": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0,
+      "width": 0,
+      "height": 0
+    },
+    "actionsRect": {
+      "left": 222,
+      "right": 376,
+      "top": 0,
+      "bottom": 32,
+      "width": 154,
+      "height": 32
+    },
+    "brandActionsOverlap": false,
+    "linksActionsOverlap": false,
+    "glassSelectExists": true,
+    "glassSelectHit": true,
+    "expectedButtons": [
+      "Get in Touch",
+      "LinkedIn"
+    ],
+    "expectedPrinciples": [
+      "Telemetry must become operator trust.",
+      "Robotics and autonomy are proven in field conditions, not demos.",
+      "Mapping, simulation, and edge data matter when they change mission decisions.",
+      "Marketplaces scale through reliability, incentives, and daily operations.",
+      "Developer platforms win when integrations become repeatable.",
+      "Financial data products are only useful when they are reviewable and trusted."
+    ]
+  },
+  "consoleWarningsOrErrors": [],
+  "pageErrors": [],
+  "screenshot": "snapshots/content-copy-mobile-v022.png",
+  "failures": []
+}

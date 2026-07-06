@@ -1,0 +1,93 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-07-06T04:34:25.601Z",
+  "url": "http://127.0.0.1:8880/site/releases/2026-07-04_homepage_v022/preview/index.html?theme=day&glass=clear&content-proof=v022-final2",
+  "method": "Playwright using local Google Chrome against local v022 preview; Browser/IAB listed but exposed no usable tab methods in this session, and bundled Chromium was not installed.",
+  "flowUnderTest": "v022 homepage preview -> verify requested content removals and operating principles -> select Thin -> return to Clear.",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "state": {
+    "title": "Noah Lucas — Product Executive",
+    "url": "http://127.0.0.1:8880/site/releases/2026-07-04_homepage_v022/preview/index.html?theme=day&glass=clear&content-proof=v022-final2",
+    "bodyTextLength": 5448,
+    "heroButtons": [
+      {
+        "text": "Get in Touch",
+        "href": "mailto:noah@noahlucas.com"
+      },
+      {
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com/in/noahlucas/"
+      }
+    ],
+    "contactButtons": [
+      {
+        "text": "Get in Touch",
+        "href": "mailto:noah@noahlucas.com"
+      },
+      {
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com/in/noahlucas/"
+      }
+    ],
+    "principles": [
+      "Telemetry must become operator trust.",
+      "Robotics and autonomy are proven in field conditions, not demos.",
+      "Mapping, simulation, and edge data matter when they change mission decisions.",
+      "Marketplaces scale through reliability, incentives, and daily operations.",
+      "Developer platforms win when integrations become repeatable.",
+      "Financial data products are only useful when they are reviewable and trusted."
+    ],
+    "rejectedPresence": {
+      "I build product systems for complex machines and complex organizations.": false,
+      "View Work": false,
+      "Read Thesis": false,
+      "Read the thesis": false,
+      "Investment thesis": false
+    },
+    "expectedPrinciples": [
+      "Telemetry must become operator trust.",
+      "Robotics and autonomy are proven in field conditions, not demos.",
+      "Mapping, simulation, and edge data matter when they change mission decisions.",
+      "Marketplaces scale through reliability, incentives, and daily operations.",
+      "Developer platforms win when integrations become repeatable.",
+      "Financial data products are only useful when they are reviewable and trusted."
+    ],
+    "heroLineExists": false,
+    "thesisCtaExists": false,
+    "investmentCtaExists": false,
+    "glassSelectExists": true,
+    "glassValue": "clear",
+    "glassHitTargets": {
+      "left": true,
+      "center": true,
+      "arrow": true
+    },
+    "htmlGlass": "clear",
+    "navPointerEvents": "auto",
+    "navLinksDisplay": "flex",
+    "horizontalOverflow": false,
+    "paneFill": "",
+    "sceneBase": "#ffffff"
+  },
+  "interaction": {
+    "thinState": {
+      "selectValue": "thin",
+      "htmlGlass": "thin",
+      "modeCount": 18,
+      "paneFill": ""
+    },
+    "clearState": {
+      "selectValue": "clear",
+      "htmlGlass": "clear",
+      "modeCount": 18,
+      "paneFill": ""
+    }
+  },
+  "consoleWarningsOrErrors": [],
+  "pageErrors": [],
+  "screenshot": "snapshots/content-copy-v022.png",
+  "failures": []
+}

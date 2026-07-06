@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-04_homepage_v022",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v022 CTA and operating principles cleanup",
+  "createdAt": "2026-07-06T04:37:28.847Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "v021 release with working clear-glass dropdown hit target"
+  },
+  "changeSummary": [
+    "Removes the generic hero line: I build product systems for complex machines and complex organizations.",
+    "Keeps only Get in Touch and LinkedIn in the hero CTA row, and normalizes the lower contact CTA labels to the same text.",
+    "Removes the Product Thesis CTA and Investment Thesis CTA while leaving the surrounding content intact.",
+    "Rewrites Operating Principles around Noah Lucas career-specific product experience across telemetry, autonomy, mission systems, marketplaces, platforms, and financial data.",
+    "Keeps the v021 clear liquid-glass pane and dropdown behavior, with a mobile nav overlap fix for narrow viewports."
+  ],
+  "validation": {
+    "status": "pass",
+    "checkedAt": "2026-07-06T04:37:28.847Z",
+    "method": "Playwright using local Google Chrome against local v022 preview; Browser/IAB listed but exposed no usable tab methods in this session, and bundled Chromium was not installed.",
+    "flowUnderTest": "v022 homepage preview -> verify requested copy and CTA removals -> verify Operating Principles -> select Thin -> return to Clear -> verify mobile nav does not overlap.",
+    "checks": [
+      "Hero identity.architect line is absent from the DOM.",
+      "Hero CTAs are exactly Get in Touch and LinkedIn.",
+      "Lower contact CTAs are exactly Get in Touch and LinkedIn.",
+      "Product Thesis CTA and Investment Thesis CTA are absent from the DOM.",
+      "Operating Principles match the six career-specific lines in the release source.",
+      "Glass selector hit target works at left, center, and arrow coordinates.",
+      "Selecting Thin and returning to Clear updates html[data-glass], data-hgl-mode surfaces, and pane fill variables.",
+      "Mobile 390px viewport has no horizontal overflow and no nav brand/actions overlap."
+    ],
+    "reports": [
+      "reports/content-copy-v022.json",
+      "reports/content-copy-mobile-v022.json"
+    ],
+    "screenshots": [
+      "snapshots/content-copy-v022.png",
+      "snapshots/content-copy-mobile-v022.png",
+      "snapshots/content-principles-v022.png"
+    ]
+  },
+  "supersedes": "2026-07-04_homepage_v021",
+  "supersedesReason": "v022 applies the requested homepage content cleanup on top of the v021 working clear-glass dropdown release.",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": true,
+  "productionPromotedAt": "2026-07-06T04:37:28.847Z",
+  "productionPointer": "site/latest.json",
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 287233,
+      "sha256": "e29e5b883dd419cbc74d43401cfb8a7a40d48d4f919afa49b1a05b89289d3495"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 280750,
+      "sha256": "58e74e87eb15c5678fe8b7f2f5fac1f65afea3814e3b5765500d7aab5376f60b"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 287233,
+      "sha256": "e29e5b883dd419cbc74d43401cfb8a7a40d48d4f919afa49b1a05b89289d3495"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 211683,
+      "sha256": "fa119c6e9d1c67341d01f7841aaf01e4165dd45bba791c997a0f945754bec95d"
+    },
+    "reports.content-copy-v022.json": {
+      "path": "reports/content-copy-v022.json",
+      "bytes": 3289,
+      "sha256": "cfb56153a40b7a90812845c65b62ec4fbd6aa4b403f922471195106b03047a3f"
+    },
+    "reports.content-copy-mobile-v022.json": {
+      "path": "reports/content-copy-mobile-v022.json",
+      "bytes": 3128,
+      "sha256": "143a8831722dcd9ec98cd191d1ed877282a52258baaa9a5a4b6bbaf485cd2083"
+    },
+    "snapshots.content-copy-v022.png": {
+      "path": "snapshots/content-copy-v022.png",
+      "bytes": 1162736,
+      "sha256": "3dba92bb10ffe57e30b86fc4e1581339f48d45ac1a4d4188e7aa881472823361"
+    },
+    "snapshots.content-copy-mobile-v022.png": {
+      "path": "snapshots/content-copy-mobile-v022.png",
+      "bytes": 788221,
+      "sha256": "ac1d8dc644ae365c74a4c44d42704ae24314e43bda452bc130159738a88197da"
+    },
+    "snapshots.content-principles-v022.png": {
+      "path": "snapshots/content-principles-v022.png",
+      "bytes": 459538,
+      "sha256": "a11aa3a6815da4d524716b0022ca86cc66979beac2bcdc98d0bdf7b1ba4aaa46"
+    }
+  },
+  "productionValidation": {
+    "status": "pending",
+    "reason": "Production pointer updated locally; public GitHub Pages and noahlucas.com proof to be recorded after push propagation."
+  }
+}

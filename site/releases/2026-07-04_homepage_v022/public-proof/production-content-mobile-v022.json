@@ -1,0 +1,170 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-07-06T04:54:07.084Z",
+  "url": "https://noahlucas.com/?theme=day&glass=clear&mobile-proof=v022-1783313641776",
+  "method": "Playwright using local Google Chrome against production noahlucas.com mobile viewport.",
+  "flowUnderTest": "production homepage mobile -> verify requested copy/CTA state, selector hit target, and no nav overlap.",
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "deviceScaleFactor": 2
+  },
+  "state": {
+    "title": "Noah Lucas — Product Executive",
+    "heroButtonTexts": [
+      "Get in Touch",
+      "LinkedIn"
+    ],
+    "contactButtonTexts": [
+      "Get in Touch",
+      "LinkedIn"
+    ],
+    "principles": [
+      "Telemetry must become operator trust.",
+      "Robotics and autonomy are proven in field conditions, not demos.",
+      "Mapping, simulation, and edge data matter when they change mission decisions.",
+      "Marketplaces scale through reliability, incentives, and daily operations.",
+      "Developer platforms win when integrations become repeatable.",
+      "Financial data products are only useful when they are reviewable and trusted."
+    ],
+    "heroLineExists": false,
+    "thesisCtaExists": false,
+    "investmentCtaExists": false,
+    "horizontalOverflow": false,
+    "viewportWidth": 390,
+    "documentWidth": 390,
+    "buttonRects": [
+      {
+        "text": "Get in Touch",
+        "left": 94.015625,
+        "right": 204.796875,
+        "top": 581.1875,
+        "bottom": 613.1875,
+        "width": 110.78125,
+        "height": 32
+      },
+      {
+        "text": "LinkedIn",
+        "left": 212.796875,
+        "right": 295.984375,
+        "top": 581.1875,
+        "bottom": 613.1875,
+        "width": 83.1875,
+        "height": 32
+      }
+    ],
+    "buttonsInsideViewport": true,
+    "navLinksDisplay": "none",
+    "brandRect": {
+      "left": 14,
+      "right": 88.484375,
+      "top": 0,
+      "bottom": 32,
+      "width": 74.484375,
+      "height": 32
+    },
+    "linksRect": {
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0,
+      "width": 0,
+      "height": 0
+    },
+    "actionsRect": {
+      "left": 222,
+      "right": 376,
+      "top": 0,
+      "bottom": 32,
+      "width": 154,
+      "height": 32
+    },
+    "brandActionsOverlap": false,
+    "linksActionsOverlap": false,
+    "glassSelectExists": true,
+    "glassSelectHit": true,
+    "expectedButtons": [
+      "Get in Touch",
+      "LinkedIn"
+    ],
+    "expectedPrinciples": [
+      "Telemetry must become operator trust.",
+      "Robotics and autonomy are proven in field conditions, not demos.",
+      "Mapping, simulation, and edge data matter when they change mission decisions.",
+      "Marketplaces scale through reliability, incentives, and daily operations.",
+      "Developer platforms win when integrations become repeatable.",
+      "Financial data products are only useful when they are reviewable and trusted."
+    ]
+  },
+  "consoleWarningsOrErrors": [
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-visitor_site_error_reporter",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-cldr_resource_pack",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors_stable",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-user_account_core",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-performance",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    }
+  ],
+  "pageErrors": [],
+  "screenshot": "public-proof/production-content-mobile-v022.png",
+  "failures": []
+}

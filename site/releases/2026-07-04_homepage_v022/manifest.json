@@ -98,11 +98,63 @@
       "path": "snapshots/content-principles-v022.png",
       "bytes": 459538,
       "sha256": "a11aa3a6815da4d524716b0022ca86cc66979beac2bcdc98d0bdf7b1ba4aaa46"
+    },
+    "public-proof.production-content-copy-v022.json": {
+      "path": "public-proof/production-content-copy-v022.json",
+      "bytes": 11030,
+      "sha256": "83981382ddf2d8eb369f48debd48f193f10becf6b9d462f5ea61f8340f1d6a23"
+    },
+    "public-proof.production-content-copy-v022.png": {
+      "path": "public-proof/production-content-copy-v022.png",
+      "bytes": 1291740,
+      "sha256": "352485ba461a429d5002e6b663950765068b9bbbeb417cb22eace4e1ae9b92fc"
+    },
+    "public-proof.production-principles-v022.png": {
+      "path": "public-proof/production-principles-v022.png",
+      "bytes": 524158,
+      "sha256": "fa8bba8c09df9a2f1ecc931c5faec9a69d96c318862e6849d8b3ab9de481c252"
+    },
+    "public-proof.production-content-mobile-v022.json": {
+      "path": "public-proof/production-content-mobile-v022.json",
+      "bytes": 5237,
+      "sha256": "9cddb21597082c2593d895eec0d007c5140d020a4f00e2b369b4a339802d6d9e"
+    },
+    "public-proof.production-content-mobile-v022.png": {
+      "path": "public-proof/production-content-mobile-v022.png",
+      "bytes": 853748,
+      "sha256": "a17da4feba3fb2dfeb321856cef4b4b706d56573025109a865bdf5959bc080ae"
     }
   },
   "productionValidation": {
-    "status": "pending",
-    "reason": "Production pointer retry commit created after transient GitHub Pages deploy failure; public proof to be recorded after deployment succeeds."
+    "status": "pass",
+    "checkedAt": "2026-07-06T04:55:05.070Z",
+    "url": "https://noahlucas.com/?theme=day&glass=clear&content-proof=v022-1783313588543",
+    "method": "Playwright using local Google Chrome against production noahlucas.com after GitHub Pages built v022.",
+    "flowUnderTest": "production homepage -> verify public latest v022 -> verify requested copy/CTA state and Operating Principles -> select Thin -> return to Clear -> verify mobile nav does not overlap.",
+    "checks": [
+      "Public latest.json returns releaseId 2026-07-04_homepage_v022.",
+      "Hero identity.architect line is absent from the production DOM.",
+      "Hero CTAs are exactly Get in Touch and LinkedIn.",
+      "Lower contact CTAs are exactly Get in Touch and LinkedIn.",
+      "Product Thesis CTA and Investment Thesis CTA are absent from the production DOM.",
+      "Operating Principles match the six career-specific lines in production.",
+      "Production glass selector hit target works and switches Thin back to Clear.",
+      "Production mobile 390px viewport has no horizontal overflow and no nav brand/actions overlap."
+    ],
+    "reports": [
+      "public-proof/production-content-copy-v022.json",
+      "public-proof/production-content-mobile-v022.json"
+    ],
+    "screenshots": [
+      "public-proof/production-content-copy-v022.png",
+      "public-proof/production-principles-v022.png",
+      "public-proof/production-content-mobile-v022.png"
+    ],
+    "pagesDeployment": {
+      "firstFailedCommit": "b3294a003134dca5a4a047f70bb45b922fdb63bf",
+      "retryCommit": "afab4b40ab7e92e116e237321011cd0d5271a769",
+      "recovery": "Pages API build request succeeded after deploy-pages transient failures."
+    }
   },
   "deploymentRetry": {
     "at": "2026-07-06T04:48:25.725Z",

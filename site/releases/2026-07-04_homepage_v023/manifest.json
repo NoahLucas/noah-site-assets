@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-04_homepage_v023",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v023 contact paragraph removal",
+  "createdAt": "2026-07-06T05:47:34.066Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "v022 release with CTA and operating-principles cleanup"
+  },
+  "changeSummary": [
+    "Removes the Contact section paragraph beginning: For product leadership, physical AI, autonomy, telemetry, geospatial intelligence, robotics, or investment conversations.",
+    "Removes the contact.primary copy node entirely rather than hiding it.",
+    "Leaves the Contact CTAs as Get in Touch and LinkedIn.",
+    "Keeps the v022 clear liquid-glass pane, mobile nav lock, and working glass selector behavior unchanged."
+  ],
+  "validation": {
+    "status": "pass",
+    "checkedAt": "2026-07-06T05:45:50.357Z",
+    "method": "Playwright using local Google Chrome against local v023 preview; Browser/IAB invocation failed because browser.documentation is not a function.",
+    "flowUnderTest": "v023 homepage preview -> contact paragraph removed -> buttons remain -> glass selector works.",
+    "checks": [
+      "The rejected Contact paragraph is absent from rendered body text.",
+      "No data-copy-key=\"contact.primary\" node remains in the Contact section.",
+      "The Contact section contains zero paragraph elements.",
+      "Contact CTAs remain exactly Get in Touch and LinkedIn.",
+      "Hero CTAs remain exactly Get in Touch and LinkedIn.",
+      "Glass selector hit target works and switches Thin back to Clear.",
+      "Mobile 390px viewport has no horizontal overflow, no nav brand/actions overlap, and selector hit target remains reachable."
+    ],
+    "reports": [
+      "reports/contact-paragraph-v023.json"
+    ],
+    "screenshots": [
+      "snapshots/contact-paragraph-v023.png",
+      "snapshots/contact-paragraph-mobile-v023.png"
+    ]
+  },
+  "supersedes": "2026-07-04_homepage_v022",
+  "supersedesReason": "v023 applies the requested Contact paragraph removal on top of the v022 working content/glass release.",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": true,
+  "productionPromotedAt": "2026-07-06T05:47:34.066Z",
+  "productionPointer": "site/latest.json",
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 287032,
+      "sha256": "2c5701f8657721235a8c521374a763ee288b6fd9338659a007830026569c991f"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 280549,
+      "sha256": "ae8d567f3bd9229c51ed9dd4c9cf86d1d3ae787b64a8de12cf8a2fee5255663a"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 287032,
+      "sha256": "2c5701f8657721235a8c521374a763ee288b6fd9338659a007830026569c991f"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 211482,
+      "sha256": "a4375f3f51432f0db02ac002b327abaa6939e9d3200d80cdaa6f3193ecc55203"
+    },
+    "reports.contact-paragraph-v023.json": {
+      "path": "reports/contact-paragraph-v023.json",
+      "bytes": 2093,
+      "sha256": "ca9eb9f0fdc2380a368bf8259a6ab0924f4e87fd50c60397ad60d04ce6f91346"
+    },
+    "snapshots.contact-paragraph-v023.png": {
+      "path": "snapshots/contact-paragraph-v023.png",
+      "bytes": 448380,
+      "sha256": "2d7058dfce3b97107b1bae7f22957e055715d085f63ae78b7abc525b76fb4c22"
+    },
+    "snapshots.contact-paragraph-mobile-v023.png": {
+      "path": "snapshots/contact-paragraph-mobile-v023.png",
+      "bytes": 767920,
+      "sha256": "c3e411da20eb82f97a21f1c5d42f170da64537de598fdb360357fe4f78121a2a"
+    }
+  },
+  "productionValidation": {
+    "status": "pending",
+    "reason": "Production pointer updated locally; public proof to be recorded after push and GitHub Pages propagation."
+  }
+}

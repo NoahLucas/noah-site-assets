@@ -1,0 +1,76 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-07-06T05:45:50.357Z",
+  "method": "Playwright using local Google Chrome against local v023 preview; Browser/IAB invocation failed because browser.documentation is not a function.",
+  "flowUnderTest": "v023 homepage preview -> contact paragraph removed -> buttons remain -> glass selector works.",
+  "desktop": {
+    "url": "http://127.0.0.1:8881/site/releases/2026-07-04_homepage_v023/preview/index.html?theme=day&glass=clear&contact-proof=v023",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "state": {
+      "title": "Noah Lucas — Product Executive",
+      "bodyTextContainsRejected": false,
+      "contactPrimaryExists": false,
+      "contactParagraphCount": 0,
+      "contactButtons": [
+        {
+          "text": "Get in Touch",
+          "href": "mailto:noah@noahlucas.com"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/in/noahlucas/"
+        }
+      ],
+      "heroButtons": [
+        "Get in Touch",
+        "LinkedIn"
+      ],
+      "htmlGlass": "clear",
+      "glassSelectExists": true,
+      "glassHitTargets": {
+        "left": true,
+        "center": true,
+        "arrow": true
+      },
+      "horizontalOverflow": false
+    },
+    "screenshot": "snapshots/contact-paragraph-v023.png"
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 2
+    },
+    "state": {
+      "bodyTextContainsRejected": false,
+      "contactPrimaryExists": false,
+      "contactParagraphCount": 0,
+      "contactButtons": [
+        "Get in Touch",
+        "LinkedIn"
+      ],
+      "horizontalOverflow": false,
+      "navLinksDisplay": "none",
+      "brandActionsOverlap": false,
+      "glassSelectHit": true
+    },
+    "screenshot": "snapshots/contact-paragraph-mobile-v023.png"
+  },
+  "interaction": {
+    "thinState": {
+      "value": "thin",
+      "htmlGlass": "thin"
+    },
+    "clearState": {
+      "value": "clear",
+      "htmlGlass": "clear"
+    }
+  },
+  "consoleWarningsOrErrors": [],
+  "pageErrors": [],
+  "failures": []
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-04_homepage_v020",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v020 clear single-pane liquid glass",
+  "createdAt": "2026-07-06T01:22:04.625Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "v019 release corrected per Noah feedback"
+  },
+  "changeSummary": [
+    "Uses clear as the default liquid-glass handling mode.",
+    "Collapses the page treatment to one parent feed-band liquid-glass pane over one background image.",
+    "Removes per-section and work-card material gradients, shading, backdrop filters, and shadows so child sections are transparent within the pane.",
+    "Restores light-theme text to black and dark-theme text to white.",
+    "Keeps the background image untinted; light mode fades the image layer to white and dark mode fades it to black.",
+    "Keeps the Clear, Ultrathin, Thin, Regular, and Thick selector wired to html[data-glass] and all data-hgl-mode surfaces."
+  ],
+  "validation": {
+    "status": "pass",
+    "checkedAt": "2026-07-06T01:20:30.336Z",
+    "method": "Playwright via bundled runtime and system Google Chrome against local v020 preview URL",
+    "flowUnderTest": "v020 homepage preview -> load Clear default -> inspect parent pane and child sections -> switch glass selector to Thin and back -> switch to dark theme and scroll to lower content.",
+    "checks": [
+      "Default glass is Clear and the selector shows Clear at load.",
+      "Parent pane Clear computes to transparent fill, no background image, and one backdrop-filtered pane.",
+      "Product, summary, operating-principle, and work-card child sections compute to transparent backgrounds with no gradients or backdrop filters.",
+      "Changing the selector to Thin updates html[data-glass], every data-hgl-mode surface, and the computed pane material variables.",
+      "Returning to Clear restores html[data-glass], every data-hgl-mode surface, and the clear pane material variables.",
+      "Light theme text computes to black; dark theme text computes to white.",
+      "At lower scroll after switching to dark theme, html/body/stage backgrounds compute to black and --scene-fade-color is #000000.",
+      "The hero image renders with filter none, normal blend mode, and no mask."
+    ],
+    "report": "reports/clear-glass-proof-v020.json",
+    "screenshots": [
+      "snapshots/clear-day-top.png",
+      "snapshots/clear-night-lower.png"
+    ]
+  },
+  "supersedes": "2026-07-04_homepage_v019",
+  "supersedesReason": "v020 fixes the v019 material and theme regressions by reducing the homepage to one theme-aware clear liquid-glass pane over the background image.",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": true,
+  "productionPromotedAt": "2026-07-06T01:22:04.625Z",
+  "productionPointer": "site/latest.json",
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 287317,
+      "sha256": "1912bea113f97aee86b8b5fef3f43dd2e630fe9d3bc59a1cb4ce6729c84369fa"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 280834,
+      "sha256": "774a93e10b9e65045722038f865ab6c8fa651469d936321f20bdedba8f9b8e9f"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 287317,
+      "sha256": "1912bea113f97aee86b8b5fef3f43dd2e630fe9d3bc59a1cb4ce6729c84369fa"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 211767,
+      "sha256": "72710e46ef6793afb93ddd09ef00c94489ca1985134b62c2447b79d9d01da3f7"
+    },
+    "reports.clear-glass-proof-v020.json": {
+      "path": "reports/clear-glass-proof-v020.json",
+      "bytes": 4461,
+      "sha256": "e36ef7fbc169229a549a08390f853cff828a19690bdf8b02b1c483bc3a9ef741"
+    },
+    "snapshots.clear-day-top.png": {
+      "path": "snapshots/clear-day-top.png",
+      "bytes": 1255146,
+      "sha256": "84aa1e6fc0e0cebd0ca50e55159c2f9ddc1e8ae873eb79f780af00795cc3beae"
+    },
+    "snapshots.clear-night-lower.png": {
+      "path": "snapshots/clear-night-lower.png",
+      "bytes": 237979,
+      "sha256": "743641c0e74ca8ef58ec876fd696fd90337a011f85e705f577e204ac668c2b6a"
+    }
+  }
+}

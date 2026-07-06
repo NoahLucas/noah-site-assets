@@ -1,0 +1,141 @@
+{
+  "generatedAt": "2026-07-06T01:20:30.336Z",
+  "url": "http://127.0.0.1:8878/site/releases/2026-07-04_homepage_v020/preview/index.html?theme=day&glass=clear",
+  "pageErrors": [],
+  "proof": {
+    "clearInitial": {
+      "theme": "day",
+      "glass": "clear",
+      "selectValue": "clear",
+      "pane": {
+        "color": "rgb(5, 5, 5)",
+        "backgroundColor": "rgba(255, 255, 255, 0.024)",
+        "backgroundImage": "none",
+        "borderColor": "rgba(255, 255, 255, 0.36)",
+        "boxShadow": "rgba(0, 0, 0, 0.1) 0px 24px 80px 0px, rgba(255, 255, 255, 0.36) 0px 1px 0px 0px inset",
+        "backdropFilter": "blur(22px) saturate(1.18) contrast(1.02)",
+        "opacity": "1"
+      },
+      "paneBefore": {
+        "color": "rgb(5, 5, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderColor": "rgb(5, 5, 5)",
+        "boxShadow": "none",
+        "backdropFilter": "none",
+        "opacity": "0"
+      },
+      "heroSection": {
+        "color": "rgb(5, 5, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderColor": "rgba(0, 0, 0, 0.16)",
+        "boxShadow": "none",
+        "backdropFilter": "none",
+        "opacity": "1"
+      },
+      "summarySection": {
+        "color": "rgb(5, 5, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderColor": "rgba(0, 0, 0, 0.16)",
+        "boxShadow": "none",
+        "backdropFilter": "none",
+        "opacity": "1"
+      },
+      "workCard": {
+        "color": "rgb(5, 5, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderColor": "rgba(0, 0, 0, 0.16)",
+        "boxShadow": "none",
+        "backdropFilter": "none",
+        "opacity": "1"
+      },
+      "heroImage": {
+        "filter": "none",
+        "opacity": "1",
+        "mixBlendMode": "normal"
+      },
+      "titleColor": "rgb(5, 5, 5)",
+      "sceneVars": {
+        "fade": "#ffffff",
+        "paneFill": "rgba(255, 255, 255, .025)",
+        "paneBlur": "22px"
+      }
+    },
+    "thin": {
+      "glass": "thin",
+      "selectValue": "thin",
+      "paneBackgroundColor": "rgba(255, 255, 255, 0.094)",
+      "paneBackdropFilter": "blur(24.4532px) saturate(1.20453) contrast(1.02)",
+      "paneFill": "rgba(255, 255, 255, .14)",
+      "hglModes": [
+        "thin"
+      ]
+    },
+    "backToClear": {
+      "glass": "clear",
+      "selectValue": "clear",
+      "paneBackgroundColor": "rgba(255, 255, 255, 0.047)",
+      "paneFill": "rgba(255, 255, 255, .025)",
+      "hglModes": [
+        "clear"
+      ]
+    },
+    "nightLower": {
+      "theme": "night",
+      "glass": "clear",
+      "htmlBackground": "rgb(0, 0, 0)",
+      "bodyBackground": "rgb(0, 0, 0)",
+      "stageBackground": "rgb(0, 0, 0)",
+      "stageOpacity": "0.25649",
+      "sceneFade": "#000000",
+      "paneFill": "rgba(255, 255, 255, .018)",
+      "textColor": "rgb(255, 255, 255)",
+      "heroImageFilter": "none",
+      "clearPane": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(255, 255, 255, 0.02)",
+        "backgroundImage": "none",
+        "borderColor": "rgba(255, 255, 255, 0.24)",
+        "boxShadow": "rgba(0, 0, 0, 0.42) 0px 24px 80px 0px, rgba(255, 255, 255, 0.24) 0px 1px 0px 0px inset",
+        "backdropFilter": "blur(22px) saturate(1.18) contrast(1.02)",
+        "opacity": "1"
+      },
+      "childSection": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderColor": "rgba(254, 254, 254, 0.17)",
+        "boxShadow": "none",
+        "backdropFilter": "none",
+        "opacity": "1"
+      },
+      "workCard": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderColor": "rgba(255, 255, 255, 0.17)",
+        "boxShadow": "none",
+        "backdropFilter": "none",
+        "opacity": "1"
+      }
+    },
+    "pass": {
+      "clearDefault": true,
+      "clearPaneTransparent": true,
+      "clearPaneNoGradient": true,
+      "heroChildTransparent": true,
+      "summaryTransparent": true,
+      "workTransparent": true,
+      "dayTextBlack": true,
+      "selectorChangesToThin": true,
+      "selectorChangesBackToClear": true,
+      "nightFadesToBlack": true,
+      "nightTextWhite": true,
+      "nightChildTransparent": true,
+      "imageUntinted": true
+    }
+  }
+}

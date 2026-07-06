@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-04_homepage_v021",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v021 working glass dropdown hit target",
+  "createdAt": "2026-07-06T03:32:18.572Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "v020 release corrected per Noah feedback"
+  },
+  "changeSummary": [
+    "Fixes the glass dropdown by restoring pointer events to nav select controls and the nav-actions container.",
+    "Keeps the v020 one-background-image plus one clear liquid-glass pane treatment unchanged.",
+    "Updates the release-scoped glass localStorage key to v021 so stale v020 state does not mask the fix."
+  ],
+  "validation": {
+    "status": "pass",
+    "checkedAt": "2026-07-06T03:31:42.627Z",
+    "method": "In-app Browser runtime against local v021 preview URL",
+    "flowUnderTest": "v021 homepage preview -> coordinate click the visible glass dropdown arrow -> select Thin -> return to Clear.",
+    "checks": [
+      "elementFromPoint at the dropdown left, center, and arrow all returns the SELECT with data-glass-select.",
+      "The glass select and nav-actions container compute pointer-events: auto.",
+      "Coordinate click on the visible arrow focuses the SELECT.",
+      "Selecting Thin updates html[data-glass], every data-hgl-mode surface, and the pane fill variable.",
+      "Returning to Clear restores html[data-glass], every data-hgl-mode surface, and the clear pane fill variable."
+    ],
+    "report": "reports/dropdown-hit-target-v021.json",
+    "screenshots": [
+      "snapshots/dropdown-hit-target-v021.png"
+    ]
+  },
+  "supersedes": "2026-07-04_homepage_v020",
+  "supersedesReason": "v021 fixes a hit-testing regression where the visible native glass select inherited pointer-events: none from the fixed nav.",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": true,
+  "productionPromotedAt": "2026-07-06T03:32:18.572Z",
+  "productionPointer": "site/latest.json",
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 287385,
+      "sha256": "2ee544db7225266e343c94642573ce36e07b5d8764bc6e384bce447bb8f6499f"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 280902,
+      "sha256": "fd37955a8929b0b3152bb6970d5f563b8f43a0e03b1f32ad06f2b3debfa780ae"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 287385,
+      "sha256": "2ee544db7225266e343c94642573ce36e07b5d8764bc6e384bce447bb8f6499f"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 211835,
+      "sha256": "8bfd583c8343ec8e4b1e4aab1cf49d01dd0c9ba8ee3f4e57ac80735485b05f26"
+    },
+    "reports.dropdown-hit-target-v021.json": {
+      "path": "reports/dropdown-hit-target-v021.json",
+      "bytes": 1266,
+      "sha256": "992ccdc718f6af0786319a6abe9a6f9fd27b1f42bd29acdc2adcfaa1cefc9cd8"
+    },
+    "snapshots.dropdown-hit-target-v021.png": {
+      "path": "snapshots/dropdown-hit-target-v021.png",
+      "bytes": 73019,
+      "sha256": "a3e92f78d45771fbbb1da3833b6e0f326e66b7b1798047ba3703cfd5dfffd173"
+    }
+  }
+}

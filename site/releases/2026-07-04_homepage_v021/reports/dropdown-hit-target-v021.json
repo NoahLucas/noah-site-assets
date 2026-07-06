@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-07-06T03:31:42.627Z",
+  "status": "pass",
+  "coordinateClick": {
+    "x": 1208.6015625,
+    "y": 16
+  },
+  "thinSelection": {
+    "hglModes": [
+      "thin"
+    ],
+    "paneFill": "rgba(255, 255, 255, .14)",
+    "rootGlass": "thin",
+    "selectValue": "thin"
+  },
+  "proof": {
+    "activeElement": {
+      "className": "glass-select",
+      "dataGlassSelect": true,
+      "tag": "SELECT"
+    },
+    "elementFromPoint": {
+      "arrow": {
+        "className": "glass-select",
+        "dataGlassSelect": true,
+        "pointerEvents": "auto",
+        "tag": "SELECT"
+      },
+      "center": {
+        "className": "glass-select",
+        "dataGlassSelect": true,
+        "pointerEvents": "auto",
+        "tag": "SELECT"
+      },
+      "left": {
+        "className": "glass-select",
+        "dataGlassSelect": true,
+        "pointerEvents": "auto",
+        "tag": "SELECT"
+      }
+    },
+    "hglModes": [
+      "clear"
+    ],
+    "navActionsPointerEvents": "auto",
+    "paneFill": "rgba(255, 255, 255, .025)",
+    "rootGlass": "clear",
+    "selectPointerEvents": "auto",
+    "url": "http://127.0.0.1:8879/site/releases/2026-07-04_homepage_v021/preview/index.html?theme=day&glass=clear&dropdown-debug=1783308696638",
+    "value": "clear"
+  }
+}

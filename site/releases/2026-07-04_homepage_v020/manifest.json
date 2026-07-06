@@ -85,6 +85,74 @@
       "path": "snapshots/clear-night-lower.png",
       "bytes": 237979,
       "sha256": "743641c0e74ca8ef58ec876fd696fd90337a011f85e705f577e204ac668c2b6a"
+    },
+    "public-proof.production-clear-day-top.png": {
+      "path": "public-proof/production-clear-day-top.png",
+      "bytes": 1376482,
+      "sha256": "523feb0901091eff050f2ec1ee2841c19aa2b0ac84e6b677649d0d2ae44821fc"
+    },
+    "public-proof.production-clear-night-lower.png": {
+      "path": "public-proof/production-clear-night-lower.png",
+      "bytes": 1178623,
+      "sha256": "44bea1a949831a848599c6323bf6872552a2d987025c4541129e22e64c92129c"
+    },
+    "public-proof.production-clear-glass-proof-v020.json": {
+      "path": "public-proof/production-clear-glass-proof-v020.json",
+      "bytes": 4482,
+      "sha256": "4cb474c9e7784adcc6bb0aa110276ca55e746780cb41a1e852dc87a54912d365"
     }
+  },
+  "productionValidation": {
+    "status": "pass",
+    "checkedAt": "2026-07-06T01:25:00.427Z",
+    "url": "https://noahlucas.com/?theme=day&glass=clear&v020proof=1783301093376",
+    "method": "Playwright via bundled runtime and system Google Chrome against production noahlucas.com",
+    "checks": [
+      "Production page loaded v020 with Clear as the selected/default glass mode.",
+      "Parent pane computed to transparent Clear fill with no background image.",
+      "Product, summary, operating-principle, and work-card child sections computed to transparent backgrounds with no gradients or backdrop filters.",
+      "Glass selector changed to Thin and back to Clear on the live page.",
+      "Dark-theme lower scroll computed html/body/stage backgrounds to black and text to white.",
+      "The background image remained untinted with filter none and normal blend mode."
+    ],
+    "report": "public-proof/production-clear-glass-proof-v020.json",
+    "screenshots": [
+      "public-proof/production-clear-day-top.png",
+      "public-proof/production-clear-night-lower.png"
+    ],
+    "consoleMessages": [
+      {
+        "type": "log",
+        "text": "Squarify Dark Mode Toggle was not able to find any toggle element. Make sure you have a link in your Navbar with the URL \"squarify-dark-mode-toggle\""
+      },
+      {
+        "type": "warning",
+        "text": "yui: NOT loaded: squarespace-visitor_site_error_reporter"
+      },
+      {
+        "type": "warning",
+        "text": "yui: NOT loaded: squarespace-cldr_resource_pack"
+      },
+      {
+        "type": "warning",
+        "text": "yui: NOT loaded: squarespace-common_vendors_stable"
+      },
+      {
+        "type": "warning",
+        "text": "yui: NOT loaded: squarespace-common_vendors"
+      },
+      {
+        "type": "warning",
+        "text": "yui: NOT loaded: squarespace-user_account_core"
+      },
+      {
+        "type": "warning",
+        "text": "yui: NOT loaded: squarespace-performance"
+      },
+      {
+        "type": "log",
+        "text": "[Visitor Sentry] Initialized and sending events"
+      }
+    ]
   }
 }

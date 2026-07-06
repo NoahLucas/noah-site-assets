@@ -1,0 +1,154 @@
+{
+  "generatedAt": "2026-07-06T01:25:00.427Z",
+  "url": "https://noahlucas.com/?theme=day&glass=clear&v020proof=1783301093376",
+  "pageErrors": [],
+  "consoleMessages": [
+    {
+      "type": "log",
+      "text": "Squarify Dark Mode Toggle was not able to find any toggle element. Make sure you have a link in your Navbar with the URL \"squarify-dark-mode-toggle\""
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-visitor_site_error_reporter"
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-cldr_resource_pack"
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors_stable"
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors"
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-user_account_core"
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-performance"
+    },
+    {
+      "type": "log",
+      "text": "[Visitor Sentry] Initialized and sending events"
+    }
+  ],
+  "proof": {
+    "clearInitial": {
+      "theme": "day",
+      "glass": "clear",
+      "selectValue": "clear",
+      "pane": {
+        "color": "rgb(5, 5, 5)",
+        "backgroundColor": "rgba(255, 255, 255, 0.024)",
+        "backgroundImage": "none",
+        "borderColor": "rgba(255, 255, 255, 0.36)",
+        "boxShadow": "rgba(0, 0, 0, 0.1) 0px 24px 80px 0px, rgba(255, 255, 255, 0.36) 0px 1px 0px 0px inset",
+        "backdropFilter": "blur(22px) saturate(1.18) contrast(1.02)",
+        "opacity": "1"
+      },
+      "heroSection": {
+        "color": "rgb(5, 5, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderColor": "rgba(0, 0, 0, 0.16)",
+        "boxShadow": "none",
+        "backdropFilter": "none",
+        "opacity": "1"
+      },
+      "summarySection": {
+        "color": "rgb(5, 5, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderColor": "rgba(0, 0, 0, 0.16)",
+        "boxShadow": "none",
+        "backdropFilter": "none",
+        "opacity": "1"
+      },
+      "workCard": {
+        "color": "rgb(5, 5, 5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderColor": "rgba(0, 0, 0, 0.16)",
+        "boxShadow": "none",
+        "backdropFilter": "none",
+        "opacity": "1"
+      },
+      "heroImage": {
+        "filter": "none",
+        "opacity": "1",
+        "mixBlendMode": "normal"
+      },
+      "titleColor": "rgb(5, 5, 5)",
+      "sceneVars": {
+        "fade": "#ffffff",
+        "paneFill": "rgba(255, 255, 255, .025)",
+        "paneBlur": "22px"
+      }
+    },
+    "thin": {
+      "glass": "thin",
+      "selectValue": "thin",
+      "paneFill": "rgba(255, 255, 255, .14)",
+      "hglModes": [
+        "thin"
+      ]
+    },
+    "backToClear": {
+      "glass": "clear",
+      "selectValue": "clear",
+      "paneFill": "rgba(255, 255, 255, .025)",
+      "hglModes": [
+        "clear"
+      ]
+    },
+    "nightLower": {
+      "theme": "night",
+      "glass": "clear",
+      "htmlBackground": "rgb(0, 0, 0)",
+      "bodyBackground": "rgb(0, 0, 0)",
+      "stageBackground": "rgb(0, 0, 0)",
+      "stageOpacity": "0.109141",
+      "sceneFade": "#000000",
+      "paneFill": "rgba(255, 255, 255, .018)",
+      "textColor": "rgb(255, 255, 255)",
+      "heroImageFilter": "none",
+      "childSection": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderColor": "rgba(255, 255, 255, 0.17)",
+        "boxShadow": "none",
+        "backdropFilter": "none",
+        "opacity": "1"
+      },
+      "workCard": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderColor": "rgba(255, 255, 255, 0.17)",
+        "boxShadow": "none",
+        "backdropFilter": "none",
+        "opacity": "1"
+      }
+    },
+    "pass": {
+      "clearDefault": true,
+      "clearPaneTransparent": true,
+      "clearPaneNoGradient": true,
+      "heroChildTransparent": true,
+      "summaryTransparent": true,
+      "workTransparent": true,
+      "dayTextBlack": true,
+      "selectorChangesToThin": true,
+      "selectorChangesBackToClear": true,
+      "nightFadesToBlack": true,
+      "nightTextWhite": true,
+      "nightChildTransparent": true,
+      "imageUntinted": true
+    }
+  }
+}

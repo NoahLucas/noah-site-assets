@@ -1,0 +1,162 @@
+{
+  "generatedAt": "2026-07-06T03:34:12.025Z",
+  "status": "pass",
+  "coordinateClick": {
+    "x": 1208.6015625,
+    "y": 16
+  },
+  "thinSelection": {
+    "hglModes": [
+      "thin"
+    ],
+    "paneFill": "rgba(255, 255, 255, .14)",
+    "rootGlass": "thin",
+    "selectValue": "thin"
+  },
+  "proof": {
+    "activeElement": {
+      "className": "glass-select",
+      "dataGlassSelect": true,
+      "tag": "SELECT"
+    },
+    "elementFromPoint": {
+      "arrow": {
+        "className": "glass-select",
+        "dataGlassSelect": true,
+        "pointerEvents": "auto",
+        "tag": "SELECT"
+      },
+      "center": {
+        "className": "glass-select",
+        "dataGlassSelect": true,
+        "pointerEvents": "auto",
+        "tag": "SELECT"
+      },
+      "left": {
+        "className": "glass-select",
+        "dataGlassSelect": true,
+        "pointerEvents": "auto",
+        "tag": "SELECT"
+      }
+    },
+    "hglModes": [
+      "clear"
+    ],
+    "navActionsPointerEvents": "auto",
+    "paneFill": "rgba(255, 255, 255, .025)",
+    "rootGlass": "clear",
+    "selectPointerEvents": "auto",
+    "url": "https://noahlucas.com/?theme=day&glass=clear&dropdown-proof=1783308847815",
+    "value": "clear"
+  },
+  "consoleWarnings": [
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-visitor_site_error_reporter",
+      "timestamp": "2026-07-06T03:24:09.509Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-cldr_resource_pack",
+      "timestamp": "2026-07-06T03:24:09.509Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-common_vendors_stable",
+      "timestamp": "2026-07-06T03:24:09.509Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-common_vendors",
+      "timestamp": "2026-07-06T03:24:09.509Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-user_account_core",
+      "timestamp": "2026-07-06T03:24:09.510Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-performance",
+      "timestamp": "2026-07-06T03:24:09.510Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-visitor_site_error_reporter",
+      "timestamp": "2026-07-06T03:24:40.529Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-cldr_resource_pack",
+      "timestamp": "2026-07-06T03:24:40.529Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-common_vendors_stable",
+      "timestamp": "2026-07-06T03:24:40.529Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-common_vendors",
+      "timestamp": "2026-07-06T03:24:40.529Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-user_account_core",
+      "timestamp": "2026-07-06T03:24:40.530Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-performance",
+      "timestamp": "2026-07-06T03:24:40.530Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-visitor_site_error_reporter",
+      "timestamp": "2026-07-06T03:34:08.605Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-cldr_resource_pack",
+      "timestamp": "2026-07-06T03:34:08.605Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-common_vendors_stable",
+      "timestamp": "2026-07-06T03:34:08.605Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-common_vendors",
+      "timestamp": "2026-07-06T03:34:08.605Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-user_account_core",
+      "timestamp": "2026-07-06T03:34:08.606Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    },
+    {
+      "level": "warn",
+      "message": "yui: NOT loaded: squarespace-performance",
+      "timestamp": "2026-07-06T03:34:08.606Z",
+      "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+    }
+  ]
+}

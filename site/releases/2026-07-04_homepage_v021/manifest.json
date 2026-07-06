@@ -73,6 +73,144 @@
       "path": "snapshots/dropdown-hit-target-v021.png",
       "bytes": 73019,
       "sha256": "a3e92f78d45771fbbb1da3833b6e0f326e66b7b1798047ba3703cfd5dfffd173"
+    },
+    "public-proof.production-dropdown-hit-target-v021.png": {
+      "path": "public-proof/production-dropdown-hit-target-v021.png",
+      "bytes": 79871,
+      "sha256": "a6bc1d313e2338a0e41dcbbabce51da58e3ec4c1dc70d745f580d81f26f1ff80"
+    },
+    "public-proof.production-dropdown-hit-target-v021.json": {
+      "path": "public-proof/production-dropdown-hit-target-v021.json",
+      "bytes": 6240,
+      "sha256": "72ee15bc7a0d20060b39ee1d2631d273bb2eb777bf8934e68029d0776b4966eb"
     }
+  },
+  "productionValidation": {
+    "status": "pass",
+    "checkedAt": "2026-07-06T03:34:12.025Z",
+    "url": "https://noahlucas.com/?theme=day&glass=clear&dropdown-proof=1783308847815",
+    "method": "In-app Browser runtime against production noahlucas.com",
+    "flowUnderTest": "production homepage -> coordinate click visible glass dropdown arrow -> select Thin -> return to Clear",
+    "checks": [
+      "elementFromPoint at the dropdown left, center, and arrow all returns the SELECT with data-glass-select.",
+      "The production glass select and nav-actions container compute pointer-events: auto.",
+      "Coordinate click on the visible arrow focuses the SELECT.",
+      "Selecting Thin updates html[data-glass], every data-hgl-mode surface, and the pane fill variable.",
+      "Returning to Clear restores html[data-glass], every data-hgl-mode surface, and the clear pane fill variable."
+    ],
+    "report": "public-proof/production-dropdown-hit-target-v021.json",
+    "screenshots": [
+      "public-proof/production-dropdown-hit-target-v021.png"
+    ],
+    "consoleWarnings": [
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-visitor_site_error_reporter",
+        "timestamp": "2026-07-06T03:24:09.509Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-cldr_resource_pack",
+        "timestamp": "2026-07-06T03:24:09.509Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-common_vendors_stable",
+        "timestamp": "2026-07-06T03:24:09.509Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-common_vendors",
+        "timestamp": "2026-07-06T03:24:09.509Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-user_account_core",
+        "timestamp": "2026-07-06T03:24:09.510Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-performance",
+        "timestamp": "2026-07-06T03:24:09.510Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-visitor_site_error_reporter",
+        "timestamp": "2026-07-06T03:24:40.529Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-cldr_resource_pack",
+        "timestamp": "2026-07-06T03:24:40.529Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-common_vendors_stable",
+        "timestamp": "2026-07-06T03:24:40.529Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-common_vendors",
+        "timestamp": "2026-07-06T03:24:40.529Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-user_account_core",
+        "timestamp": "2026-07-06T03:24:40.530Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-performance",
+        "timestamp": "2026-07-06T03:24:40.530Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-visitor_site_error_reporter",
+        "timestamp": "2026-07-06T03:34:08.605Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-cldr_resource_pack",
+        "timestamp": "2026-07-06T03:34:08.605Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-common_vendors_stable",
+        "timestamp": "2026-07-06T03:34:08.605Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-common_vendors",
+        "timestamp": "2026-07-06T03:34:08.605Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-user_account_core",
+        "timestamp": "2026-07-06T03:34:08.606Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      },
+      {
+        "level": "warn",
+        "message": "yui: NOT loaded: squarespace-performance",
+        "timestamp": "2026-07-06T03:34:08.606Z",
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js"
+      }
+    ]
   }
 }

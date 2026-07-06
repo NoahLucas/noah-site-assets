@@ -102,6 +102,10 @@
   },
   "productionValidation": {
     "status": "pending",
-    "reason": "Production pointer updated locally; public GitHub Pages and noahlucas.com proof to be recorded after push propagation."
+    "reason": "Production pointer retry commit created after transient GitHub Pages deploy failure; public proof to be recorded after deployment succeeds."
+  },
+  "deploymentRetry": {
+    "at": "2026-07-06T04:48:25.725Z",
+    "reason": "GitHub Pages deploy for b3294a0 failed after successful build/upload with transient deploy-pages error: Deployment failed, try again later."
   }
 }

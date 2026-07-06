@@ -4,7 +4,7 @@
   "releasePath": "releases/2026-07-04_homepage_v022/",
   "manifest": "releases/2026-07-04_homepage_v022/manifest.json",
   "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
-  "promotedAt": "2026-07-06T04:37:28.847Z",
+  "promotedAt": "2026-07-06T04:48:25.725Z",
   "previous": {
     "schemaVersion": "site-publisher-latest-v1",
     "releaseId": "2026-07-04_homepage_v021",
@@ -96,5 +96,7 @@
     },
     "liveSquarespaceModified": false
   },
-  "liveSquarespaceModified": false
+  "liveSquarespaceModified": false,
+  "deploymentRetryAt": "2026-07-06T04:48:25.725Z",
+  "deploymentRetryReason": "Retry GitHub Pages deployment for unchanged v022 release after transient deploy-pages failure."
 }

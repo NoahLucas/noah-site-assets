@@ -1,0 +1,322 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-07-06T05:59:51.262Z",
+  "url": "https://noahlucas.com/?theme=day&glass=clear&contact-proof=v023-1783317583828",
+  "latestUrl": "https://noahlucas.github.io/noah-site-assets/site/latest.json?cb=1783317583828",
+  "latest": {
+    "schemaVersion": "site-publisher-latest-v1",
+    "releaseId": "2026-07-04_homepage_v023",
+    "releasePath": "releases/2026-07-04_homepage_v023/",
+    "manifest": "releases/2026-07-04_homepage_v023/manifest.json",
+    "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+    "promotedAt": "2026-07-06T05:58:11.636Z",
+    "previous": {
+      "schemaVersion": "site-publisher-latest-v1",
+      "releaseId": "2026-07-04_homepage_v022",
+      "releasePath": "releases/2026-07-04_homepage_v022/",
+      "manifest": "releases/2026-07-04_homepage_v022/manifest.json",
+      "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+      "promotedAt": "2026-07-06T04:48:25.725Z",
+      "previous": {
+        "schemaVersion": "site-publisher-latest-v1",
+        "releaseId": "2026-07-04_homepage_v021",
+        "releasePath": "releases/2026-07-04_homepage_v021/",
+        "manifest": "releases/2026-07-04_homepage_v021/manifest.json",
+        "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+        "promotedAt": "2026-07-06T03:32:18.572Z",
+        "previous": {
+          "schemaVersion": "site-publisher-latest-v1",
+          "releaseId": "2026-07-04_homepage_v020",
+          "releasePath": "releases/2026-07-04_homepage_v020/",
+          "manifest": "releases/2026-07-04_homepage_v020/manifest.json",
+          "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+          "promotedAt": "2026-07-06T01:22:04.625Z",
+          "previous": {
+            "schemaVersion": "site-publisher-latest-v1",
+            "releaseId": "2026-07-04_homepage_v019",
+            "releasePath": "releases/2026-07-04_homepage_v019/",
+            "manifest": "releases/2026-07-04_homepage_v019/manifest.json",
+            "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+            "promotedAt": "2026-07-05T21:56:23.122Z",
+            "previous": {
+              "schemaVersion": "site-publisher-latest-v1",
+              "releaseId": "2026-07-04_homepage_v018",
+              "releasePath": "releases/2026-07-04_homepage_v018/",
+              "manifest": "releases/2026-07-04_homepage_v018/manifest.json",
+              "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+              "promotedAt": "2026-07-05T03:24:31.995Z",
+              "previous": {
+                "schemaVersion": "site-publisher-latest-v1",
+                "releaseId": "2026-07-04_homepage_v017",
+                "releasePath": "releases/2026-07-04_homepage_v017/",
+                "manifest": "releases/2026-07-04_homepage_v017/manifest.json",
+                "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+                "promotedAt": "2026-07-05T03:18:10.299Z",
+                "previous": {
+                  "schemaVersion": "site-publisher-latest-v1",
+                  "releaseId": "2026-07-04_homepage_v016",
+                  "releasePath": "releases/2026-07-04_homepage_v016/",
+                  "manifest": "releases/2026-07-04_homepage_v016/manifest.json",
+                  "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+                  "promotedAt": "2026-07-04T05:26:07.113Z",
+                  "previous": {
+                    "schemaVersion": "site-publisher-latest-v1",
+                    "releaseId": "2026-07-04_homepage_v015",
+                    "releasePath": "releases/2026-07-04_homepage_v015/",
+                    "manifest": "releases/2026-07-04_homepage_v015/manifest.json",
+                    "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+                    "promotedAt": "2026-07-04T04:19:31.855Z",
+                    "previous": {
+                      "schemaVersion": "site-publisher-latest-v1",
+                      "releaseId": "2026-06-30_homepage_v014",
+                      "releasePath": "releases/2026-06-30_homepage_v014/",
+                      "manifest": "releases/2026-06-30_homepage_v014/manifest.json",
+                      "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+                      "promotedAt": "2026-06-30T21:17:17.407Z",
+                      "previous": {
+                        "schemaVersion": "site-publisher-latest-v1",
+                        "releaseId": "2026-06-30_homepage_v009",
+                        "releasePath": "releases/2026-06-30_homepage_v009/",
+                        "manifest": "releases/2026-06-30_homepage_v009/manifest.json",
+                        "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+                        "promotedAt": "2026-06-30T19:59:23.126Z",
+                        "previous": {
+                          "schemaVersion": "site-publisher-latest-v1",
+                          "releaseId": "2026-06-30_homepage_v005",
+                          "releasePath": "releases/2026-06-30_homepage_v005/",
+                          "manifest": "releases/2026-06-30_homepage_v005/manifest.json",
+                          "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+                          "promotedAt": "2026-06-30T17:11:42.721Z",
+                          "previous": null,
+                          "liveSquarespaceModified": false
+                        },
+                        "liveSquarespaceModified": false
+                      },
+                      "liveSquarespaceModified": false
+                    },
+                    "liveSquarespaceModified": false
+                  },
+                  "liveSquarespaceModified": false
+                },
+                "liveSquarespaceModified": false
+              },
+              "liveSquarespaceModified": false
+            },
+            "liveSquarespaceModified": false
+          },
+          "liveSquarespaceModified": false
+        },
+        "liveSquarespaceModified": false
+      },
+      "liveSquarespaceModified": false,
+      "deploymentRetryAt": "2026-07-06T04:48:25.725Z",
+      "deploymentRetryReason": "Retry GitHub Pages deployment for unchanged v022 release after transient deploy-pages failure."
+    },
+    "liveSquarespaceModified": false,
+    "deploymentRetryAt": "2026-07-06T05:58:11.636Z",
+    "deploymentRetryReason": "Retry GitHub Pages deployment for unchanged v023 release after transient deploy-pages failure."
+  },
+  "method": "Playwright using local Google Chrome against production noahlucas.com after public latest served v023.",
+  "flowUnderTest": "production homepage -> contact paragraph removed -> buttons remain -> glass selector works.",
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "state": {
+      "title": "Noah Lucas — Product Executive",
+      "bodyTextContainsRejected": false,
+      "contactPrimaryExists": false,
+      "contactParagraphCount": 0,
+      "contactButtons": [
+        {
+          "text": "Get in Touch",
+          "href": "mailto:noah@noahlucas.com"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/in/noahlucas/"
+        }
+      ],
+      "heroButtons": [
+        "Get in Touch",
+        "LinkedIn"
+      ],
+      "htmlGlass": "clear",
+      "glassHitTargets": {
+        "left": true,
+        "center": true,
+        "arrow": true
+      },
+      "horizontalOverflow": false
+    },
+    "screenshot": "public-proof/production-contact-paragraph-v023.png"
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 2
+    },
+    "state": {
+      "bodyTextContainsRejected": false,
+      "contactPrimaryExists": false,
+      "contactParagraphCount": 0,
+      "contactButtons": [
+        "Get in Touch",
+        "LinkedIn"
+      ],
+      "horizontalOverflow": false,
+      "navLinksDisplay": "none",
+      "brandActionsOverlap": false,
+      "glassSelectHit": true
+    },
+    "screenshot": "public-proof/production-contact-paragraph-mobile-v023.png"
+  },
+  "interaction": {
+    "thinState": {
+      "value": "thin",
+      "htmlGlass": "thin"
+    },
+    "clearState": {
+      "value": "clear",
+      "htmlGlass": "clear"
+    }
+  },
+  "consoleWarningsOrErrors": [
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-visitor_site_error_reporter",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-cldr_resource_pack",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors_stable",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-user_account_core",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-performance",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-visitor_site_error_reporter",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-cldr_resource_pack",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors_stable",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-common_vendors",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-user_account_core",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    },
+    {
+      "type": "warning",
+      "text": "yui: NOT loaded: squarespace-performance",
+      "location": {
+        "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fa26fb30c4e7d9a1-min.en-US.js",
+        "line": 7,
+        "column": 25311,
+        "lineNumber": 7,
+        "columnNumber": 25311
+      }
+    }
+  ],
+  "pageErrors": [],
+  "failures": []
+}

@@ -84,11 +84,50 @@
       "path": "snapshots/contact-paragraph-mobile-v023.png",
       "bytes": 767920,
       "sha256": "c3e411da20eb82f97a21f1c5d42f170da64537de598fdb360357fe4f78121a2a"
+    },
+    "public-proof.production-contact-paragraph-v023.json": {
+      "path": "public-proof/production-contact-paragraph-v023.json",
+      "bytes": 12753,
+      "sha256": "b2cc7ef40f9b09a468518dc2c4f64eb7ad65fbb7347d19f56535265dcd20304a"
+    },
+    "public-proof.production-contact-paragraph-v023.png": {
+      "path": "public-proof/production-contact-paragraph-v023.png",
+      "bytes": 1078260,
+      "sha256": "79381e79d61624790bcb249b02709de07543032381d267d9b0002c376573c221"
+    },
+    "public-proof.production-contact-paragraph-mobile-v023.png": {
+      "path": "public-proof/production-contact-paragraph-mobile-v023.png",
+      "bytes": 707878,
+      "sha256": "b6ee192d886f9c8eec1e56a80474cc51b0fcf4bb9d877f9cbf6180b87f14e556"
     }
   },
   "productionValidation": {
-    "status": "pending",
-    "reason": "Production pointer retry commit created after transient GitHub Pages deploy failure; public proof to be recorded after deployment succeeds."
+    "status": "pass",
+    "checkedAt": "2026-07-06T05:59:51.262Z",
+    "url": "https://noahlucas.com/?theme=day&glass=clear&contact-proof=v023-1783317583828",
+    "method": "Playwright using local Google Chrome against production noahlucas.com after public latest served v023.",
+    "flowUnderTest": "production homepage -> contact paragraph removed -> buttons remain -> glass selector works.",
+    "checks": [
+      "Public latest.json returns releaseId 2026-07-04_homepage_v023.",
+      "The rejected Contact paragraph is absent from production rendered body text.",
+      "No data-copy-key=\"contact.primary\" node remains in production.",
+      "The production Contact section contains zero paragraph elements.",
+      "Production Contact CTAs remain exactly Get in Touch and LinkedIn.",
+      "Production glass selector switches Thin back to Clear.",
+      "Production mobile 390px viewport has no horizontal overflow, no nav brand/actions overlap, and selector hit target remains reachable."
+    ],
+    "reports": [
+      "public-proof/production-contact-paragraph-v023.json"
+    ],
+    "screenshots": [
+      "public-proof/production-contact-paragraph-v023.png",
+      "public-proof/production-contact-paragraph-mobile-v023.png"
+    ],
+    "pagesDeployment": {
+      "firstFailedCommit": "13b85ab323631a96a715aa310f76f452ad215018",
+      "retryCommit": "dd149926f1ad03dda238962415e735c8862e7df9",
+      "recovery": "Retry commit caused public latest.json to serve v023."
+    }
   },
   "deploymentRetry": {
     "at": "2026-07-06T05:58:11.636Z",

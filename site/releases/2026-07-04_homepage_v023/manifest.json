@@ -88,6 +88,10 @@
   },
   "productionValidation": {
     "status": "pending",
-    "reason": "Production pointer updated locally; public proof to be recorded after push and GitHub Pages propagation."
+    "reason": "Production pointer retry commit created after transient GitHub Pages deploy failure; public proof to be recorded after deployment succeeds."
+  },
+  "deploymentRetry": {
+    "at": "2026-07-06T05:58:11.636Z",
+    "reason": "GitHub Pages deploy for 13b85ab failed after successful build/upload with transient deploy-pages error: Deployment failed, try again later."
   }
 }

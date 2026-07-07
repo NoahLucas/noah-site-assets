@@ -4710,7 +4710,7 @@ html[data-theme="day"] .hgl-surface::before {
 
     .hero-bg-stage,
     html.scene-ready .hero-bg-stage {
-      opacity: calc(var(--scene-opacity, 1) * var(--scene-scroll-opacity, 1)) !important;
+      opacity: var(--scene-opacity, 1) !important;
     }
 
     .hero-bg-img,
@@ -5546,9 +5546,7 @@ html[data-theme="day"] .hgl-surface::before {
       }
 
       function updateScrollState() {
-        const scrollDepth = clamp((window.scrollY - 40) / 520, 0, 1);
-        const sceneOpacity = 1 - scrollDepth;
-        document.documentElement.style.setProperty('--scene-scroll-opacity', sceneOpacity.toFixed(3));
+        document.documentElement.style.setProperty('--scene-scroll-opacity', '1');
 
         if (workCards.length) {
           const viewportFocus = window.innerHeight * .52;

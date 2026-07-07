@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-07_homepage_v026",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v026 current-content liquid glass and AI route",
+  "createdAt": "2026-07-07T15:25:45.050Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "2026-07-04_homepage_v023 plus Issue #2 liquid glass updates",
+    "issue": "NoahLucas/noah-site-assets#2"
+  },
+  "changeSummary": [
+    "Rebases the liquid-glass work onto the promoted v023 homepage content instead of the stale staging shell.",
+    "Makes Contact use the same section-body/text-row-list grammar as Operating Principles while preserving Get in Touch and LinkedIn actions.",
+    "Makes Impact triggers match employer pane-cta buttons and rounds CTA corners.",
+    "Promotes nl-refractive-sampler, SVG displacement, material tuning, pointer variables, and mobile/reduced-motion fallbacks on current homepage content.",
+    "Updates /AI copy and keeps /AI on the same noahlucas.com shell, glass pane, feed band, hgl sections, work-card model, and CTA system."
+  ],
+  "validation": {
+    "status": "pass-static-file-validation-browser-file-blocked",
+    "checkedAt": "2026-07-07T15:25:45.048Z",
+    "method": "Static validation only. The in-app Browser rejected file:// automation via URL policy, and no local server was started per user instruction.",
+    "flowUnderTest": "current v023 homepage shell rebased with v026 liquid glass -> /AI generated from same shell -> staging and production pointer artifacts updated.",
+    "checks": [
+      "Homepage source is rebased from promoted v023 content, removing the stale contact paragraph and stale arrow CTA copy from the older staging shell.",
+      "Contact section uses section-body text-row-list contact-actions, matching the operating-principles section body grammar while keeping contact CTAs.",
+      "Impact trigger and employer CTAs share pane-cta typography, min-height, border, fill, and 14px radius.",
+      "Homepage keeps nl-refractive-sampler on feed band and product-executive hero.",
+      "/AI copy updates the hero line to Install the operating system for business operations and expands the operating-system content.",
+      "/AI keeps nl-refractive-sampler on feed band, hero, and Nightly Operating Brief card."
+    ],
+    "reports": [
+      "reports/liquid-glass-v026-static-validation.json"
+    ]
+  },
+  "supersedes": "2026-07-04_homepage_v023",
+  "supersedesReason": "v026 preserves the current live content while applying the requested liquid-glass design upgrades and /AI route work.",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": true,
+  "productionPromotedAt": "2026-07-07T15:25:45.050Z",
+  "productionPointer": "site/latest.json",
+  "aiRoute": {
+    "localPath": "site/AI/index.html",
+    "intendedPath": "/AI",
+    "status": "static-route-promoted-in-assets-repo; Squarespace route still requires page/bootstrap support if serving under noahlucas.com/AI"
+  },
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 298183,
+      "sha256": "a8ab3e60308ab0811eaf13f9b2dbcbcd0298461e5da6445534bc49b758fdf1ba"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 296579,
+      "sha256": "2b26dfb90622bdaab8ac160270c9936cf5bc894408d6a5fe7cc9e2a6d770243f"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 298183,
+      "sha256": "a8ab3e60308ab0811eaf13f9b2dbcbcd0298461e5da6445534bc49b758fdf1ba"
+    },
+    "source.home_v2_03_deploy_candidate.html": {
+      "path": "source/home_v2_03_deploy_candidate.html",
+      "bytes": 298183,
+      "sha256": "a8ab3e60308ab0811eaf13f9b2dbcbcd0298461e5da6445534bc49b758fdf1ba"
+    },
+    "reports.liquid-glass-v026-static-validation.json": {
+      "path": "reports/liquid-glass-v026-static-validation.json",
+      "bytes": 1258,
+      "sha256": "11cb070eb0519304189d9d1f62554505e4c860d4f908a08551d41aaa62ac60a9"
+    }
+  },
+  "productionValidation": null
+}

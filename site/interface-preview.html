@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Noah Site Interface Preview</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #050608;
+      --text: #f7f7f4;
+      --muted: rgba(247, 247, 244, .68);
+      --line: rgba(255, 255, 255, .18);
+      --panel: rgba(255, 255, 255, .06);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .shell {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      min-height: 100vh;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(5, 6, 8, .92);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 12px;
+      line-height: 1;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .tabs {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    button,
+    a {
+      color: var(--text);
+      font: inherit;
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    button {
+      appearance: none;
+      cursor: pointer;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      padding: 9px 11px;
+    }
+
+    button[aria-pressed="true"] {
+      background: rgba(255, 255, 255, .16);
+      border-color: rgba(255, 255, 255, .42);
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--muted);
+    }
+
+    .frame-wrap {
+      min-height: 0;
+      background: #000;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: calc(100vh - 49px);
+      border: 0;
+      background: #000;
+    }
+
+    @media (max-width: 640px) {
+      header {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .tabs {
+        width: 100%;
+      }
+
+      button {
+        flex: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <h1>Noah Site Interface Preview</h1>
+      <div class="tabs" aria-label="Preview pages">
+        <button type="button" data-src="staging/index.html" aria-pressed="true">Home</button>
+        <button type="button" data-src="AI/index.html" aria-pressed="false">/AI</button>
+        <a id="open-current" href="staging/index.html">Open</a>
+      </div>
+    </header>
+    <div class="frame-wrap">
+      <iframe id="preview-frame" src="staging/index.html" title="Noah site preview"></iframe>
+    </div>
+  </div>
+
+  <script>
+    const frame = document.querySelector('#preview-frame');
+    const openCurrent = document.querySelector('#open-current');
+    const buttons = Array.from(document.querySelectorAll('button[data-src]'));
+
+    buttons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const src = button.dataset.src;
+        frame.src = src;
+        openCurrent.href = src;
+        buttons.forEach((item) => {
+          item.setAttribute('aria-pressed', String(item === button));
+        });
+      });
+    });
+  </script>
+</body>
+</html>

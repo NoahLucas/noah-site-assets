@@ -1,15 +1,20 @@
 {
   "schemaVersion": "site-publisher-staging-v1",
   "environment": "staging",
-  "releaseId": "2026-07-04_homepage_v016",
+  "releaseId": "2026-07-07_homepage_v026",
   "projectId": "noahlucas-homepage",
-  "title": "Noah Lucas homepage v016 moonlit hero, optical glass, and Serve animation",
-  "releasePath": "releases/2026-07-04_homepage_v016/",
-  "manifest": "releases/2026-07-04_homepage_v016/manifest.json",
-  "preview": "releases/2026-07-04_homepage_v016/preview/index.html",
+  "title": "Noah Lucas homepage v026 current-content liquid glass and AI route",
+  "releasePath": "releases/2026-07-07_homepage_v026/",
+  "manifest": "releases/2026-07-07_homepage_v026/manifest.json",
+  "preview": "releases/2026-07-07_homepage_v026/preview/index.html",
   "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
-  "updatedAt": "2026-07-04T05:26:07.113Z",
+  "updatedAt": "2026-07-07T15:25:45.050Z",
   "productionPromoted": true,
   "liveSquarespaceModified": false,
-  "productionPromotedAt": "2026-07-04T05:26:07.113Z"
+  "productionPromotedAt": "2026-07-07T15:25:45.050Z",
+  "aiRoute": {
+    "localPath": "site/AI/index.html",
+    "intendedPath": "/AI",
+    "status": "static-route-promoted-in-assets-repo; Squarespace route still requires page/bootstrap support if serving under noahlucas.com/AI"
+  }
 }

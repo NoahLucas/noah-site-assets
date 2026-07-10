@@ -27,8 +27,8 @@
     "Leaves the production pointer and live Squarespace site unchanged."
   ],
   "validation": {
-    "status": "pending-public-browser-validation",
-    "checkedAt": "2026-07-10T20:45:00Z",
+    "status": "pass",
+    "checkedAt": "2026-07-10T23:40:21Z",
     "method": "Local source validation plus public staging browser check after GitHub Pages deployment.",
     "report": "reports/staging-v039-browser-validation.json"
   },

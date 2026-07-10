@@ -1,8 +1,8 @@
 {
   "schemaVersion": "noahlucas-staging-browser-validation-v1",
   "releaseId": "2026-07-10_homepage_v038",
-  "checkedAt": "2026-07-10T20:16:00Z",
-  "status": "pending-public-browser-validation",
+  "checkedAt": "2026-07-10T20:35:46Z",
+  "status": "pass",
   "surface": "https://noahlucas.github.io/noah-site-assets/site/staging/",
   "changes": {
     "hero": "Hero is reduced to Noah Lucas, the requested intelligence-systems sentence, and Get in Touch / LinkedIn actions.",
@@ -16,7 +16,13 @@
   },
   "checks": [
     "Source parses and git diff has no whitespace errors.",
-    "Public browser verification to be recorded after Pages deployment of v038.",
+    "Public browser: hero has the requested intelligence-systems sentence, no domain overflow, and centered name/line/actions.",
+    "Public browser: role-fingerprints and t-shaped-profile are absent; one Archetype section contains breadth and depth blocks spanning the full content column.",
+    "Public browser: desktop motion path places Signal → Thesis → Promise → Requirements, then ↓ Build ← Validate ← Adoption ← Operate / Evidence; mobile switches to a down-arrow sequence.",
+    "Public browser: Impact overlay opens with aria-hidden=false, opaque theme-aware background, and readable dark text.",
+    "Public browser: all three Sift videos reach readyState=4 with no media errors; manual dot navigation activates the second segment.",
+    "Public browser: Anduril first active source is the flying ghost-drone video and all three sources reach readyState=4.",
+    "Public browser console diagnostics: no warning or error entries.",
     "Production pointer remains at the v026 release and live Squarespace remains untouched."
   ],
   "boundaries": {

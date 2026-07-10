@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "noahlucas-staging-browser-validation-v1",
+  "releaseId": "2026-07-10_homepage_v034",
+  "checkedAt": "2026-07-10T18:14:16Z",
+  "status": "pass",
+  "surface": "http://127.0.0.1:8011/site/staging/",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 720,
+      "theme": "day",
+      "glass": "regular",
+      "result": "pass",
+      "title": "Noah Lucas — Physical AI & Frontier Systems Product Executive",
+      "identityLabel": "Physical AI & Frontier Systems",
+      "identityDomain": "Physical AI · Aerospace / Space Systems · Robotics & Autonomy · Mission AI · Geospatial / Edge Data · Telemetry / Observability · DDIL / Offline-First Systems",
+      "thesisIncludes": "turning complex technical capability into reliable products",
+      "siftOutcome": "Build telemetry, observability, and data infrastructure for aerospace, robotics, and mission-critical hardware teams.",
+      "observedHorizontalOverflow": false
+    }
+  ],
+  "checks": [
+    "Homepage message is balanced across applied AI, physical AI, aerospace/space, autonomy, and mission-critical infrastructure interview targets.",
+    "Expanded Postmates and selected-work proof remain intact.",
+    "No browser console warnings or errors were observed."
+  ],
+  "boundaries": {
+    "productionPointerModified": false,
+    "liveSquarespaceModified": false,
+    "stagingOnly": true
+  }
+}

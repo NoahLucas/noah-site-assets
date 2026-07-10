@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-10_homepage_v034",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v034 cross-variant interview positioning",
+  "createdAt": "2026-07-10T18:14:16Z",
+  "target": {
+    "platform": "github-pages-staging",
+    "pageSlug": "/",
+    "publishMode": "staging-only"
+  },
+  "source": {
+    "stagingBaseline": "2026-07-10_homepage_v033",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/staging/index.html"
+  },
+  "changeSummary": [
+    "Reconciles the applied-AI, defense/physical-AI, frontier-research, and mission-systems resume variants into one interview-facing homepage message.",
+    "Positions Noah as a Physical AI & Frontier Systems product executive for aerospace/space, robotics/autonomy, edge-data, telemetry, and mission-critical infrastructure companies.",
+    "Keeps the expanded Postmates proof as supporting evidence rather than the homepage's primary identity, and preserves all glass, logo, image, and responsive behavior.",
+    "Leaves the production pointer and live Squarespace site unchanged."
+  ],
+  "validation": {
+    "status": "pass-browser-visual-and-interaction",
+    "checkedAt": "2026-07-10T18:14:16Z",
+    "method": "Local HTTP server plus in-app browser at 1280x720; DOM, overflow, and console checks.",
+    "checks": [
+      "Identity, thesis, principles, research, investments, metadata, and footer reflect the cross-variant interview positioning.",
+      "Sift, Anduril, Pendulum, Serve, and expanded Postmates evidence remain intact without horizontal overflow.",
+      "No browser console warnings or errors were observed."
+    ],
+    "report": "reports/staging-v034-browser-validation.json"
+  },
+  "supersedes": "2026-07-10_homepage_v033",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 308056,
+      "sha256": "1b66c585454a363373f7db3d0fb90875252d4050a1239191d73b44f1ec96649c"
+    },
+    "source.home_v2_03_staging_v034.html": {
+      "path": "source/home_v2_03_staging_v034.html",
+      "bytes": 308056,
+      "sha256": "1b66c585454a363373f7db3d0fb90875252d4050a1239191d73b44f1ec96649c"
+    }
+  }
+}

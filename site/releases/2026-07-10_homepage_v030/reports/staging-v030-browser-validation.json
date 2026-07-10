@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "noahlucas-staging-browser-validation-v1",
+  "releaseId": "2026-07-10_homepage_v030",
+  "checkedAt": "2026-07-10T17:35:50Z",
+  "status": "pass",
+  "surface": "http://127.0.0.1:8008/site/staging/",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 720,
+      "theme": "day",
+      "glass": "regular",
+      "result": "pass",
+      "observedPaneBorderRadius": "30px",
+      "observedHeroBorderRadius": "29px 29px 0px 0px",
+      "visibleEmployerLogos": [
+        "Sift",
+        "Anduril Industries",
+        "Pendulum",
+        "Serve Robotics",
+        "Postmates",
+        "Expedia",
+        "S&P Capital IQ"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "day",
+      "glass": "regular",
+      "result": "pass",
+      "observedPaneBorderRadius": "22px",
+      "observedHeroBorderRadius": "21px 21px 0px 0px",
+      "visibleEmployerLogos": [
+        "Sift",
+        "Anduril Industries",
+        "Serve Robotics",
+        "Postmates"
+      ],
+      "hiddenEmployerLogos": [
+        "Pendulum",
+        "Expedia",
+        "S&P Capital IQ"
+      ],
+      "observedClientWidth": 375,
+      "observedScrollWidth": 376
+    }
+  ],
+  "checks": [
+    "Rounded pane and hero corners are restored on desktop and mobile.",
+    "Mobile employer proof strip shows exactly Sift, Anduril, Serve Robotics, and Postmates.",
+    "Desktop employer strip retains the full logo set.",
+    "No browser console warnings or errors were observed during validation."
+  ],
+  "boundaries": {
+    "productionPointerModified": false,
+    "liveSquarespaceModified": false,
+    "stagingOnly": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-10_homepage_v030",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v030 rounded glass and mobile logo strip",
+  "createdAt": "2026-07-10T17:35:50Z",
+  "target": {
+    "platform": "github-pages-staging",
+    "pageSlug": "/",
+    "publishMode": "staging-only"
+  },
+  "source": {
+    "stagingBaseline": "2026-07-10_homepage_v029",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/staging/index.html"
+  },
+  "changeSummary": [
+    "Restores the rounded outer pane and hero corners from the prior glass treatment.",
+    "Shows Sift, Anduril Industries, Serve Robotics, and Postmates in the mobile employer strip.",
+    "Keeps Pendulum, Expedia, and S&P Capital IQ available in the wider desktop strip.",
+    "Preserves the v029 glass thickness states and proof-first work hierarchy.",
+    "Leaves the production pointer and live Squarespace site unchanged."
+  ],
+  "validation": {
+    "status": "pass-browser-visual-and-interaction",
+    "checkedAt": "2026-07-10T17:35:50Z",
+    "method": "Local HTTP server plus in-app browser at 1280x720 and 390x844.",
+    "checks": [
+      "Desktop pane radius is 30px and mobile pane radius is 22px.",
+      "Mobile visible logo set matches the requested four employers.",
+      "Desktop retains all seven employer marks.",
+      "No browser console warnings or errors were observed."
+    ],
+    "report": "reports/staging-v030-browser-validation.json"
+  },
+  "supersedes": "2026-07-10_homepage_v029",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 307162,
+      "sha256": "da84f4c202e168e6d6a6db5cd454a4b1c2de7206fe98f9819c6347d26bd66645"
+    },
+    "source.home_v2_03_staging_v030.html": {
+      "path": "source/home_v2_03_staging_v030.html",
+      "bytes": 307162,
+      "sha256": "da84f4c202e168e6d6a6db5cd454a4b1c2de7206fe98f9819c6347d26bd66645"
+    }
+  }
+}

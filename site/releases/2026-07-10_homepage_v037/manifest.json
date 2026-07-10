@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-10_homepage_v037",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v037 interaction and product-leadership cleanup",
+  "createdAt": "2026-07-10T20:05:00Z",
+  "target": {
+    "platform": "github-pages-staging",
+    "pageSlug": "/",
+    "publishMode": "staging-only"
+  },
+  "source": {
+    "stagingBaseline": "2026-07-10_homepage_v036",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/staging/index.html",
+    "googleDoc": "https://docs.google.com/document/d/1oSD9D1aRDi-PNfyzYrPVwgyZDtonzJLveyXUnqwYfhw/edit?tab=t.0",
+    "googleDocTab": "t.0",
+    "appendixTab": "t.yy0s4jd6foqi"
+  },
+  "changeSummary": [
+    "Makes expanded Impact copy readable with an opaque theme-aware media panel.",
+    "Hardens the Sift segment carousel with preload, canplay, ended, and boundary-seek handling, plus poster fallback for every segment.",
+    "Moves the Anduril flying ghost-drone video to the first carousel position.",
+    "Removes the standalone role-fingerprint chart gallery from the outward-facing page.",
+    "Rebuilds the T-shaped executive section as a clear breadth-across-the-company and depth-in-frontier-systems profile.",
+    "Fixes hero alignment and long domain-copy wrapping at the top of the page.",
+    "Leaves the production pointer and live Squarespace site unchanged."
+  ],
+  "validation": {
+    "status": "pending-public-browser-validation",
+    "checkedAt": "2026-07-10T20:05:00Z",
+    "method": "Local source validation plus public staging browser check after GitHub Pages deployment.",
+    "report": "reports/staging-v037-browser-validation.json"
+  },
+  "supersedes": "2026-07-10_homepage_v036",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 332318,
+      "sha256": "a16d37b6084f9f96a7c860298730f64dae38536832e6c4ef16ba1f23a992b8a0"
+    },
+    "source.home_v2_03_staging_v037.html": {
+      "path": "source/home_v2_03_staging_v037.html",
+      "bytes": 332318,
+      "sha256": "a16d37b6084f9f96a7c860298730f64dae38536832e6c4ef16ba1f23a992b8a0"
+    }
+  }
+}

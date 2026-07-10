@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-10_homepage_v039",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v039 information architecture",
+  "createdAt": "2026-07-10T20:45:00Z",
+  "target": {
+    "platform": "github-pages-staging",
+    "pageSlug": "/",
+    "publishMode": "staging-only"
+  },
+  "source": {
+    "stagingBaseline": "2026-07-10_homepage_v038",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/staging/index.html",
+    "googleDoc": "https://docs.google.com/document/d/1oSD9D1aRDi-PNfyzYrPVwgyZDtonzJLveyXUnqwYfhw/edit?tab=t.0",
+    "googleDocTab": "t.0",
+    "appendixTab": "t.yy0s4jd6foqi"
+  },
+  "changeSummary": [
+    "Uses the requested page order: hero, employer logos, archetype, experience, operating principles, product methodologies, research, writing, investments, and contact.",
+    "Labels the logo band Employer Logos and the shipped-work band Experience.",
+    "Adds a Product Methodologies section with the R&D-to-operations loop, telemetry-led operations, platform/integration strategy, and DDIL practice.",
+    "Updates the primary navigation to Archetype, Experience, Research, and Writing anchors.",
+    "Simplifies Archetype into one system-motion, breadth, and depth model without the duplicated T-shaped profile treatment.",
+    "Keeps the production pointer and live Squarespace site unchanged.",
+    "Leaves the production pointer and live Squarespace site unchanged."
+  ],
+  "validation": {
+    "status": "pending-public-browser-validation",
+    "checkedAt": "2026-07-10T20:45:00Z",
+    "method": "Local source validation plus public staging browser check after GitHub Pages deployment.",
+    "report": "reports/staging-v039-browser-validation.json"
+  },
+  "supersedes": "2026-07-10_homepage_v038",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 336649,
+      "sha256": "32ee3ca40375ce9bfb3c5e26a3ed3e81fd73132a0540d382add24f9c659d9d22"
+    },
+    "source.home_v2_03_staging_v039.html": {
+      "path": "source/home_v2_03_staging_v039.html",
+      "bytes": 336649,
+      "sha256": "32ee3ca40375ce9bfb3c5e26a3ed3e81fd73132a0540d382add24f9c659d9d22"
+    }
+  }
+}

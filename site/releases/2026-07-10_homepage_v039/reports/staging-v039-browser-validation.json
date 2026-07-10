@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "noahlucas-staging-browser-validation-v1",
+  "releaseId": "2026-07-10_homepage_v039",
+  "checkedAt": "2026-07-10T20:45:00Z",
+  "status": "pending-public-browser-validation",
+  "surface": "https://noahlucas.github.io/noah-site-assets/site/staging/",
+  "changes": {
+    "informationArchitecture": "Hero, employer logos, archetype, experience, operating principles, product methodologies, research, writing, investments, contact.",
+    "productMethodologies": "New labeled section for repeatable product methods across frontier systems.",
+    "employerLogos": "Logo band is labeled Employer Logos; work cards are labeled Experience.",
+    "archetype": "Archetype keeps the frontier-systems operator statement, correct operating motion, and breadth/depth profile unified.",
+    "impactOverlay": "Opaque theme-aware panel keeps expanded Impact copy readable over media.",
+    "siftCarousel": "All three segment videos preload and retry from canplay/ended boundaries; each has poster fallback.",
+    "andurilCarousel": "Flying ghost-drone source is first, followed by the prior first and second videos.",
+    "roleFingerprints": "Standalone chart gallery removed from rendered page."
+  },
+  "checks": [
+    "Source parses and git diff has no whitespace errors.",
+    "Public browser verification to be recorded after Pages deployment of v039.",
+    "Production pointer remains at the v026 release and live Squarespace remains untouched."
+  ],
+  "boundaries": {
+    "productionPointerModified": false,
+    "liveSquarespaceModified": false,
+    "stagingOnly": true
+  }
+}

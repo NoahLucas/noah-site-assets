@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-10_homepage_v036",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v036 correct resume plus appendix system",
+  "createdAt": "2026-07-10T19:48:58Z",
+  "target": {
+    "platform": "github-pages-staging",
+    "pageSlug": "/",
+    "publishMode": "staging-only"
+  },
+  "source": {
+    "stagingBaseline": "2026-07-10_homepage_v035",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/staging/index.html",
+    "googleDoc": "https://docs.google.com/document/d/1oSD9D1aRDi-PNfyzYrPVwgyZDtonzJLveyXUnqwYfhw/edit?tab=t.0",
+    "googleDocTab": "t.0",
+    "appendixTab": "t.yy0s4jd6foqi"
+  },
+  "changeSummary": [
+    "Aligns the homepage to the linked Google Docs resume default tab, v01 Mission-Critical Machines.",
+    "Uses the exact resume header and strapline: Product Executive | AI-Native Machines & Mission-Critical Data Infrastructure; I help design, build, validate, and operate intelligent systems in DDIL, edge, and frontier environments.",
+    "Adds the Appendix product leadership system: R&D / field signal through product thesis, customer promise, roadmap, design, validation, GTM, operations, and evidence.",
+    "Adds the T-shaped executive breadth/depth profile and six employer role fingerprints with visual comparison charts.",
+    "Keeps the standalone Product Thesis section removed, preserves rounded glass, and keeps the Sift / Anduril / Serve / Postmates mobile logo strip.",
+    "Leaves the production pointer and live Squarespace site unchanged."
+  ],
+  "validation": {
+    "status": "pass-browser-visual-and-interaction",
+    "checkedAt": "2026-07-10T19:48:58Z",
+    "method": "Local HTTP server plus in-app browser at desktop and narrow responsive viewports; DOM order, section presence, overflow, visual screenshots, and console checks.",
+    "checks": [
+      "Hero uses the linked resume default tab header, domains, and strapline; strapline is before the CTA buttons.",
+      "Appendix-derived product system, T-shaped profile, and six role fingerprint cards are present in the visible section order before selected work.",
+      "The standalone Product Thesis section is absent; Product Thesis appears only as a process step in the appendix system motion.",
+      "Desktop and narrow layouts render without material horizontal overflow; the known one-pixel refractive sampler overflow remains unchanged.",
+      "No browser console warnings or errors were observed."
+    ],
+    "report": "reports/staging-v036-browser-validation.json"
+  },
+  "supersedes": "2026-07-10_homepage_v035",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 325634,
+      "sha256": "036e1d2e750ab4dceba066dcb6e58e1dccbcac03ad1bd16b7953824d1bab7d26"
+    },
+    "source.home_v2_03_staging_v036.html": {
+      "path": "source/home_v2_03_staging_v036.html",
+      "bytes": 325634,
+      "sha256": "036e1d2e750ab4dceba066dcb6e58e1dccbcac03ad1bd16b7953824d1bab7d26"
+    }
+  }
+}

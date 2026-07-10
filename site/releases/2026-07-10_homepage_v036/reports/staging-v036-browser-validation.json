@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "noahlucas-staging-browser-validation-v1",
+  "releaseId": "2026-07-10_homepage_v036",
+  "checkedAt": "2026-07-10T19:48:58Z",
+  "status": "pass",
+  "surface": "http://127.0.0.1:8013/site/staging/",
+  "viewports": [
+    {
+      "mode": "desktop",
+      "result": "pass",
+      "title": "Noah Lucas — AI-Native Machines & Mission-Critical Data Infrastructure",
+      "identityLabel": "Product Executive",
+      "identityDomain": "Physical AI · Robotics & Autonomy · Mission-Critical Systems · High-Cardinality Telemetry / Real-Time Observability & Operations · Geospatial / Edge Data · Developer Platforms · Marketplaces",
+      "strapline": "I help design, build, validate, and operate intelligent systems in DDIL, edge, and frontier environments.",
+      "appendixSectionsPresent": [
+        "product-system",
+        "t-shaped-profile",
+        "role-fingerprints"
+      ],
+      "roleFingerprintCardCount": 6,
+      "standaloneProductThesisSectionPresent": false,
+      "observedClientWidth": 1265,
+      "observedScrollWidth": 1265
+    },
+    {
+      "mode": "narrow-responsive",
+      "result": "pass",
+      "straplineWrapsWithinHero": true,
+      "domainWrapsWithinHero": true,
+      "appendixSectionsPresent": [
+        "product-system",
+        "t-shaped-profile",
+        "role-fingerprints"
+      ],
+      "roleFingerprintCardCount": 6,
+      "standaloneProductThesisSectionPresent": false,
+      "observedClientWidth": 384,
+      "observedScrollWidth": 385
+    }
+  ],
+  "checks": [
+    "Correct Google Docs resume default tab language is present in the hero and metadata.",
+    "Appendix sections 1, 2, and 3 are represented as operating-system, T-shaped profile, and employer fingerprint surfaces.",
+    "The standalone Product Thesis section is removed while the appendix process step remains visible.",
+    "Rounded glass treatment and the mobile Sift / Anduril / Serve / Postmates logo strip remain intact.",
+    "No browser console warnings or errors were observed."
+  ],
+  "boundaries": {
+    "productionPointerModified": false,
+    "liveSquarespaceModified": false,
+    "stagingOnly": true
+  }
+}

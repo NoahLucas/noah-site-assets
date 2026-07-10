@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-10_homepage_v033",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v033 physical AI positioning",
+  "createdAt": "2026-07-10T18:12:04Z",
+  "target": {
+    "platform": "github-pages-staging",
+    "pageSlug": "/",
+    "publishMode": "staging-only"
+  },
+  "source": {
+    "stagingBaseline": "2026-07-10_homepage_v032",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/staging/index.html"
+  },
+  "changeSummary": [
+    "Reorients the homepage toward physical AI, mission AI, aerospace/space, robotics, autonomy, edge data, telemetry, and fieldable infrastructure companies.",
+    "Uses the Defense AI, Physical AI & Mission-Critical Data Infrastructure resume variant for the identity line, thesis, domains, operating principles, research, investments, metadata, and footer.",
+    "Preserves the selected-work evidence, expanded Postmates scope, rounded glass treatment, mobile logo strip, images, and responsive layout.",
+    "Leaves the production pointer and live Squarespace site unchanged."
+  ],
+  "validation": {
+    "status": "pass-browser-visual-and-interaction",
+    "checkedAt": "2026-07-10T18:12:04Z",
+    "method": "Local HTTP server plus in-app browser at 1280x720; DOM, overflow, and console checks.",
+    "checks": [
+      "Physical-AI identity line, thesis, principles, research, investments, metadata, and footer render as intended.",
+      "Selected-work evidence and expanded Postmates scope remain present without horizontal overflow.",
+      "No browser console warnings or errors were observed."
+    ],
+    "report": "reports/staging-v033-browser-validation.json"
+  },
+  "supersedes": "2026-07-10_homepage_v032",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 307801,
+      "sha256": "0728fcd7ae34b9d26fba858cb7606ae5e6863e44e58973b41cdc226409296e16"
+    },
+    "source.home_v2_03_staging_v033.html": {
+      "path": "source/home_v2_03_staging_v033.html",
+      "bytes": 307801,
+      "sha256": "0728fcd7ae34b9d26fba858cb7606ae5e6863e44e58973b41cdc226409296e16"
+    }
+  }
+}

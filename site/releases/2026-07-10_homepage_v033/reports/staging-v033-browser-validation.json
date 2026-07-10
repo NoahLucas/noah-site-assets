@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "noahlucas-staging-browser-validation-v1",
+  "releaseId": "2026-07-10_homepage_v033",
+  "checkedAt": "2026-07-10T18:12:04Z",
+  "status": "pass",
+  "surface": "http://127.0.0.1:8011/site/staging/",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 720,
+      "theme": "day",
+      "glass": "regular",
+      "result": "pass",
+      "identityLabel": "Physical AI Product Executive",
+      "identityDomain": "Physical AI · Mission AI · Robotics & Autonomy · Space / GEOINT / Edge Data · Telemetry / Observability · DDIL / Offline-First Systems",
+      "thesisIncludes": "Product executive and frontier systems operator with 15+ years",
+      "researchIncludes": [
+        "Mission AI Systems",
+        "Physical AI Productization",
+        "Live Operations Infrastructure",
+        "DDIL / Offline-First Workflows"
+      ],
+      "observedHorizontalOverflow": false
+    }
+  ],
+  "checks": [
+    "Homepage positioning now leads with physical AI, mission AI, autonomy, space/GEOINT, edge data, and fieldable systems.",
+    "Expanded Postmates and selected-work evidence remain intact.",
+    "No browser console warnings or errors were observed."
+  ],
+  "boundaries": {
+    "productionPointerModified": false,
+    "liveSquarespaceModified": false,
+    "stagingOnly": true
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-10_homepage_v032",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v032 expanded Postmates scope",
+  "createdAt": "2026-07-10T18:05:45Z",
+  "target": {
+    "platform": "github-pages-staging",
+    "pageSlug": "/",
+    "publishMode": "staging-only"
+  },
+  "source": {
+    "stagingBaseline": "2026-07-10_homepage_v031",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/staging/index.html"
+  },
+  "changeSummary": [
+    "Expands the Postmates card to cover customer-service organization and stack rebuild, automation, Zendesk integration, and internal product-operations infrastructure.",
+    "Adds the first non-domestic market launch and Apple/Walmart same-day delivery integrations alongside the developer-platform and B2B product growth from 0 to $12M ARR.",
+    "Preserves the v031 resume-aligned copy, rounded glass pane, mobile logo strip, images, and responsive layout.",
+    "Leaves the production pointer and live Squarespace site unchanged."
+  ],
+  "validation": {
+    "status": "pass-browser-visual-and-interaction",
+    "checkedAt": "2026-07-10T18:05:45Z",
+    "method": "Local HTTP server plus in-app browser at 1280x720; DOM and console checks for the expanded Postmates card.",
+    "checks": [
+      "Postmates body and impact drawer expose the requested operating scope without horizontal overflow.",
+      "Rounded glass pane and mobile employer proof strip remain unchanged from v031.",
+      "No browser console warnings or errors were observed."
+    ],
+    "report": "reports/staging-v032-browser-validation.json"
+  },
+  "supersedes": "2026-07-10_homepage_v031",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 307711,
+      "sha256": "4762e19a3d019340b7f1e336132fe28115392576611c33f57899b4c33e8627ae"
+    },
+    "source.home_v2_03_staging_v032.html": {
+      "path": "source/home_v2_03_staging_v032.html",
+      "bytes": 307711,
+      "sha256": "4762e19a3d019340b7f1e336132fe28115392576611c33f57899b4c33e8627ae"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "noahlucas-staging-browser-validation-v1",
+  "releaseId": "2026-07-10_homepage_v032",
+  "checkedAt": "2026-07-10T18:05:45Z",
+  "status": "pass",
+  "surface": "http://127.0.0.1:8010/site/staging/",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 720,
+      "theme": "day",
+      "glass": "regular",
+      "result": "pass",
+      "postmatesBody": "Rebuild customer service operations, product, and the technology stack for automation and Zendesk integration; build internal infrastructure for product operations.",
+      "postmatesImpactIncludes": [
+        "developer platforms and B2B product from 0 to $12M ARR",
+        "customer service organization, product, and technology stack for automation",
+        "Zendesk",
+        "internal infrastructure for product operations",
+        "first non-domestic market",
+        "Apple and Walmart to power same-day delivery"
+      ],
+      "observedHorizontalOverflow": false
+    }
+  ],
+  "checks": [
+    "Expanded Postmates copy is visible in the work card and impact detail without horizontal overflow.",
+    "Rounded pane, mobile logo strip, and v031 resume-aligned copy remain preserved.",
+    "No browser console warnings or errors were observed."
+  ],
+  "boundaries": {
+    "productionPointerModified": false,
+    "liveSquarespaceModified": false,
+    "stagingOnly": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-10_homepage_v028",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v028 proof-first staging hierarchy",
+  "createdAt": "2026-07-10T16:36:54Z",
+  "target": {
+    "platform": "github-pages-staging",
+    "pageSlug": "/",
+    "publishMode": "staging-only"
+  },
+  "source": {
+    "stagingBaseline": "2026-07-10_homepage_v027",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/staging/index.html"
+  },
+  "changeSummary": [
+    "Moves selected product work directly beneath the employer proof strip.",
+    "Reorders the supporting thesis, operating principles, research, writing, and investments into a proof-first narrative.",
+    "Tightens first-frame pacing on desktop viewports 800px tall or shorter.",
+    "Preserves the untinted Yosemite image layer and existing day/night glass treatments.",
+    "Leaves the production pointer and live Squarespace site unchanged."
+  ],
+  "validation": {
+    "status": "pass-browser-visual-and-interaction",
+    "checkedAt": "2026-07-10T16:36:54Z",
+    "method": "Local HTTP server plus in-app browser at 1280x720 and 390x844.",
+    "checks": [
+      "Desktop first viewport shows the untinted image, identity, employer proof, and the start of selected work.",
+      "Selected work precedes thesis and research content at both tested breakpoints.",
+      "Mobile day and night themes preserve readable contrast and interaction chrome.",
+      "No browser console warnings or errors were observed."
+    ],
+    "report": "reports/staging-v028-browser-validation.json"
+  },
+  "supersedes": "2026-07-10_homepage_v027",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 302961,
+      "sha256": "bf69d8c9935b6c01bf07a3341de68bd940ebe97a3b6ba1af51e0b779d12e4861"
+    },
+    "source.home_v2_03_staging_v028.html": {
+      "path": "source/home_v2_03_staging_v028.html",
+      "bytes": 302961,
+      "sha256": "bf69d8c9935b6c01bf07a3341de68bd940ebe97a3b6ba1af51e0b779d12e4861"
+    }
+  }
+}

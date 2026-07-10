@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "noahlucas-staging-browser-validation-v1",
+  "releaseId": "2026-07-10_homepage_v028",
+  "checkedAt": "2026-07-10T16:36:54Z",
+  "status": "pass",
+  "surface": "http://127.0.0.1:8008/site/staging/",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 720,
+      "theme": "day",
+      "result": "pass",
+      "observedMainPaddingTop": "302.4px",
+      "observedSectionOrder": [
+        "product-executive",
+        "experience",
+        "work",
+        "summary",
+        "operating-principles",
+        "research",
+        "writing",
+        "investments",
+        "contact"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "day",
+      "result": "pass",
+      "observedMainPaddingTop": "405.12px",
+      "observedWorkOrder": "3",
+      "observedClientWidth": 375,
+      "observedScrollWidth": 376
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "night",
+      "result": "pass",
+      "themeToggleAccessibleLabel": "Switch to day theme",
+      "observedWorkOrder": "3"
+    }
+  ],
+  "checks": [
+    "Selected work renders immediately after the employer logo strip on desktop and mobile.",
+    "The 720px-height desktop viewport reveals more of the proof-first sequence without changing the image layer.",
+    "Mobile day and night treatments remain readable with no visible clipping.",
+    "No browser console warnings or errors were observed during validation."
+  ],
+  "boundaries": {
+    "productionPointerModified": false,
+    "liveSquarespaceModified": false,
+    "stagingOnly": true
+  }
+}

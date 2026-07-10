@@ -1,8 +1,8 @@
 {
   "schemaVersion": "noahlucas-staging-browser-validation-v1",
   "releaseId": "2026-07-10_homepage_v037",
-  "checkedAt": "2026-07-10T20:05:00Z",
-  "status": "pending-public-browser-validation",
+  "checkedAt": "2026-07-10T20:09:31Z",
+  "status": "pass",
   "surface": "https://noahlucas.github.io/noah-site-assets/site/staging/",
   "changes": {
     "impactOverlay": "Opaque theme-aware panel keeps expanded Impact copy readable over media.",
@@ -14,7 +14,12 @@
   },
   "checks": [
     "Source parses and git diff has no whitespace errors.",
-    "Public browser verification to be recorded after Pages deployment.",
+    "Public browser: role-fingerprints is absent from the rendered DOM and t-shaped-profile is present with separate breadth and depth blocks.",
+    "Public browser: hero name, domain label, and thesis line are centered inside the pane; the domain label wraps within the narrow review viewport.",
+    "Public browser: Impact overlay opens with aria-hidden=false, opaque theme-aware background, and readable dark text.",
+    "Public browser: all three Sift video segments reach readyState=4 with no media errors; manual dot navigation activates the second segment and seeks it to its segment boundary.",
+    "Public browser: Anduril first active source is the flying ghost-drone video, and all three sources reach readyState=4.",
+    "Public browser console diagnostics: no warning or error entries.",
     "Production pointer remains at the v026 release and live Squarespace remains untouched."
   ],
   "boundaries": {

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "noahlucas-staging-browser-validation-v1",
+  "releaseId": "2026-07-10_homepage_v029",
+  "checkedAt": "2026-07-10T16:59:31Z",
+  "status": "pass",
+  "surface": "http://127.0.0.1:8008/site/staging/",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 720,
+      "theme": "day",
+      "result": "pass",
+      "testedGlassStates": [
+        "clear",
+        "ultrathin",
+        "thin",
+        "regular",
+        "thick"
+      ],
+      "observedGlassBlur": {
+        "clear": "8px",
+        "ultrathin": "12px",
+        "thin": "16px",
+        "regular": "22px",
+        "thick": "30px"
+      },
+      "observedPaneBorderRadius": "0px",
+      "observedHeroBorderRadius": "0px"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "day",
+      "glass": "regular",
+      "result": "pass",
+      "observedPaneBorderRadius": "0px",
+      "observedHeroBorderRadius": "0px",
+      "observedWorkOrder": "3",
+      "observedClientWidth": 375,
+      "observedScrollWidth": 376
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "night",
+      "glass": "thick",
+      "result": "pass",
+      "observedPaneFill": "rgba(3, 5, 7, .80)",
+      "observedGlassBlur": "30px",
+      "observedPaneBorderRadius": "0px"
+    }
+  ],
+  "checks": [
+    "The thickness selector updates the root glass state and the pane surface blur/fill for all five options.",
+    "The outer pane and hero section no longer expose rounded corners against the Yosemite image.",
+    "Day and night treatments preserve readable contrast on desktop and mobile.",
+    "No browser console warnings or errors were observed during validation."
+  ],
+  "boundaries": {
+    "productionPointerModified": false,
+    "liveSquarespaceModified": false,
+    "stagingOnly": true
+  }
+}

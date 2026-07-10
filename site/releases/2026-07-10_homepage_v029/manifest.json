@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-10_homepage_v029",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v029 glass thickness and pane edge staging fix",
+  "createdAt": "2026-07-10T16:59:31Z",
+  "target": {
+    "platform": "github-pages-staging",
+    "pageSlug": "/",
+    "publishMode": "staging-only"
+  },
+  "source": {
+    "stagingBaseline": "2026-07-10_homepage_v028",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/staging/index.html"
+  },
+  "changeSummary": [
+    "Makes the Clear, Ultrathin, Thin, Regular, and Thick selector states control the actual pane fill, blur, and saturation values.",
+    "Separates the pane surface treatment from the inner section treatment so thickness changes remain visible.",
+    "Removes the exposed rounded outer pane and hero corners so the glass surface meets the image cleanly.",
+    "Preserves the proof-first work hierarchy from v028 and the untinted Yosemite image layer.",
+    "Leaves the production pointer and live Squarespace site unchanged."
+  ],
+  "validation": {
+    "status": "pass-browser-visual-and-interaction",
+    "checkedAt": "2026-07-10T16:59:31Z",
+    "method": "Local HTTP server plus in-app browser at 1280x720 and 390x844.",
+    "checks": [
+      "All five glass states were selected and observed with distinct computed blur values.",
+      "Desktop and mobile screenshots show rectangular pane edges without exposed rounded corners.",
+      "Night Thick mode retains a dark pane fill and 30px blur.",
+      "No browser console warnings or errors were observed."
+    ],
+    "report": "reports/staging-v029-browser-validation.json"
+  },
+  "supersedes": "2026-07-10_homepage_v028",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 306707,
+      "sha256": "9046ef1e8ea69f2b6c8f68c89d7c44aede043d47524acfa67e43e7635fce63b6"
+    },
+    "source.home_v2_03_staging_v029.html": {
+      "path": "source/home_v2_03_staging_v029.html",
+      "bytes": 306707,
+      "sha256": "9046ef1e8ea69f2b6c8f68c89d7c44aede043d47524acfa67e43e7635fce63b6"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-10_homepage_v035",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v035 applied AI variant 1 hero",
+  "createdAt": "2026-07-10T19:34:57Z",
+  "target": {
+    "platform": "github-pages-staging",
+    "pageSlug": "/",
+    "publishMode": "staging-only"
+  },
+  "source": {
+    "stagingBaseline": "2026-07-10_homepage_v034",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/staging/index.html"
+  },
+  "changeSummary": [
+    "Aligns the homepage to Google Docs resume variant 1: Applied AI Product Systems.",
+    "Moves the resume strapline under Noah's name and above the hero CTA buttons.",
+    "Removes the standalone Product Thesis section and folds the page around AI-native systems, telemetry, autonomy, geospatial intelligence, developer platforms, physical AI, and mission-critical operations.",
+    "Preserves selected-work evidence, expanded Postmates scope, rounded glass treatment, mobile logo strip, images, and responsive layout.",
+    "Leaves the production pointer and live Squarespace site unchanged."
+  ],
+  "validation": {
+    "status": "pass-browser-visual-and-interaction",
+    "checkedAt": "2026-07-10T19:34:57Z",
+    "method": "Local HTTP server plus in-app browser at desktop and narrow responsive viewport; DOM, order, overflow, and console checks.",
+    "checks": [
+      "Hero label, domains, and strapline match resume variant 1 language.",
+      "Strapline appears after the name and domains, before the CTA buttons; Product Thesis section is absent.",
+      "Narrow viewport wraps the hero copy cleanly; the known one-pixel refractive sampler overflow is unchanged.",
+      "No browser console warnings or errors were observed."
+    ],
+    "report": "reports/staging-v035-browser-validation.json"
+  },
+  "supersedes": "2026-07-10_homepage_v034",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 307345,
+      "sha256": "577e3e37f6fda3fedfd05b1b98dd7ec8816ca295323380d0bfd4da13379e65b9"
+    },
+    "source.home_v2_03_staging_v035.html": {
+      "path": "source/home_v2_03_staging_v035.html",
+      "bytes": 307345,
+      "sha256": "577e3e37f6fda3fedfd05b1b98dd7ec8816ca295323380d0bfd4da13379e65b9"
+    }
+  }
+}

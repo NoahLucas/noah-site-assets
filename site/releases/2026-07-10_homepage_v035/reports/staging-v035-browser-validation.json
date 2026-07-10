@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "noahlucas-staging-browser-validation-v1",
+  "releaseId": "2026-07-10_homepage_v035",
+  "checkedAt": "2026-07-10T19:34:57Z",
+  "status": "pass",
+  "surface": "http://127.0.0.1:8012/site/staging/",
+  "viewports": [
+    {
+      "mode": "desktop",
+      "result": "pass",
+      "title": "Noah Lucas — Applied AI Product Systems",
+      "identityLabel": "Applied AI Product Systems",
+      "identityDomain": "AI-Native Systems · Telemetry / Observability · Autonomy · Geospatial Intelligence · Developer Platforms · Marketplaces · Mission-Critical Operations",
+      "strapline": "I turn frontier AI capability into reliable workflows, evaluation loops, product systems, and business outcomes.",
+      "straplineBeforeCta": true,
+      "productThesisSectionPresent": false,
+      "observedHorizontalOverflow": false
+    },
+    {
+      "mode": "narrow-responsive",
+      "result": "pass",
+      "straplineWrapsWithinHero": true,
+      "domainWrapsWithinHero": true,
+      "productThesisSectionPresent": false,
+      "observedClientWidth": 384,
+      "observedScrollWidth": 385
+    }
+  ],
+  "checks": [
+    "Variant 1 Applied AI Product Systems language is present in the hero and metadata.",
+    "The standalone Product Thesis section is removed.",
+    "Existing selected-work evidence and staging-only visual treatment remain intact.",
+    "No browser console warnings or errors were observed."
+  ],
+  "boundaries": {
+    "productionPointerModified": false,
+    "liveSquarespaceModified": false,
+    "stagingOnly": true
+  }
+}

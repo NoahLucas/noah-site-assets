@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "noahlucas-staging-browser-validation-v1",
+  "releaseId": "2026-07-10_homepage_v027",
+  "checkedAt": "2026-07-10T15:59:37Z",
+  "status": "pass",
+  "surface": "http://127.0.0.1:8008/site/staging/",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "theme": "day",
+      "result": "pass",
+      "observedMainPaddingTop": "440px",
+      "observedIdentityFontSize": "81.1648px"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "day",
+      "result": "pass",
+      "observedMainPaddingTop": "405.12px",
+      "observedIdentityFontSize": "49.5px"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "night",
+      "result": "pass",
+      "themeToggleAccessibleLabelAfterSwitch": "Switch to day theme"
+    }
+  ],
+  "boundaries": {
+    "productionPointerModified": false,
+    "liveSquarespaceModified": false,
+    "stagingOnly": true
+  }
+}

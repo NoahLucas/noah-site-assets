@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-10_homepage_v027",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v027 first-frame and contrast staging experiment",
+  "createdAt": "2026-07-10T15:59:37Z",
+  "target": {
+    "platform": "github-pages-staging",
+    "pageSlug": "/",
+    "publishMode": "staging-only"
+  },
+  "source": {
+    "stagingBaseline": "2026-07-07_homepage_v026",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/staging/index.html"
+  },
+  "changeSummary": [
+    "Moves the primary pane into the first viewport while preserving the untinted Yosemite image layer.",
+    "Strengthens identity hierarchy and increases the readability and touch size of display controls.",
+    "Adds explicit high-contrast day and night glass treatments across desktop and mobile.",
+    "Adds noindex, nofollow, and noarchive metadata for the staging-only surface.",
+    "Adds restrained CTA lift and focus behavior with reduced-motion fallback."
+  ],
+  "validation": {
+    "status": "pass-browser-visual-and-interaction",
+    "checkedAt": "2026-07-10T15:59:37Z",
+    "method": "Local HTTP server plus in-app browser at 1440x1000 and 390x844.",
+    "checks": [
+      "Desktop first viewport shows the untinted image, identity, employer proof, and product thesis with readable contrast.",
+      "Mobile first viewport shows the same hierarchy without horizontal overflow.",
+      "Day and night theme controls both update their accessible label and visible treatment.",
+      "Staging HTML remains semantically navigable and preserves all existing links, media controls, and impact disclosures."
+    ],
+    "report": "reports/staging-v027-browser-validation.json"
+  },
+  "supersedes": "2026-07-07_homepage_v026",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 302386,
+      "sha256": "0a0b7ae9a3139a523a845315b34c20147f985365bd07f80dac455da6e9ddf852"
+    },
+    "source.home_v2_03_staging_v027.html": {
+      "path": "source/home_v2_03_staging_v027.html",
+      "bytes": 302386,
+      "sha256": "0a0b7ae9a3139a523a845315b34c20147f985365bd07f80dac455da6e9ddf852"
+    }
+  }
+}

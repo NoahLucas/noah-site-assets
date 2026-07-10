@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-10_homepage_v031",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v031 resume-aligned copy",
+  "createdAt": "2026-07-10T17:54:35Z",
+  "target": {
+    "platform": "github-pages-staging",
+    "pageSlug": "/",
+    "publishMode": "staging-only"
+  },
+  "source": {
+    "stagingBaseline": "2026-07-10_homepage_v030",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/staging/index.html"
+  },
+  "changeSummary": [
+    "Aligns the identity line, thesis, investments statement, and footer with the current 2026 Product Executive resume variant.",
+    "Rewrites the Sift, Anduril, Pendulum, Serve, Postmates, Expedia, and S&P work cards with resume-grounded role titles, dates, outcomes, and operating language.",
+    "Preserves the v030 rounded glass pane, glass controls, employer logo behavior, images, and responsive layout.",
+    "Leaves the production pointer and live Squarespace site unchanged."
+  ],
+  "validation": {
+    "status": "pass-browser-visual-and-interaction",
+    "checkedAt": "2026-07-10T17:54:35Z",
+    "method": "Local HTTP server plus in-app browser at 1280x720 and 390x844.",
+    "checks": [
+      "Resume-aligned identity line and thesis render without horizontal overflow.",
+      "Mobile employer proof strip remains Sift, Anduril Industries, Serve Robotics, and Postmates.",
+      "Desktop retains the full seven-employer strip and the v030 rounded pane treatment.",
+      "No browser console warnings or errors were observed."
+    ],
+    "report": "reports/staging-v031-browser-validation.json"
+  },
+  "supersedes": "2026-07-10_homepage_v030",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 307529,
+      "sha256": "3b550e0e67da86dc0c2911d7f2176d8d3317953c036425ed72e9be2fd3a4b3fc"
+    },
+    "source.home_v2_03_staging_v031.html": {
+      "path": "source/home_v2_03_staging_v031.html",
+      "bytes": 307529,
+      "sha256": "3b550e0e67da86dc0c2911d7f2176d8d3317953c036425ed72e9be2fd3a4b3fc"
+    }
+  }
+}

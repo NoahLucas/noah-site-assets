@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "noahlucas-staging-browser-validation-v1",
+  "releaseId": "2026-07-10_homepage_v038",
+  "checkedAt": "2026-07-10T20:16:00Z",
+  "status": "pending-public-browser-validation",
+  "surface": "https://noahlucas.github.io/noah-site-assets/site/staging/",
+  "changes": {
+    "hero": "Hero is reduced to Noah Lucas, the requested intelligence-systems sentence, and Get in Touch / LinkedIn actions.",
+    "archetype": "Archetype combines the frontier-systems operator statement, a correctly routed operating motion, and breadth/depth profile.",
+    "operatingMotion": "Requirements turns down into Design / Build, then the lower row runs left through Validate, GTM / Adoption, and Operate / Evidence.",
+    "breadthDepth": "Breadth covers strategy, customer, execution, market, and organization; depth covers physical AI and mission-critical data infrastructure.",
+    "impactOverlay": "Opaque theme-aware panel keeps expanded Impact copy readable over media.",
+    "siftCarousel": "All three segment videos preload and retry from canplay/ended boundaries; each has poster fallback.",
+    "andurilCarousel": "Flying ghost-drone source is first, followed by the prior first and second videos.",
+    "roleFingerprints": "Standalone chart gallery removed from rendered page."
+  },
+  "checks": [
+    "Source parses and git diff has no whitespace errors.",
+    "Public browser verification to be recorded after Pages deployment of v038.",
+    "Production pointer remains at the v026 release and live Squarespace remains untouched."
+  ],
+  "boundaries": {
+    "productionPointerModified": false,
+    "liveSquarespaceModified": false,
+    "stagingOnly": true
+  }
+}

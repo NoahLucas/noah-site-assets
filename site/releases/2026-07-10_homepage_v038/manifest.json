@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-10_homepage_v038",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v038 archetype and hero alignment",
+  "createdAt": "2026-07-10T20:16:00Z",
+  "target": {
+    "platform": "github-pages-staging",
+    "pageSlug": "/",
+    "publishMode": "staging-only"
+  },
+  "source": {
+    "stagingBaseline": "2026-07-10_homepage_v037",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/staging/index.html",
+    "googleDoc": "https://docs.google.com/document/d/1oSD9D1aRDi-PNfyzYrPVwgyZDtonzJLveyXUnqwYfhw/edit?tab=t.0",
+    "googleDocTab": "t.0",
+    "appendixTab": "t.yy0s4jd6foqi"
+  },
+  "changeSummary": [
+    "Uses the requested hero sentence and keeps only the name, hero line, and Get in Touch / LinkedIn actions in the opening panel.",
+    "Renames Product Leadership System to Archetype and combines the operating motion with the breadth-and-depth profile.",
+    "Rewrites the archetype as Frontier systems: product architect and operator, turning ambiguous technical capability into trusted products, repeatable operating motions, and business outcomes.",
+    "Makes the operating motion a readable snake path: requirements turn down, then the lower row runs back through build, validate, adoption, and operate.",
+    "Keeps breadth and depth distinct from the motion: breadth is cross-company leadership; depth is physical AI and mission-critical data infrastructure.",
+    "Leaves the production pointer and live Squarespace site unchanged."
+  ],
+  "validation": {
+    "status": "pending-public-browser-validation",
+    "checkedAt": "2026-07-10T20:16:00Z",
+    "method": "Local source validation plus public staging browser check after GitHub Pages deployment.",
+    "report": "reports/staging-v038-browser-validation.json"
+  },
+  "supersedes": "2026-07-10_homepage_v037",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 334261,
+      "sha256": "dbb1847ab5c05833111ecfbeaa53b81fcc71fb1ec9a4c8e69d1083dde0e54148"
+    },
+    "source.home_v2_03_staging_v038.html": {
+      "path": "source/home_v2_03_staging_v038.html",
+      "bytes": 334261,
+      "sha256": "dbb1847ab5c05833111ecfbeaa53b81fcc71fb1ec9a4c8e69d1083dde0e54148"
+    }
+  }
+}

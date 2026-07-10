@@ -38,13 +38,13 @@
   "artifacts": {
     "preview.index.html": {
       "path": "preview/index.html",
-      "bytes": 334261,
-      "sha256": "dbb1847ab5c05833111ecfbeaa53b81fcc71fb1ec9a4c8e69d1083dde0e54148"
+      "bytes": 334413,
+      "sha256": "d5986984450564c5c29150b178317509081bb69aa2a68e6bb90ec5271cca8a30"
     },
     "source.home_v2_03_staging_v038.html": {
       "path": "source/home_v2_03_staging_v038.html",
-      "bytes": 334261,
-      "sha256": "dbb1847ab5c05833111ecfbeaa53b81fcc71fb1ec9a4c8e69d1083dde0e54148"
+      "bytes": 334413,
+      "sha256": "d5986984450564c5c29150b178317509081bb69aa2a68e6bb90ec5271cca8a30"
     }
   }
 }

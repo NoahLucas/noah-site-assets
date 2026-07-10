@@ -5969,9 +5969,15 @@ html[data-theme="day"] .hgl-surface::before {
     }
 
     #noah.site #archetype .archetype-profile {
+      grid-column: 1 / -1 !important;
+      width: auto !important;
       margin-top: clamp(24px, 3vw, 38px);
       border-top: 1px solid color-mix(in srgb, CanvasText 14%, transparent);
       padding-top: clamp(22px, 3vw, 34px);
+    }
+
+    #noah.site #archetype .archetype-profile .t-profile {
+      width: 100%;
     }
 
     @media (max-width: 639px) {

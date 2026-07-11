@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "noahlucas-staging-browser-validation-v1",
+  "releaseId": "2026-07-10_homepage_v040",
+  "checkedAt": "2026-07-11T01:07:26Z",
+  "status": "pending-public-browser-validation",
+  "surface": "https://noahlucas.github.io/noah-site-assets/site/staging/",
+  "changes": {
+    "heroPhrase": "I turn frontier technology into trusted products that work in the real world.",
+    "productManagement": "Former standalone Archetype content is absorbed into the hero and renamed Product Management.",
+    "methods": "First principles, Systems thinking, Customer obsession.",
+    "labels": "Employer Logos and Experience section labels are removed.",
+    "order": "Hero with Product Management, logos, experience cards, operating principles, product methodologies, research, writing, investments, contact."
+  },
+  "checks": [
+    "Source parses and git diff has no whitespace errors.",
+    "Public desktop and mobile browser verification to be recorded after Pages deployment.",
+    "Production pointer remains at the v026 release and live Squarespace remains untouched."
+  ],
+  "boundaries": {
+    "productionPointerModified": false,
+    "liveSquarespaceModified": false,
+    "stagingOnly": true
+  }
+}

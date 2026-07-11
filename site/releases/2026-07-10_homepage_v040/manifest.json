@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-10_homepage_v040",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v040 product management hero",
+  "createdAt": "2026-07-11T01:07:26Z",
+  "target": {
+    "platform": "github-pages-staging",
+    "pageSlug": "/",
+    "publishMode": "staging-only"
+  },
+  "source": {
+    "stagingBaseline": "2026-07-10_homepage_v039",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/staging/index.html"
+  },
+  "changeSummary": [
+    "Replaces the hero phrase with a concise frontier-technology product statement.",
+    "Absorbs the former Archetype section into the hero as Product Management.",
+    "Densifies Product Management into Methods, Breadth, and Depth.",
+    "Defines Methods as First principles, Systems thinking, and Customer obsession.",
+    "Removes the Employer Logos and Experience section labels while preserving the logos and work cards.",
+    "Keeps the production pointer and live Squarespace site unchanged."
+  ],
+  "validation": {
+    "status": "pending-public-browser-validation",
+    "checkedAt": "2026-07-11T01:07:26Z",
+    "method": "Local source validation plus public staging browser check after GitHub Pages deployment.",
+    "report": "reports/staging-v040-browser-validation.json"
+  },
+  "supersedes": "2026-07-10_homepage_v039",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 339643,
+      "sha256": "a4bc4a4649aedf828886e706d429574e7de0786bd24e67d7a4fbf12195e8987d"
+    },
+    "source.home_v2_03_staging_v040.html": {
+      "path": "source/home_v2_03_staging_v040.html",
+      "bytes": 339643,
+      "sha256": "a4bc4a4649aedf828886e706d429574e7de0786bd24e67d7a4fbf12195e8987d"
+    }
+  }
+}

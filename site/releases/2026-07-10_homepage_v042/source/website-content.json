@@ -1,0 +1,30 @@
+{
+  "source": {
+    "type": "notion",
+    "page": "https://app.notion.com/p/39a602fa891b81f28eddccee12372b0d",
+    "settingsDataSource": "dae2b901-7d8d-49b6-b263-5d2610d191a3",
+    "employersDataSource": "7825d1f8-8d02-4b10-b42f-4a657e7d77cd",
+    "syncedAt": "2026-07-11T02:00:09Z"
+  },
+  "settings": {
+    "name": "Noah Lucas",
+    "heroPhrase": "I turn frontier technology into trusted products that work in the real world.",
+    "subtext": "Product leadership across strategy, systems, and commercialization for physical AI, autonomy, and mission-critical data infrastructure.",
+    "methods": "First principles · Systems thinking · Customer obsession",
+    "skills": "Product strategy · Customer discovery · Roadmaps · Product operations · GTM · Team leadership",
+    "expertise": "Physical AI · Autonomy · Telemetry · Edge and DDIL systems · Developer platforms",
+    "contactLabel": "Get in Touch",
+    "contactUrl": "mailto:noah@noahlucas.com",
+    "linkedInLabel": "Connect on LinkedIn",
+    "linkedInUrl": "https://www.linkedin.com/in/noahlucas/"
+  },
+  "employers": [
+    {"slug":"sift","employer":"Sift","oneLiner":"Telemetry and observability infrastructure for teams building complex machines.","role":"Vice President of Product","dates":"Jan–Jun 2026","jtbd":"Turn fragmented machine telemetry into decision-ready workflows across test, manufacturing, and live operations.","workflows":"Customer discovery · telemetry review · manufacturing validation · live operations · AI-assisted analysis · roadmap and engineering cadence.","impact":"Owned the product strategy and operating cadence connecting customer signal, founder vision, engineering constraints, GTM, and deployment.","url":"https://www.siftstack.com/","order":1},
+    {"slug":"anduril","employer":"Anduril Industries","oneLiner":"Defense technology building autonomous systems for the United States and its allies.","role":"Principal Product Manager","dates":"2025–2026","jtbd":"Give autonomy and mission teams reliable geospatial intelligence across edge, mapping, simulation, and mixed-reality environments.","workflows":"Customer and engineering requirements · roadmap strategy · data licensing · partner strategy · deployment feedback · governance.","impact":"Negotiated strategic partnerships with Vantor, Blackshark.ai, and TCarta; reduced vendor spend by approximately $3M.","url":"https://www.anduril.com/","order":2},
+    {"slug":"pendulum","employer":"Pendulum","oneLiner":"Applied AI company developing resilient navigation and geolocation systems.","role":"Product Lead","dates":"2024","jtbd":"Translate DoD-funded R&D into a usable GPS-denied geolocation product combining sensors, geospatial context, and neural networks.","workflows":"Research synthesis · customer workflows · product requirements · prototype validation · field-test loops · adoption paths.","impact":"Validated prototypes in electronic-attack field exercises at White Sands.","url":"https://www.pendulum.co/","order":3},
+    {"slug":"serve","employer":"Serve Robotics","oneLiner":"Autonomous sidewalk delivery platform commercializing last-mile robotics.","role":"Director of Product","dates":"2021–2022","jtbd":"Turn L4 sidewalk autonomy into a reliable commercial product for delivery partners and fleet operators.","workflows":"Fleet reliability · autonomy performance · partner APIs · command and control · GTM · partner expansion.","impact":"Integrated Serve with Uber and helped unlock the 2,000+ robot Uber Eats expansion.","url":"https://www.serverobotics.com/","order":4},
+    {"slug":"postmates","employer":"Postmates","oneLiner":"On-demand logistics marketplace and delivery infrastructure platform.","role":"Product Lead","dates":"2016–2021","jtbd":"Build the products and operating infrastructure needed to scale a marketplace into a global delivery platform.","workflows":"Customer-service automation and Zendesk · product-operations infrastructure · internationalization · developer platform · B2B integrations.","impact":"Built the B2B platform from zero to $12M ARR and approximately 30% of delivery volume; launched the first non-domestic market and same-day delivery integrations with Apple and Walmart.","url":"https://postmates.com/","order":5},
+    {"slug":"expedia","employer":"Expedia Group","oneLiner":"Global travel marketplace for flights, lodging, cars, and trip management.","role":"Senior Global Product Manager, Mobile","dates":"2013–2016","jtbd":"Make travel booking and trip management work globally on mobile.","workflows":"Mobile product strategy · flights · itineraries · rental cars · localization · international growth.","impact":"Launched rental cars as a global mobile line of business and led mobile growth across APAC and EMEA.","url":"https://www.expedia.com/","order":6},
+    {"slug":"capitaliq","employer":"S&P Global Market Intelligence / Capital IQ","oneLiner":"Financial intelligence platform for research, data, and investment workflows.","role":"Data Platform Product Manager","dates":"2008–2013","jtbd":"Make high-volume financial-data collection and operations fast, reliable, and usable for research customers.","workflows":"UX and requirements · near-real-time collection · data pipelines · workflow tooling · data-operations systems.","impact":"Defined the product experience and operating requirements for near-real-time financial-data collection and workflow tooling.","url":"https://www.spglobal.com/market-intelligence/en/solutions/sp-capital-iq-platform","order":7}
+  ]
+}

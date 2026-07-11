@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-10_homepage_v042",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v042 Notion content source",
+  "createdAt": "2026-07-11T02:05:38Z",
+  "target": {
+    "platform": "github-pages-staging",
+    "pageSlug": "/",
+    "publishMode": "staging-only"
+  },
+  "source": {
+    "stagingBaseline": "2026-07-10_homepage_v041",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/staging/index.html",
+    "notionPage": "https://app.notion.com/p/39a602fa891b81f28eddccee12372b0d"
+  },
+  "changeSummary": [
+    "Creates a Notion Website CMS with structured Website Settings and Employer Profiles databases.",
+    "Moves the editable homepage copy into a versioned JSON snapshot generated from Notion.",
+    "Makes staging load hero and employer copy from the Notion-generated snapshot with embedded HTML fallback.",
+    "Adds a reusable Notion sync script and manually triggered GitHub workflow.",
+    "Keeps the production pointer and live Squarespace site unchanged."
+  ],
+  "validation": {
+    "status": "pending-public-browser-validation",
+    "checkedAt": "2026-07-11T02:05:38Z",
+    "method": "Notion entity verification, local source validation, and public staging browser check after deployment.",
+    "report": "reports/staging-v042-browser-validation.json"
+  },
+  "supersedes": "2026-07-10_homepage_v041",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 347226,
+      "sha256": "ca86dd166bd186de4dd040b841cb5c71c67333a08fd821794b8660f67e5fc5de"
+    },
+    "source.home_v2_03_staging_v042.html": {
+      "path": "source/home_v2_03_staging_v042.html",
+      "bytes": 347226,
+      "sha256": "ca86dd166bd186de4dd040b841cb5c71c67333a08fd821794b8660f67e5fc5de"
+    },
+    "source.website-content.json": {
+      "path": "source/website-content.json",
+      "bytes": 5549,
+      "sha256": "a743807d9943f5bb31907cc8754a252494fde5ac6d5f5f8bdd198d6f83faa110"
+    }
+  }
+}

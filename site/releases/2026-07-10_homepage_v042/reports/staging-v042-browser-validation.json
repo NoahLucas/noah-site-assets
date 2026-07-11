@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "noahlucas-staging-browser-validation-v1",
+  "releaseId": "2026-07-10_homepage_v042",
+  "checkedAt": "2026-07-11T02:05:38Z",
+  "status": "pending-public-browser-validation",
+  "surface": "https://noahlucas.github.io/noah-site-assets/site/staging/",
+  "changes": {
+    "notionPage": "Noah Lucas Website CMS",
+    "settingsRows": 10,
+    "employerRows": 7,
+    "contentSnapshot": "site/content/website-content.json",
+    "runtimeSource": "Staging fetches the versioned snapshot and retains embedded copy as a resilient fallback.",
+    "automation": "Manual GitHub workflow syncs Notion into the public snapshot after NOTION_TOKEN is configured."
+  },
+  "checks": [
+    "Notion parent page and representative Hero phrase and Sift records fetched successfully.",
+    "Sync script passes Node syntax validation; content and release JSON parse; git diff has no whitespace errors.",
+    "Public browser verification to be recorded after Pages deployment.",
+    "Production pointer remains at the v026 release and live Squarespace remains untouched."
+  ],
+  "boundaries": {
+    "productionPointerModified": false,
+    "liveSquarespaceModified": false,
+    "stagingOnly": true,
+    "automationRequiresGitHubSecret": "NOTION_TOKEN"
+  }
+}

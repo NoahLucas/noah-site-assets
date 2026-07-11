@@ -1,8 +1,8 @@
 {
   "schemaVersion": "noahlucas-staging-browser-validation-v1",
   "releaseId": "2026-07-10_homepage_v041",
-  "checkedAt": "2026-07-11T01:50:15Z",
-  "status": "pending-public-browser-validation",
+  "checkedAt": "2026-07-11T01:55:30Z",
+  "status": "pass",
   "surface": "https://noahlucas.github.io/noah-site-assets/site/staging/",
   "changes": {
     "hero": "Name, hero phrase, supporting subtext, Methods, Skills, Expertise, Get in Touch, and Connect on LinkedIn.",
@@ -12,7 +12,8 @@
   },
   "checks": [
     "Source and JSON parse; git diff has no whitespace errors.",
-    "Public desktop and mobile browser verification to be recorded after Pages deployment.",
+    "Public desktop check: all seven employer cards expose the requested one-liner, role, company/dates, JTBD, Workflows, Impact, and company-link fields; both hero actions remain above the fixed footer in a 1440x900 viewport.",
+    "Public mobile check at 390px: all seven cards stack media, role, JTBD, Workflows, Impact, and actions in order with no horizontal overflow; console warnings and errors are empty.",
     "Production pointer remains at the v026 release and live Squarespace remains untouched."
   ],
   "boundaries": {

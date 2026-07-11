@@ -19,6 +19,7 @@
     "Keeps the company-logo row directly below the hero.",
     "Reformats every employer card into employer one-liner, role title, company and dates, JTBD, workflows, CV-backed impact, and company link.",
     "Makes impact evidence visible instead of requiring an overlay interaction.",
+    "Tightens the hero so both contact actions remain visible in the first desktop viewport.",
     "Keeps the production pointer and live Squarespace site unchanged."
   ],
   "validation": {
@@ -34,13 +35,13 @@
   "artifacts": {
     "preview.index.html": {
       "path": "preview/index.html",
-      "bytes": 343364,
-      "sha256": "993fbd8ae0d93372b89f81f05519f11eed8995b8f376d0d13c19d31995eb4b1c"
+      "bytes": 343877,
+      "sha256": "3250f812b50e72bc3c28cbed2a537b5b6b7e1f8fcdb1e77b213b0246e80e11a3"
     },
     "source.home_v2_03_staging_v041.html": {
       "path": "source/home_v2_03_staging_v041.html",
-      "bytes": 343364,
-      "sha256": "993fbd8ae0d93372b89f81f05519f11eed8995b8f376d0d13c19d31995eb4b1c"
+      "bytes": 343877,
+      "sha256": "3250f812b50e72bc3c28cbed2a537b5b6b7e1f8fcdb1e77b213b0246e80e11a3"
     }
   }
 }

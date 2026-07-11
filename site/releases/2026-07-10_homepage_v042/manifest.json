@@ -23,8 +23,8 @@
     "Keeps the production pointer and live Squarespace site unchanged."
   ],
   "validation": {
-    "status": "pending-public-browser-validation",
-    "checkedAt": "2026-07-11T02:05:38Z",
+    "status": "pass",
+    "checkedAt": "2026-07-11T02:08:24Z",
     "method": "Notion entity verification, local source validation, and public staging browser check after deployment.",
     "report": "reports/staging-v042-browser-validation.json"
   },

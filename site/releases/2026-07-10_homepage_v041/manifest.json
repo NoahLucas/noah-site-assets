@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-10_homepage_v041",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v041 employer briefs",
+  "createdAt": "2026-07-11T01:50:15Z",
+  "target": {
+    "platform": "github-pages-staging",
+    "pageSlug": "/",
+    "publishMode": "staging-only"
+  },
+  "source": {
+    "stagingBaseline": "2026-07-10_homepage_v040",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/staging/index.html"
+  },
+  "changeSummary": [
+    "Simplifies the hero to name, hero phrase, subtext, Methods, Skills, Expertise, and two explicit contact actions.",
+    "Keeps the company-logo row directly below the hero.",
+    "Reformats every employer card into employer one-liner, role title, company and dates, JTBD, workflows, CV-backed impact, and company link.",
+    "Makes impact evidence visible instead of requiring an overlay interaction.",
+    "Keeps the production pointer and live Squarespace site unchanged."
+  ],
+  "validation": {
+    "status": "pending-public-browser-validation",
+    "checkedAt": "2026-07-11T01:50:15Z",
+    "method": "Local source validation plus public staging browser check after GitHub Pages deployment.",
+    "report": "reports/staging-v041-browser-validation.json"
+  },
+  "supersedes": "2026-07-10_homepage_v040",
+  "approvedForProduction": false,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 343364,
+      "sha256": "993fbd8ae0d93372b89f81f05519f11eed8995b8f376d0d13c19d31995eb4b1c"
+    },
+    "source.home_v2_03_staging_v041.html": {
+      "path": "source/home_v2_03_staging_v041.html",
+      "bytes": 343364,
+      "sha256": "993fbd8ae0d93372b89f81f05519f11eed8995b8f376d0d13c19d31995eb4b1c"
+    }
+  }
+}

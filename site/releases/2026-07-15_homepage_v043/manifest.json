@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-15_homepage_v043",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v043 background image removal",
+  "createdAt": "2026-07-16T03:24:54Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "productionBaseline": "2026-07-07_homepage_v026",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/releases/2026-07-07_homepage_v026"
+  },
+  "changeSummary": [
+    "Removes the homepage hero background image markup and image preloads.",
+    "Disables scene-image runtime sources while preserving the promoted homepage content and layout.",
+    "Keeps the existing social preview image metadata unchanged."
+  ],
+  "validation": {
+    "status": "pass-static-release-validation",
+    "checkedAt": "2026-07-16T03:24:54Z",
+    "method": "Static checks across preview, full-page, code-block, and source artifacts.",
+    "report": "reports/background-image-removal-validation.json"
+  },
+  "supersedes": "2026-07-07_homepage_v026",
+  "supersedesReason": "Removes only the visual homepage background image from the current production release baseline.",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": true,
+  "productionPromotedAt": "2026-07-16T03:24:54Z",
+  "productionPointer": "site/latest.json",
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 296450,
+      "sha256": "0927136433364dc1f30611cd62d1036c44ddfb0397abaa7823933eef3542f442"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 295455,
+      "sha256": "12a0b133b08b6025a215b8e14b59daa287e36ac7cdd72fd37875ceebd474d91e"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 296450,
+      "sha256": "0927136433364dc1f30611cd62d1036c44ddfb0397abaa7823933eef3542f442"
+    },
+    "source.home_v2_03_no_background.html": {
+      "path": "source/home_v2_03_no_background.html",
+      "bytes": 296450,
+      "sha256": "0927136433364dc1f30611cd62d1036c44ddfb0397abaa7823933eef3542f442"
+    }
+  },
+  "productionValidation": null
+}

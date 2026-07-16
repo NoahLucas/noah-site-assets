@@ -1,11 +1,18 @@
 {
   "schemaVersion": "site-publisher-latest-v1",
-  "releaseId": "2026-07-07_homepage_v026",
-  "releasePath": "releases/2026-07-07_homepage_v026/",
-  "manifest": "releases/2026-07-07_homepage_v026/manifest.json",
+  "releaseId": "2026-07-15_homepage_v043",
+  "releasePath": "releases/2026-07-15_homepage_v043/",
+  "manifest": "releases/2026-07-15_homepage_v043/manifest.json",
   "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
-  "promotedAt": "2026-07-07T15:25:45.050Z",
+  "promotedAt": "2026-07-16T03:24:54Z",
   "previous": {
+    "schemaVersion": "site-publisher-latest-v1",
+    "releaseId": "2026-07-07_homepage_v026",
+    "releasePath": "releases/2026-07-07_homepage_v026/",
+    "manifest": "releases/2026-07-07_homepage_v026/manifest.json",
+    "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+    "promotedAt": "2026-07-07T15:25:45.050Z",
+    "previous": {
     "schemaVersion": "site-publisher-latest-v1",
     "releaseId": "2026-07-04_homepage_v023",
     "releasePath": "releases/2026-07-04_homepage_v023/",
@@ -117,6 +124,8 @@
     "liveSquarespaceModified": false,
     "deploymentRetryAt": "2026-07-06T05:58:11.636Z",
     "deploymentRetryReason": "Retry GitHub Pages deployment for unchanged v023 release after transient deploy-pages failure."
+    },
+    "liveSquarespaceModified": false
   },
   "liveSquarespaceModified": false,
   "aiRoute": {

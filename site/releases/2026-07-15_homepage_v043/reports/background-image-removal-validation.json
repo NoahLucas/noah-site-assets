@@ -1,0 +1,13 @@
+{
+  "releaseId": "2026-07-15_homepage_v043",
+  "checkedAt": "2026-07-16T03:24:54Z",
+  "status": "pass",
+  "checks": {
+    "heroImageMarkupAbsent": true,
+    "backgroundImagePreloadsAbsent": true,
+    "backgroundAssetRuntimeReferencesAbsent": true,
+    "sceneImageVariablesDisabled": true,
+    "productionBaselinePreserved": "2026-07-07_homepage_v026"
+  },
+  "truthBoundary": "Static release validation. Public deployment is only proven after the commit reaches GitHub Pages and the promoted pointer and release HTML are fetched successfully."
+}

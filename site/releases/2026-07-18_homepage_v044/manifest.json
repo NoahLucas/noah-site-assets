@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-18_homepage_v044",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v044 Golden Gate flight background",
+  "createdAt": "2026-07-18T23:26:00Z",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "productionBaseline": "2026-07-15_homepage_v043",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/releases/2026-07-15_homepage_v043",
+    "photoRaw": "/Users/noah/Desktop/A7R05501.ARW",
+    "photoSettings": "/Users/noah/Desktop/A7R05501.xmp",
+    "photoRenderedSource": "/Users/noah/Desktop/A7R05501.jpeg"
+  },
+  "changeSummary": [
+    "Restores the homepage background media layer using Noah's Golden Gate flight photograph.",
+    "Uses the supplied Lightroom-rendered 1280 by 720 JPEG as the source-backed representation of the ARW plus XMP edits.",
+    "Keeps the background untinted and unfiltered while preserving the existing layout, content, theme endpoints, and liquid-glass presentation."
+  ],
+  "validation": {
+    "status": "pass-local-static-and-visual-validation",
+    "checkedAt": "2026-07-18T23:26:00Z",
+    "method": "Static source checks plus local Chromium renders at 1440 by 1000 and 390 by 844.",
+    "report": "reports/golden-gate-background-validation.json"
+  },
+  "supersedes": "2026-07-15_homepage_v043",
+  "supersedesReason": "Adds the newly selected homepage background without changing the current homepage content or layout.",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": true,
+  "productionPromotedAt": "2026-07-18T23:58:00Z",
+  "productionPointer": "site/latest.json",
+  "artifacts": {
+    "background.image": {
+      "path": "../../assets/v2_03_backgrounds/a7r05501-golden-gate-flight-1280.jpeg",
+      "bytes": 552202,
+      "sha256": "565bfa8295db229bc99a46b284705a21bb35aa730f2c33c2a2de62322db33c43"
+    },
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 297189,
+      "sha256": "56c970ea4d34cb608f0ae26ea2e2384bf3cc9044780dcf5c3ed5ad93a0a50560"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 296317,
+      "sha256": "f7742e2a96fbb72ed8909027abfd7a698f70734d7cdb7232d02b8a4d65037825"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 297189,
+      "sha256": "56c970ea4d34cb608f0ae26ea2e2384bf3cc9044780dcf5c3ed5ad93a0a50560"
+    },
+    "source.home_v2_03_golden_gate_background.html": {
+      "path": "source/home_v2_03_golden_gate_background.html",
+      "bytes": 297189,
+      "sha256": "56c970ea4d34cb608f0ae26ea2e2384bf3cc9044780dcf5c3ed5ad93a0a50560"
+    }
+  },
+  "productionValidation": null
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "homepage-background-validation-v1",
+  "releaseId": "2026-07-18_homepage_v044",
+  "checkedAt": "2026-07-18T23:26:00Z",
+  "status": "pass",
+  "checks": {
+    "backgroundAssetExists": true,
+    "backgroundAssetDimensions": "1280x720",
+    "backgroundAssetSha256": "565bfa8295db229bc99a46b284705a21bb35aa730f2c33c2a2de62322db33c43",
+    "heroMediaPresent": true,
+    "dayAndNightUseSelectedImage": true,
+    "imageFilter": "none",
+    "imageMask": "none",
+    "imageBlendMode": "normal",
+    "existingLayoutPreserved": true,
+    "desktopRender": "pass",
+    "mobileBackgroundPosition": "50% 50%",
+    "mobileRender": "pass"
+  },
+  "proof": {
+    "desktop": "/Users/noah/.codex/visualizations/2026/07/18/019f778a-1a70-73b2-be43-eedc298b8274/homepage-golden-gate-desktop.png",
+    "mobile": "/Users/noah/.codex/visualizations/2026/07/18/019f778a-1a70-73b2-be43-eedc298b8274/homepage-golden-gate-mobile-centered.png"
+  },
+  "truthBoundary": {
+    "localReleaseBuilt": true,
+    "localVisualProof": true,
+    "siteLatestPointerChanged": true,
+    "githubPagesChanged": false,
+    "liveSquarespaceChanged": false
+  }
+}

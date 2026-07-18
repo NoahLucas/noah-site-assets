@@ -1,11 +1,18 @@
 {
   "schemaVersion": "site-publisher-latest-v1",
-  "releaseId": "2026-07-15_homepage_v043",
-  "releasePath": "releases/2026-07-15_homepage_v043/",
-  "manifest": "releases/2026-07-15_homepage_v043/manifest.json",
+  "releaseId": "2026-07-18_homepage_v044",
+  "releasePath": "releases/2026-07-18_homepage_v044/",
+  "manifest": "releases/2026-07-18_homepage_v044/manifest.json",
   "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
-  "promotedAt": "2026-07-16T03:24:54Z",
+  "promotedAt": "2026-07-18T23:58:00Z",
   "previous": {
+    "schemaVersion": "site-publisher-latest-v1",
+    "releaseId": "2026-07-15_homepage_v043",
+    "releasePath": "releases/2026-07-15_homepage_v043/",
+    "manifest": "releases/2026-07-15_homepage_v043/manifest.json",
+    "assetBaseUrl": "https://noahlucas.github.io/noah-site-assets/site",
+    "promotedAt": "2026-07-16T03:24:54Z",
+    "previous": {
     "schemaVersion": "site-publisher-latest-v1",
     "releaseId": "2026-07-07_homepage_v026",
     "releasePath": "releases/2026-07-07_homepage_v026/",
@@ -126,6 +133,13 @@
     "deploymentRetryReason": "Retry GitHub Pages deployment for unchanged v023 release after transient deploy-pages failure."
     },
     "liveSquarespaceModified": false
+    },
+    "liveSquarespaceModified": false,
+    "aiRoute": {
+      "localPath": "site/AI/index.html",
+      "intendedPath": "/AI",
+      "status": "static-route-promoted-in-assets-repo; Squarespace route still requires page/bootstrap support if serving under noahlucas.com/AI"
+    }
   },
   "liveSquarespaceModified": false,
   "aiRoute": {

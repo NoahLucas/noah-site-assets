@@ -1,0 +1,17 @@
+{
+  "status": "pass-static-file-validation-browser-file-blocked",
+  "checkedAt": "2026-07-07T15:25:45.048Z",
+  "method": "Static validation only. The in-app Browser rejected file:// automation via URL policy, and no local server was started per user instruction.",
+  "flowUnderTest": "current v023 homepage shell rebased with v026 liquid glass -> /AI generated from same shell -> staging and production pointer artifacts updated.",
+  "checks": [
+    "Homepage source is rebased from promoted v023 content, removing the stale contact paragraph and stale arrow CTA copy from the older staging shell.",
+    "Contact section uses section-body text-row-list contact-actions, matching the operating-principles section body grammar while keeping contact CTAs.",
+    "Impact trigger and employer CTAs share pane-cta typography, min-height, border, fill, and 14px radius.",
+    "Homepage keeps nl-refractive-sampler on feed band and product-executive hero.",
+    "/AI copy updates the hero line to Install the operating system for business operations and expands the operating-system content.",
+    "/AI keeps nl-refractive-sampler on feed band, hero, and Nightly Operating Brief card."
+  ],
+  "reports": [
+    "reports/liquid-glass-v026-static-validation.json"
+  ]
+}

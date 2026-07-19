@@ -14,8 +14,8 @@
   <link rel="canonical" href="https://noahlucas.com/">
   <meta name="robots" content="noindex, nofollow, noarchive">
   <link rel="icon" href="data:,">
-  <link rel="preload" as="image" href="https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r03511-fixed-bg-5120.jpeg" imagesrcset="https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r03511-fixed-bg-5120.jpeg 5120w" imagesizes="100vw">
-  <link rel="preload" as="image" href="https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r03511-fixed-bg-5120.jpeg" imagesrcset="https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r03511-fixed-bg-5120.jpeg 5120w" imagesizes="100vw" media="(prefers-color-scheme: dark)">
+  <link rel="preload" as="image" href="https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r05501-golden-gate-flight-1280.jpeg" imagesrcset="https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r05501-golden-gate-flight-1280.jpeg 1280w" imagesizes="100vw">
+  <link rel="preload" as="image" href="https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r05501-golden-gate-flight-1280.jpeg" imagesrcset="https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r05501-golden-gate-flight-1280.jpeg 1280w" imagesizes="100vw" media="(prefers-color-scheme: dark)">
   <style data-inline-source="heimdall-liquid-glass.css">
 /*
   Heimdall Liquid Glass — professional optical compositor
@@ -6714,8 +6714,8 @@ html[data-theme="day"] .hgl-surface::before {
       const motionReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       const videoStartDelayMs = 10000;
       const heroSources = {
-        day: 'https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r03511-fixed-bg-5120.jpeg',
-        night: 'https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r03511-fixed-bg-5120.jpeg'
+        day: 'https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r05501-golden-gate-flight-1280.jpeg',
+        night: 'https://noahlucas.github.io/noah-site-assets/site/assets/v2_03_backgrounds/a7r05501-golden-gate-flight-1280.jpeg'
       };
       let navLayerFrame = 0;
       let scrollStateFrame = 0;
@@ -6754,7 +6754,7 @@ html[data-theme="day"] .hgl-surface::before {
         }
         document.documentElement.classList.remove('scene-ready');
         heroImage.addEventListener('load', revealScene, { once: true });
-        heroImage.srcset = `${nextSource} 5120w`;
+        heroImage.srcset = `${nextSource} 1280w`;
         heroImage.src = nextSource;
         if (heroImage.complete && heroImage.naturalWidth) revealScene();
       }

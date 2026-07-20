@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "noah-site-carousel-validation-v1",
+  "releaseId": "2026-07-19_homepage_v045",
+  "checkedAt": "2026-07-19T20:30:00-07:00",
+  "environment": {
+    "url": "http://127.0.0.1:4173/site/releases/2026-07-19_homepage_v045/preview/index.html?theme=day&pane=big&glass=clear",
+    "browser": "Codex in-app Chromium",
+    "viewports": ["1265x712", "390x844"]
+  },
+  "rootCause": "The clear-glass media reset applied opacity: 1 !important to every video beneath .work-card-media, overriding the carousel's inactive-slide opacity rule and compositing all video layers at once.",
+  "checks": {
+    "pageIdentity": "pass",
+    "meaningfulContent": "pass",
+    "frameworkOverlay": "pass",
+    "consoleErrorsOrWarnings": [],
+    "siftInitialState": "pass: one visible and playing slide; two hidden and paused slides; all three readyState 4",
+    "siftManualNavigation": "pass: telemetry dot activates slide 2, hides and pauses slides 1 and 3",
+    "andurilInitialState": "pass: one visible and playing slide; two hidden and paused slides; all three readyState 4",
+    "andurilManualNavigation": "pass: Fury dot activates slide 3, hides and pauses slides 1 and 2",
+    "mobileCarouselState": "pass: one visible and playing Sift or Anduril slide at 390 by 844; inactive slides hidden and paused",
+    "mobileManualNavigation": "pass: Sift digital-twins dot activates slide 3 and cleanly deactivates slides 1 and 2",
+    "visualEvidence": "pass: Sift telemetry and Anduril Fury render as single clean frames without overlapping bands or ghost layers"
+  },
+  "truthBoundary": {
+    "verified": "local immutable v045 candidate in Chromium",
+    "notVerified": "production pointer promotion, public CDN render, or Safari"
+  }
+}

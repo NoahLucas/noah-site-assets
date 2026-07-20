@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-19_homepage_v045",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v045 carousel layer fix",
+  "createdAt": "2026-07-19T20:30:00-07:00",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "productionBaseline": "2026-07-18_homepage_v044",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/releases/2026-07-18_homepage_v044"
+  },
+  "changeSummary": [
+    "Stops the clear-glass media reset from forcing every carousel video visible.",
+    "Makes carousel state authoritative: inactive slides are transparent, hidden, non-interactive, and paused; the active slide remains visible and playing.",
+    "Preserves the v044 background, layout, copy, video sources, segment timing, and manual carousel controls."
+  ],
+  "validation": {
+    "status": "pass-local-browser-validation",
+    "checkedAt": "2026-07-19T20:30:00-07:00",
+    "method": "In-app Chromium browser at 1265 by 712 and 390 by 844, with computed-style, playback-state, console, and manual dot-navigation checks for Sift and Anduril.",
+    "report": "reports/carousel-layer-validation.json"
+  },
+  "supersedes": "2026-07-18_homepage_v044",
+  "supersedesReason": "Fixes overlapping Sift and Anduril video layers while retaining v044 as rollback.",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": false,
+  "productionValidation": null,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 297562,
+      "sha256": "b36446de9e8948f2d46c41e11cdad5090279577bb469d72cb88b1f5f53acef1f"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 296690,
+      "sha256": "84e11801a94a5ed1f6f23669eaacfdf126337b8083b88d2baa2097556993d3d6"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 297562,
+      "sha256": "b36446de9e8948f2d46c41e11cdad5090279577bb469d72cb88b1f5f53acef1f"
+    },
+    "source.home_v2_03_carousel_fix.html": {
+      "path": "source/home_v2_03_carousel_fix.html",
+      "bytes": 297562,
+      "sha256": "b36446de9e8948f2d46c41e11cdad5090279577bb469d72cb88b1f5f53acef1f"
+    }
+  }
+}

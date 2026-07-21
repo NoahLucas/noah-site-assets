@@ -32,9 +32,11 @@
   },
   "supersedes": "2026-07-19_homepage_v045",
   "supersedesReason": "Eliminates multi-video carousel composition for the two reported glitch surfaces.",
-  "approvedForProduction": false,
+  "approvedForProduction": true,
   "liveSquarespaceModified": false,
-  "productionPromoted": false,
+  "productionPromoted": true,
+  "productionPromotedAt": "2026-07-21T17:40:49Z",
+  "productionPointer": "site/latest.json",
   "productionValidation": null,
   "artifacts": {
     "preview.index.html": {

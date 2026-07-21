@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-21_homepage_v047",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v047 corrected section order and stable single videos",
+  "createdAt": "2026-07-21T11:26:23-07:00",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "productionBaseline": "2026-07-21_homepage_v046",
+    "candidateBaseline": "2026-07-21_homepage_v046",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/releases/2026-07-21_homepage_v046"
+  },
+  "changeSummary": [
+    "Restructures the page as identity, contact actions, employer logos, experience, philosophy, research, writing, investments, and contact.",
+    "Uses the supplied physical-world systems positioning statement and removes the extra methods, skills, and expertise block from the hero.",
+    "Renames Operating Principles to Philosophy and removes the separate Product Methodologies section from the canonical staging hierarchy.",
+    "Replaces the three-item Sift carousel with the rocket-firing segment only.",
+    "Replaces the three-item Anduril carousel with the flying Ghost drone video only.",
+    "Removes both cards' alternate video elements and navigation dots while preserving the existing layout, copy, background, and Sift segment loop.",
+    "Corrects the flex ordering so the experience cards follow the logo row, followed by Philosophy, Research, Writing, Investments, and Contact.",
+    "Removes the obsolete ten-second carousel playback lock and immediately starts both muted single videos with eager preload."
+  ],
+  "validation": {
+    "status": "rendered-candidate-pass",
+    "checkedAt": "2026-07-21T11:26:23-07:00",
+    "method": "Static artifact checks followed by local rendered-browser validation.",
+    "report": "reports/single-role-video-validation.json"
+  },
+  "supersedes": "2026-07-21_homepage_v046",
+  "supersedesReason": "Corrects the stale live section-order rules and removes the retained carousel playback delay seen as a black Anduril panel in Safari.",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": true,
+  "productionPromotedAt": "2026-07-21T18:27:22Z",
+  "productionPointer": "site/latest.json",
+  "productionValidation": null,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 295002,
+      "sha256": "f710fe9cff02532b3694578528a6a182eb430c93bca57b8940d87e371cdb2d25"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 294130,
+      "sha256": "3200b77b47c3bd56777599067cb37553341962a58c66e42be9b75af6e1a20406"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 295002,
+      "sha256": "f710fe9cff02532b3694578528a6a182eb430c93bca57b8940d87e371cdb2d25"
+    },
+    "source.home_v2_03_single_role_videos.html": {
+      "path": "source/home_v2_03_single_role_videos.html",
+      "bytes": 295002,
+      "sha256": "f710fe9cff02532b3694578528a6a182eb430c93bca57b8940d87e371cdb2d25"
+    }
+  }
+}

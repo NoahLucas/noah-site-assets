@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-21_homepage_v046",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v046 simplified portfolio hierarchy and single role videos",
+  "createdAt": "2026-07-21T10:25:00-07:00",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "productionBaseline": "2026-07-18_homepage_v044",
+    "candidateBaseline": "2026-07-19_homepage_v045",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/releases/2026-07-19_homepage_v045"
+  },
+  "changeSummary": [
+    "Restructures the page as identity, contact actions, employer logos, experience, philosophy, research, writing, investments, and contact.",
+    "Uses the supplied physical-world systems positioning statement and removes the extra methods, skills, and expertise block from the hero.",
+    "Renames Operating Principles to Philosophy and removes the separate Product Methodologies section from the canonical staging hierarchy.",
+    "Replaces the three-item Sift carousel with the rocket-firing segment only.",
+    "Replaces the three-item Anduril carousel with the flying Ghost drone video only.",
+    "Removes both cards' alternate video elements and navigation dots while preserving the existing layout, copy, background, delayed autoplay, and Sift segment loop."
+  ],
+  "validation": {
+    "status": "partial-cross-browser-validation",
+    "checkedAt": "2026-07-21T10:25:00-07:00",
+    "method": "Static artifact checks plus local Safari accessibility and visual inspection. Chrome extension is installed and enabled, but Chrome requires user-approved launch before its requested browser pass.",
+    "report": "reports/single-role-video-validation.json"
+  },
+  "supersedes": "2026-07-19_homepage_v045",
+  "supersedesReason": "Eliminates multi-video carousel composition for the two reported glitch surfaces.",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": true,
+  "productionPromotedAt": "2026-07-21T17:40:49Z",
+  "productionPointer": "site/latest.json",
+  "productionValidation": null,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 295022,
+      "sha256": "65f7f23f77c197e3ffee262c663ffa85966d316c8eae6dd9260b737cb4f28bd8"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 294150,
+      "sha256": "a89cec205df2691b62aefd829afc077c4844693753b3f442c08709c560c2e46e"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 295022,
+      "sha256": "65f7f23f77c197e3ffee262c663ffa85966d316c8eae6dd9260b737cb4f28bd8"
+    },
+    "source.home_v2_03_single_role_videos.html": {
+      "path": "source/home_v2_03_single_role_videos.html",
+      "bytes": 295022,
+      "sha256": "65f7f23f77c197e3ffee262c663ffa85966d316c8eae6dd9260b737cb4f28bd8"
+    }
+  }
+}

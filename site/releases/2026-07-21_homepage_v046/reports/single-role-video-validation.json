@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "noah-site-single-role-video-validation-v1",
+  "releaseId": "2026-07-21_homepage_v046",
+  "checkedAt": "2026-07-21T10:25:00-07:00",
+  "inputEvidence": {
+    "screenRecording": "/Users/noah/Desktop/Screen Recording 2026-07-21 at 10.04.58 AM.mov",
+    "observed": "Safari recording shows unstable media composition and large glass/layout redraws while scrolling through Sift and Anduril."
+  },
+  "implementation": {
+    "layout": "Noah Lucas and supplied positioning statement, contact actions, logo row, seven experience cards, Philosophy, Research, Writing, Investments, and Contact",
+    "sift": "one video element using the existing rocket-firing segment from 1.6 through 13.5 seconds; no alternate clips or dots",
+    "anduril": "one video element using dcb4bec09642e7b1919543a1a810ed72d2139cf5.mp4, the flying Ghost drone clip; no alternate clips or dots"
+  },
+  "checks": {
+    "requestedHierarchy": "pass in canonical staging and v046 candidate",
+    "heroCopy": "pass: supplied physical-world systems statement is present verbatim apart from HTML ampersand escaping",
+    "removedSurfaces": "pass: hero methods/skills/expertise block, separate Product Thesis, and separate Product Methodologies section are absent from the applicable candidate surfaces",
+    "staticSourceCounts": "pass: canonical staging and v046 preview each contain exactly one Sift video, one Anduril video, and zero navigation dots in both cards",
+    "safariPageIdentity": "pass: local v046 preview",
+    "safariSemanticState": "pass: Sift rocket firing video and Anduril Ghost drone flight video are present; former carousel buttons are absent",
+    "safariHierarchy": "pass: Noah Lucas, supplied positioning statement, contact actions, employer logos, seven experience cards, Philosophy, Research, Writing, Investments, and Contact appear in the requested order",
+    "safariVisualLoad": "pass: page and media surfaces render without an error overlay",
+    "chrome": "blocked: Chrome is not running; extension is installed and enabled; user approval is required before launch"
+  },
+  "truthBoundary": {
+    "verified": "local v046 candidate structure and Safari render",
+    "notVerified": "Chrome render, production pointer promotion, public CDN render, or public Safari render"
+  }
+}

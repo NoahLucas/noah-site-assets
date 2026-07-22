@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "noah-site-theme-mobile-night-validation-v1",
+  "releaseId": "2026-07-21_homepage_v048",
+  "checkedAt": "2026-07-21T20:52:09-07:00",
+  "requestedBehavior": {
+    "lightTheme": "white text with the existing daytime Golden Gate cockpit image",
+    "nightTheme": "black text with a distinct nighttime Golden Gate cockpit image",
+    "mobile": "Sift and Anduril employer marks and experience cards remain visible"
+  },
+  "nightAsset": {
+    "path": "site/assets/v2_03_backgrounds/a7r05501-golden-gate-flight-night-1672.jpeg",
+    "source": "/Users/noah/Desktop/Website_Staging/2026-06-14/rebrand_pass/public_home_resume_copy_patch_2026-06-18/night_mode_bridge/A7R05501_night_generated.png",
+    "lineage": "Existing built-in ImageGen lighting-weather edit of the same A7R05501 Golden Gate cockpit composition; reused instead of generating another image.",
+    "dimensions": "1672x941",
+    "bytes": 246821,
+    "sha256": "ef669d03881d11340011ed3949e48748c35fa5c63d8123788b09fdc21d2cc0dc"
+  },
+  "checks": {
+    "themeTokens": "pass: final cascade sets day text to #ffffff and night text to #050505",
+    "themeSourceSwitch": "pass: hero source map selects the day 1280 image and night 1672 image with correct width descriptors",
+    "mobileLogos": "pass: <=639px hides the general logo set and explicitly shows Sift and Anduril by canonical href",
+    "mobileCards": "pass: <=639px explicitly keeps #work-sift and #work-anduril displayed and visible",
+    "releaseArtifacts": "pass: preview, full-page, source, and publish code block contain one v048 override and both theme source references",
+    "browserQA": "blocked: no in-app or extension browser was available during candidate validation"
+  },
+  "truthBoundary": {
+    "verified": "source, asset, theme cascade, theme image selection contract, and mobile visibility selectors",
+    "notVerified": "rendered mobile pixels or public custom-domain behavior before deployment"
+  }
+}

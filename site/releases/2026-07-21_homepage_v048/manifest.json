@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "site-publisher-staging-release-v1",
+  "releaseId": "2026-07-21_homepage_v048",
+  "projectId": "noahlucas-homepage",
+  "title": "Noah Lucas homepage v048 swapped theme text, mobile priority roles, and true night bridge",
+  "createdAt": "2026-07-21T20:52:09-07:00",
+  "target": {
+    "platform": "squarespace",
+    "siteVersion": "7.1",
+    "pageSlug": "/",
+    "publishMode": "external-assets-pointer"
+  },
+  "source": {
+    "productionBaseline": "2026-07-21_homepage_v047",
+    "candidateBaseline": "2026-07-21_homepage_v047",
+    "publicBaseline": "https://noahlucas.com/",
+    "localSource": "site/releases/2026-07-21_homepage_v047"
+  },
+  "changeSummary": [
+    "Restructures the page as identity, contact actions, employer logos, experience, philosophy, research, writing, investments, and contact.",
+    "Uses the supplied physical-world systems positioning statement and removes the extra methods, skills, and expertise block from the hero.",
+    "Renames Operating Principles to Philosophy and removes the separate Product Methodologies section from the canonical staging hierarchy.",
+    "Replaces the three-item Sift carousel with the rocket-firing segment only.",
+    "Replaces the three-item Anduril carousel with the flying Ghost drone video only.",
+    "Removes both cards' alternate video elements and navigation dots while preserving the existing layout, copy, background, and Sift segment loop.",
+    "Corrects the flex ordering so the experience cards follow the logo row, followed by Philosophy, Research, Writing, Investments, and Contact.",
+    "Removes the obsolete ten-second carousel playback lock and immediately starts both muted single videos with eager preload.",
+    "Swaps the theme text treatment so light mode uses white text and night mode uses black text.",
+    "On mobile, shows only the Sift and Anduril employer marks and explicitly keeps both associated experience cards visible.",
+    "Uses the existing faithful nighttime Golden Gate cockpit image for night mode while retaining the day image for light mode."
+  ],
+  "validation": {
+    "status": "static-candidate-pass-approved-for-production",
+    "checkedAt": "2026-07-21T20:52:09-07:00",
+    "method": "Artifact integrity, CSS cascade, source selection, mobile selector, image dimensions, and asset lineage checks. The browser QA surface was unavailable.",
+    "report": "reports/theme-mobile-night-validation.json"
+  },
+  "supersedes": "2026-07-21_homepage_v047",
+  "supersedesReason": "Implements the requested inverse theme text colors, mobile Sift/Anduril priority, and distinct dark-mode Golden Gate background.",
+  "approvedForProduction": true,
+  "liveSquarespaceModified": false,
+  "productionPromoted": true,
+  "productionPromotedAt": "2026-07-22T03:53:04Z",
+  "productionPointer": "site/latest.json",
+  "productionValidation": null,
+  "artifacts": {
+    "preview.index.html": {
+      "path": "preview/index.html",
+      "bytes": 297815,
+      "sha256": "6514bce961b02c8b544419acd165159e66d44f13e3124c11520f6871368955d3"
+    },
+    "publish.code-block.html": {
+      "path": "publish/code-block.html",
+      "bytes": 297107,
+      "sha256": "73d1a174d3e2ae51e9626b989eac36db9a655e5c371e4d0093172ab8711862c0"
+    },
+    "publish.full-page.html": {
+      "path": "publish/full-page.html",
+      "bytes": 297815,
+      "sha256": "6514bce961b02c8b544419acd165159e66d44f13e3124c11520f6871368955d3"
+    },
+    "source.home_v2_03_single_role_videos.html": {
+      "path": "source/home_v2_03_single_role_videos.html",
+      "bytes": 297815,
+      "sha256": "6514bce961b02c8b544419acd165159e66d44f13e3124c11520f6871368955d3"
+    }
+  }
+}
